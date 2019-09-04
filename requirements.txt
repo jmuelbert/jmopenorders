@@ -1,4 +1,4 @@
-wheel
+wheel==0.33.6
 setuptools>=17.1
 pexpect
 openpyxl
