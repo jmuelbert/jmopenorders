@@ -1,4 +1,4 @@
 wheel==0.33.6
 setuptools>=17.1
 pexpect==4.7.0
-openpyxl
+openpyxl==2.6.3
