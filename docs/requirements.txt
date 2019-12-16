@@ -2,8 +2,7 @@ doc8==0.8.0
 readme-renderer==24.0
 releases==1.4.0
 
-# workaround for #492
-semantic-version==2.8.2
+semantic-version==2.8.3
 Sphinx==2.3.0
 sphinx-autodoc-annotation==1.0.post1
 sphinx-autodoc-typehints==1.10.3
