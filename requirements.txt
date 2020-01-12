@@ -1,2 +1,2 @@
-openpyxl==3.0.2
+openpyxl==3.0.3
 pexpect==4.7.0
