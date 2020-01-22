@@ -1,2 +1,2 @@
 openpyxl==3.0.3
-pexpect==4.7.0
+pexpect==4.8.0
