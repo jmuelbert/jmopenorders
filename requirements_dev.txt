@@ -8,7 +8,7 @@
 asynctest==0.13.0
 black==19.10b0
 codecov==2.0.22
-faker==4.0.2
+faker==4.0.3
 flake8==3.7.8
 flake8-docstrings==1.5.0
 mock-open==1.3.1
