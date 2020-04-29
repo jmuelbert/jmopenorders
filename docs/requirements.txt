@@ -2,7 +2,7 @@ doc8==0.8.0
 readme-renderer==26.0
 releases==1.6.3
 
-semantic-version==2.8.4
+semantic-version==2.8.5
 Sphinx==3.0.2
 sphinx-autodoc-annotation==1.0.post1
 sphinx-autodoc-typehints==1.10.3
