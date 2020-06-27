@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 #
 # Copyright (c) 2019-2020 Jürgen Mülbert. All rights reserved.
 #
@@ -39,7 +40,7 @@
 import csv
 from typing import List
 
-from ..core.logger import logger
+from jmopenorders.core.logger import logger
 
 
 class GetServicePerson:
@@ -52,7 +53,6 @@ class GetServicePerson:
             filename: The Filename for the datafile with the service persons.
         """
         self.file_name = filename
-        self.berater: List[str]
 
     def get(self) -> List[str]:
         """Get the Persons.
@@ -66,11 +66,9 @@ class GetServicePerson:
         service_person = []
         try:
             with open(self.file_name) as berater_file:
-                self.berater = csv.DictReader(
-                    berater_file, delimiter=";", quotechar='"',
-                )
+                berater = csv.DictReader(berater_file, delimiter=";", quotechar='"',)
 
-                for row in self.berater:
+                for row in berater:
 
                     service_person.append(row["Name"])
 

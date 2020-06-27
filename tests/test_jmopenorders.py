@@ -1,4 +1,5 @@
 #!/usr/bin/env python
+# -*- coding: utf-8 -*-
 #
 # Copyright (c) 2019 Jürgen Mülbert. All rights reserved.
 #
@@ -37,10 +38,9 @@
 # unter der Lizenz sind dem Lizenztext zu entnehmen.
 #
 """Tests for `jmopenorders` package."""
-
 import pytest
 
-from jmopenorders import cli
+from jmopenorders.__main__ import main
 
 
 @pytest.fixture
@@ -79,4 +79,4 @@ def test_command_line_interface(
         data_file: The file with all ordersdata to split off.
         expected: The expected result.
     """
-    assert cli(input_path, output_path, person_file, data_file) == expected
+    assert main(input_path, output_path, person_file, data_file) == expected

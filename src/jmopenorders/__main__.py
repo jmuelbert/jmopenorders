@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
 #
 # Copyright (c) 2019-2020 Jürgen Mülbert. All rights reserved.
 #
@@ -35,22 +37,44 @@
 # Die sprachspezifischen Genehmigungen und Beschränkungen
 # unter der Lizenz sind dem Lizenztext zu entnehmen.
 #
-"""Main application entry point.
-
-python -m jmopenorders
-"""
+"""Console script for jmopenorders."""
+import sys
 
 import click
+
+from jmopenorders.api.report import report
 
 
 @click.command()
 @click.version_option()
-def main() -> None:
-    """Prints a greeting for a giving name."""
+@click.option("-i", "--inputpath", default="input", help="The Inputpath for the data")
+@click.option(
+    "-o", "--outputpath", default="output", help="The Outputpath for the data",
+)
+@click.option(
+    "-p", "--personfile", default="persons.csv", help="The Name of the personfile"
+)
+@click.option("-d", "--datafile", default="orders.csv", help="The Name of the datafile")
+def main(inputpath: str, outputpath: str, personfile: str, datafile: str) -> int:
+    r"""jmopenorders, generate separate files from datafile.
+
+    \f
+    Todo: Change the paths to the click Type Path integrate config.
+
+    Args:
+        inputpath: The path to the inputdata.
+        outputpath: The path for write the generated data.
+        personfile: the name for the personfile.
+        datafile: the name for the datafile.
+
+    Returns:
+        Status as int (0 is good)
+    """
+    report(personfile, datafile, inputpath, outputpath)
+
+    return 0
 
 
-# Make the script executable
-
-
+# Make the module executable.
 if __name__ == "__main__":
-    main()
+    sys.exit(main())  # pragma: no cover

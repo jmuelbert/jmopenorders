@@ -1,9 +1,7 @@
 [flake8]
-select = ANN,B,B9,BLK,C,D,DAR,E,F,I,S,W
-ignore = E203,E501,W503,ANN101
+select = B,B9,C,D,DAR,E,F,N,RST,S,W
+ignore = E203,E501,W503
 max-line-length = 80
-max-complexity = 11
-application-import-names = jmopenorders,tests
-import-order-style = google
+max-complexity = 10
 docstring-convention = google
 per-file-ignores = tests/*:S101

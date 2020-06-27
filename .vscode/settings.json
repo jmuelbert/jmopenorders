@@ -41,19 +41,23 @@
   "python.formatting.blackArgs": ["--line-length 80"],
   "pythonTestExplorer.testFramework": "pytest",
   "python.testing.pytestEnabled": true,
-  "python.testing.nosetestsEnabled": false,
-  "qtForPython.path.designer": "~/miniconda/envs/develop/bin/Designer",
-  "qtForPython.path.linguist": "~/miniconda/envs/develop/bin/Linguist",
-  "qtForPython.path.lrelease": "~/miniconda/envs/develop/bin/lrelease",
-  "qtForPython.path.pylupdate": "~/miniconda/envs/develop/bin/pyside2-lupdate",
-  "qtForPython.path.pyrcc": "~/miniconda/envs/develop/bin/pyside2-rcc",
-  "qtForPython.path.pyuic": "~/miniconda/envs/develop/bin/pyside2-uic",
-  "qtForPython.path.qmlscene": "~/miniconda//envs/develop/bin/qmlscene --verbose ${file}",
-  "pyside2-vsc.designer-creator.path": "",
-  "pyside2-vsc.rcc.cmd": "~/miniconda/envs/develop/bin/pyside2-rcc",
-  "pyqt-integration.linguist.cmd": "linguist",
-  "pyside2-vsc.uic.cmd": "~/miniconda/envs/develop/bin/pyside2-uic",
   "python.condaPath": "~/opt//miniconda/bin/conda",
+  "docker-linter.debug": true,
+  "docker-linter.flake8.enable": true,
+  "docker-linter.rubocop.enable": true,
+  "editor.acceptSuggestionOnEnter": "on",
+  "editor.quickSuggestionsDelay": 10,
+  "editor.suggestOnTriggerCharacters": true,
+  "editor.tabCompletion": "on",
+  "editor.suggest.localityBonus": true,
+  "editor.suggestSelection": "recentlyUsed",
+  "editor.wordBasedSuggestions": true,
+  "editor.parameterHints.enabled": true,
+  "editor.quickSuggestions": {
+    "comments": false,
+    "other": true,
+    "strings": false
+  },
   "files.trimTrailingWhitespace": true,
   "files.autoSave": "afterDelay",
   "files.exclude": {
@@ -69,34 +73,9 @@
     "**/.settings": true,
     "**/.factorypath": true
   },
-  "editor.quickSuggestions": {
-    "other": true,
-    "comments": false,
-    "strings": false
-  },
-
-  "editor.acceptSuggestionOnEnter": "on",
-
-  "editor.quickSuggestionsDelay": 10,
-
-  "editor.suggestOnTriggerCharacters": true,
-
-  "editor.tabCompletion": "on",
-
-  "editor.suggest.localityBonus": true,
-
-  "editor.suggestSelection": "recentlyUsed",
-
-  "editor.wordBasedSuggestions": true,
-
-  "editor.parameterHints.enabled": true,
-  "docker-linter.debug": true,
-  "docker-linter.flake8.enable": true,
-  "docker-linter.rubocop.enable": true,
-  "graphvizPreview.engine": "dot",
   "restructuredtext.linter.executablePath": "doc8",
   "ruby.format": "rubocop",
   "ruby.intellisense": "rubyLocate",
   "ruby.codeCompletion": "rcodetools",
-  "swiftlint.enable": true
+  "restructuredtext.confPath": "${workspaceFolder}/docs"
 }

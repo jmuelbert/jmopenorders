@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 """Get the Data from csv-file to generate to output."""
 #
 # Copyright (c) 2019 Jürgen Mülbert. All rights reserved.
@@ -68,11 +69,11 @@ class GetData:
         """
         self.file_name = filename
 
-    def get(self) -> List[str]:
+    def get(self) -> List[List[str]]:
         """Get the data from the csv-file.
 
         Returns:
-            List[str] of generated data.
+            List[List[str]] of generated data.
         """
         # global orders_file
         try:
@@ -86,6 +87,4 @@ class GetData:
             logger.debug(
                 "The File with the data '{}' does not exists".format(self.file_name)
             )
-            return []
-
-        return data
+            return [[""]]

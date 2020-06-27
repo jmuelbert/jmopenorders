@@ -1,6 +1,7 @@
 #!/usr/bin/env python
+# -*- coding: utf-8 -*-
 #
-# Copyright (c) 2019-2020 Jürgen Mülbert. All rights reserved.
+# Copyright (c) 2019 Jürgen Mülbert. All rights reserved.
 #
 # Licensed under the EUPL, Version 1.2 or – as soon they
 # will be approved by the European Commission - subsequent
@@ -36,4 +37,20 @@
 # Die sprachspezifischen Genehmigungen und Beschränkungen
 # unter der Lizenz sind dem Lizenztext zu entnehmen.
 #
-"""Main module."""
+"""Tests for `jmopenorders` package."""
+import pytest
+from click.testing import CliRunner
+
+from jmopenorders import __main__
+
+
+@pytest.fixture
+def runner() -> CliRunner:
+    """Fixture for invoking command-line interfaces."""
+    return CliRunner()
+
+
+def test_main_succeeds(runner: CliRunner) -> None:
+    """It exits with a status code of zero."""
+    result = runner.invoke(__main__.main)
+    assert result.exit_code == 0

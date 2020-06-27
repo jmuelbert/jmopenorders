@@ -2,7 +2,7 @@ Contributor Guide
 =================
 
 Thank you for your interest in improving this project.
-This project is open-source under the `MIT license`_ and
+This project is open-source under the `EUPL-1.2 license`_ and
 welcomes contributions in the form of bug reports, feature requests, and pull requests.
 
 Here is a list of important resources for contributors:
@@ -12,7 +12,7 @@ Here is a list of important resources for contributors:
 - `Issue Tracker`_
 - `Code of Conduct`_
 
-.. _MIT license: https://opensource.org/licenses/MIT
+.. _EUPL-1.2 license: https://opensource.org/licenses/EUPL-1.2
 .. _Source Code: https://github.com/jmuelbert/jmopenorders
 .. _Documentation: https://jmopenorders.readthedocs.io/
 .. _Issue Tracker: https://github.com/jmuelbert/jmopenorders/issues

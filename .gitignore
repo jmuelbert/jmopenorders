@@ -298,3 +298,6 @@ IgnoreLexer.java~
 .DS_Store
 
 /verification
+*.sqlite3
+orders.csv
+*.xlsx

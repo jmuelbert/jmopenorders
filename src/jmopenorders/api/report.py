@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 #
 # Copyright (c) 2019-2020 Jürgen Mülbert. All rights reserved.
 #
@@ -38,8 +39,11 @@
 """Generate the output in a xlsx file."""
 import os
 
+from . import cleanoutputdir
+from . import generateorders
+from . import getdata
+from . import getserviceperson
 from jmopenorders.core.logger import logger
-from . import cleanoutputdir, generateorders, getdata, getserviceperson
 
 
 def report(

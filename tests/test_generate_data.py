@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 #
 # Copyright (c) 2019 Jürgen Mülbert. All rights reserved.
 #
@@ -36,10 +37,10 @@
 # unter der Lizenz sind dem Lizenztext zu entnehmen.
 #
 """Generator for fake data for testing."""
-
 import csv
-from datetime import date
 import os
+from datetime import date
+from typing import List
 
 from faker import Factory
 from openpyxl import Workbook
@@ -56,11 +57,11 @@ class CreateFakeOrders:
             l18n: the localization for the fake data
         """
         self.data_path = my_data_path
-        self.part_person = []
-        self.service_person = []
-        self.order_list = []
-        self.workshop_count = 0
-        self.part_count = 0
+        self.part_person: List[str] = []
+        self.service_person: List[str] = []
+        self.order_list: List[List[str]] = []
+        self.workshop_count: int = 0
+        self.part_count: int = 0
 
         if l18n == "":
             l18n = "de_DE"
@@ -101,7 +102,7 @@ class CreateFakeOrders:
         self.order_list.append(line)
         line = ["Bereich", "Wekstatt & Teile"]
         self.order_list.append(line)
-        self.order_list.append("")
+        self.order_list.append([""])
         line = [
             "",
             "Auftrag Nr.",
@@ -179,25 +180,25 @@ class CreateFakeOrders:
         Args:
             workshop: True when generate the header for the workshop
         """
-        self.order_list.append("")
+        self.order_list.append([""])
         if workshop is True:
-            line = ["Gesamt Werkstatt", self.workshop_count]
+            line: List[str] = ["Gesamt Werkstatt", str(self.workshop_count)]
         else:
-            line = ["Gesamt Teile", self.part_count]
+            line = ["Gesamt Teile", str(self.part_count)]
         self.order_list.append(line)
         if workshop is True:
             line = [
                 "Durchschnitt Werkstatt",
-                self.fake.random_int(1, self.workshop_count),
+                str(self.fake.random_int(1, self.workshop_count)),
             ]
         else:
             line = [
                 "Durchschnitt Werkstatt",
-                self.fake.random_int(1, self.part_count),
+                str(self.fake.random_int(1, self.part_count)),
             ]
 
         self.order_list.append(line)
-        self.order_list.append("")
+        self.order_list.append([""])
 
     def csv_output(self, name: str) -> None:
         """Write the data to a csv file.

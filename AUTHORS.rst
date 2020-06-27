@@ -1,7 +1,7 @@
 Credits
 =======
 
-Copyright (C) 2019 Jürgen Mülbert
+Copyright (C) 2019-2020 Jürgen Mülbert
 
 Copying and distribution of this file, with or without modification,
 are permitted in any medium without royalty provided the copyright

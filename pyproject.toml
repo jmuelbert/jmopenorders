@@ -1,16 +1,12 @@
 # Poetry pyproject.toml: https://python-poetry.org/docs/pyproject
 
-[build-system]
-requires = ["poetry>=0.12"]
-build-backend = "poetry.masonry.api"
-
 [tool.poetry]
 name = "jmopenorders"
-version = "0.2.2"
-description = "Jmopenorders"
+version = "0.2.3"
+description = "a generator to generate infos for the affected persons"
 authors = ["Jürgen Mülbert <juergen.muelbert@gmail.com>"]
 license = "EUPL-1.2"
-readme = "README.md"
+readme = "README.rst"
 homepage = "https://github.com/jmuelbert/jmopenorders"
 repository = "https://github.com/jmuelbert/jmopenorders"
 documentation = "https://jmopenorders.readthedocs.io"
@@ -20,62 +16,45 @@ keywords = ["jmopenorders", "excel", "convert" ]
 
 # Pypi classifiers: https://pypi.org/classifiers/
 classifiers=[
-  "Development Status :: 4 - Beta",
-  "Environment :: Console",
-  "Intended Audience :: Developers",
-  "Intended Audience :: End Users/Desktop",
-  "License :: OSI Approved :: European Union Public Licence 1.2 (EUPL 1.2)",
-        "Natural Language :: English",
-        "Operating System :: OS Independent",
-        "Programming Language :: Python",
-        "Programming Language :: Python :: 3",
-        "Programming Language :: Python :: 3.6",
-        "Programming Language :: Python :: 3.7",
-        "Programming Language :: Python :: 3.8",
-        "Programming Language :: Python :: Implementation :: CPython",
-        "Programming Language :: Python :: Implementation :: PyPy",
-        "Topic :: Office/Business",
+    "Development Status :: 4 - Beta",
+    "Environment :: Console",
+    "Intended Audience :: Developers",
+    "Intended Audience :: End Users/Desktop",
+    "License :: OSI Approved :: European Union Public Licence 1.2 (EUPL 1.2)",
+    "Natural Language :: English",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.6",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Topic :: Office/Business",
 ]
-
-[tool.poetry.scripts]
-# Entry points for the package https://python-poetry.org/docs/pyproject/#scripts
-jmopenorders = "jmopenorders.cli:main"
 
 [tool.poetry.urls]
 Changelog = "https://github.com/jmuelbert/jmopenorders/releases"
 
 [tool.poetry.dependencies]
-python = "^3.7"
-importlib_metadata = {version = "^1.6.0", python = "<3.8"}
+python = "^3.6.1"
 click = "^7.1.2"
-requests = "^2.23.0"
-marshmallow = "^3.6.1"
-desert = "^2020.1.6"
-openpyxl = "^3.0.3"
+openpyxl = "^3.0.4"
+pre-commit = "^2.5.1"
+faker = "^4.1.1"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.4.3"
 coverage = {extras = ["toml"], version = "^5.1"}
-pytest-cov = "^2.9.0"
-pytest-mock = "^3.1.1"
-flake8 = "^3.8.3"
-black = "^19.10b0"
-flake8-import-order = "^0.18.1"
-flake8-bugbear = "^20.1.4"
-flake8-bandit = "^2.1.2"
 safety = "^1.9.0"
-mypy = "^0.780"
-pytype = {version = "^2020.6.1", python = "3.7"}
-flake8-annotations = "^2.1.0"
+mypy = "^0.782"
 typeguard = "^2.9.1"
-flake8-docstrings = "^1.5.0"
-darglint = "^1.4.1"
 xdoctest = "^0.12.0"
 sphinx = "^3.1.0"
-sphinx-autodoc-typehints = "^1.10.3"
-codecov = "^2.1.4"
-faker = "^4.1.0"
+sphinx-autobuild = "^0.7.1"
 
+
+[tool.poetry.scripts]
+# Entry points for the package https://python-poetry.org/docs/pyproject/#scripts
+jmopenorders = "jmopenorders.__main__:main"
 
 [tool.coverage.paths]
 source = ["src", "*/site-packages"]
@@ -86,4 +65,8 @@ source = ["jmopenorders"]
 
 [tool.coverage.report]
 show_missing = true
-fail_under = 100
+fail_under = 35
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"

@@ -1,3 +1,2 @@
-# darglint configuration:
-# https://github.com/terrencepreilly/darglint
+[darglint]
 strictness = short

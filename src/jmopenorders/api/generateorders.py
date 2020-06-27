@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 #
 # Copyright (c) 2019-2020 Jürgen Mülbert. All rights reserved.
 #
@@ -58,13 +59,12 @@ The Format of the data file is:
     - Gesamt                        pos 11 (float)
     - Auftragswert bereit geliefert pos 12 (float)
 """
-
-from locale import localeconv
 import os
+from locale import localeconv
 from typing import List
 
 from openpyxl import Workbook
-from openpyxl.styles import Font
+from openpyxl.styles import Font  # ignore
 
 from ..core.logger import logger
 
@@ -83,7 +83,7 @@ class GenerateOrders:
         self.thousandSep = localeconv()["thousands_sep"]
         self.decimalPoint = localeconv()["decimal_point"]
 
-    def create(self, actual_name: str, actual_content: List[str]) -> None:
+    def create(self, actual_name: str, actual_content: List[List[str]]) -> None:
         """Put all the data for the actual_name to the excel-file.
 
         Args:

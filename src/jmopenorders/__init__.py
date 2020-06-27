@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 #
 # Copyright (c) 2019-2020 Jürgen Mülbert. All rights reserved.
 #
@@ -36,17 +37,3 @@
 # unter der Lizenz sind dem Lizenztext zu entnehmen.
 #
 """Top-level package for jmopenorders."""
-
-
-try:
-    from importlib.metadata import version, PackageNotFoundError
-except ImportError:  # pragma: no cover
-    from importlib_metadata import version, PackageNotFoundError
-
-try:
-    __version__ = version(__name__)
-except PackageNotFoundError:  # pragma: no cover
-    __version__ = "unknown"
-
-__author__ = """Jürgen Mülbert"""
-__email__ = "juergen.muelbert@gmail.com"

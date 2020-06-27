@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 """JM OpenOrders Library."""
 #
 # Copyright (c) 2019-2020 Jürgen Mülbert. All rights reserved.
@@ -36,6 +37,6 @@
 # Die sprachspezifischen Genehmigungen und Beschränkungen
 # unter der Lizenz sind dem Lizenztext zu entnehmen.
 #
-from .report import report
+from jmopenorders.api import report
 
 __all__ = ["report"]
