@@ -1,6 +1,10 @@
 jmopenorders
 ============
 
+.. image:: https://api.codacy.com/project/badge/Grade/6af827d12e264ff3bafee6b879dab554
+   :alt: Codacy Badge
+   :target: https://app.codacy.com/manual/jmuelbert/jmopenorders?utm_source=github.com&utm_medium=referral&utm_content=jmuelbert/jmopenorders&utm_campaign=Badge_Grade_Dashboard
+
 |Gitpod| |Tests| |Codecov| |PyPI| |Python Version| |Read the Docs| |License| |Black| |pre-commit| |Dependabot|
 
 
