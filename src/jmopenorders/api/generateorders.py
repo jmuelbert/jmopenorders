@@ -146,7 +146,7 @@ class GenerateOrders:
                         mystr = item.replace(".", "")
                         mystr = mystr.replace(",", ".")
                         cell.font = Font(name="Courier", size=12)
-                        cell.format_style = "#,##0.00"
+                        cell.number_format = "#,##0.00"
                         cell.value = float(mystr)
                     else:
                         cell = sheet.cell(row=row_num, column=col_num)
