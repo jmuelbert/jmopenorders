@@ -7,7 +7,6 @@ jmopenorders
 
 |Gitpod| |Tests| |LGTM| |Codecov| |PyPI| |Python Version| |Read the Docs| |License| |Black| |pre-commit| |Dependabot|
 
-
 Features
 --------
 
@@ -15,7 +14,7 @@ jmopenorders is a generator to generate infos for the affected persons.
 
 Generate from a excel-output for each service person a seperated excel file. You must the excel-file save as csv-file.
 
-jmopenorders is written in [Python](https://www.python.org).
+jmopenorders is written in .. _Python: https://www.python.org
 python does run on almosts known platforms.
 
 Requirements
@@ -36,9 +35,9 @@ You can install *jmopenorders* via pip_ from PyPI_:
 
 The master branch represents the latest pre-release code.
 
--   [Releases](https://github.com/jmuelbert/jmopenorders/releases).
+-   .. _Releases: https://github.com/jmuelbert/jmopenorders/releases
 
--   [Milestones](https://github.com/jmuelbert/jmopenorders/milestones).
+-   .. _Milestones: https://github.com/jmuelbert/jmopenorders/milestones
 
 Usage
 -----
