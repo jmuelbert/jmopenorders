@@ -14,7 +14,7 @@ jmopenorders is a generator to generate infos for the affected persons.
 
 Generate from a excel-output for each service person a seperated excel file. You must the excel-file save as csv-file.
 
-jmopenorders is written in .. _Python: https://www.python.org
+jmopenorders is written in `Python`_.
 python does run on almosts known platforms.
 
 Requirements
@@ -35,9 +35,11 @@ You can install *jmopenorders* via pip_ from PyPI_:
 
 The master branch represents the latest pre-release code.
 
--   .. _Releases: https://github.com/jmuelbert/jmopenorders/releases
+-   `Releases`_.
 
--   .. _Milestones: https://github.com/jmuelbert/jmopenorders/milestones
+-   `Milestones`_.
+
+
 
 Usage
 -----
@@ -75,12 +77,15 @@ This project was generated from `@cjolowicz`_'s `Hypermodern Python Cookiecutter
 .. _@cjolowicz: https://github.com/cjolowicz
 .. _Cookiecutter: https://github.com/audreyr/cookiecutter
 .. _EUPL-1.2: http://opensource.org/licenses/EUPL-1.2
+.. _Python: https://www.python.org
 .. _PyPI: https://pypi.org/
 .. _Hypermodern Python Cookiecutter: https://github.com/cjolowicz/cookiecutter-hypermodern-python
 .. _file an issue: https://github.com/jmuelbert/jmopenorders/issues
 .. _pip: https://pip.pypa.io/
 .. github-only
 .. _Contributor Guide: CONTRIBUTING.rst
+.. _Releases: https://github.com/jmuelbert/jmopenorders/releases
+.. _Milestones: https://github.com/jmuelbert/jmopenorders/milestones
 
 .. |Gitpod| image:: https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod
     :target: https://gitpod.io/#https://github.com/jmuelbert/jmopenorders
