@@ -2,7 +2,7 @@ jmopenorders
 ============
 
 
-|Gitpod| |Tests| |Code Quality| |LGTM| |Codecov| |PyPI| |Python Version| |Read the Docs| |License| |Black| |pre-commit| |Dependabot|
+|Gitpod| |Tests| |Code Quality| |LGTM| |Codecov| |PyPI| |Python Version| |Read the Docs|  |Black| |pre-commit| |Dependabot| |License|
 
 Features
 --------
@@ -116,10 +116,6 @@ This project was generated from `@cjolowicz`_'s `Hypermodern Python Cookiecutter
    :target: https://jmopenorders.readthedocs.io/
    :alt: Read the Docs
 
-.. |License| image:: https://img.shields.io/pypi/l/jmopenorders
-   :target: LICENSE.rst
-   :alt: Project License
-
 .. |Black| image:: https://img.shields.io/badge/code%20style-black-000000.svg
    :target: https://github.com/psf/black
    :alt: Black
@@ -131,3 +127,7 @@ This project was generated from `@cjolowicz`_'s `Hypermodern Python Cookiecutter
 .. |Dependabot| image:: https://api.dependabot.com/badges/status?host=github&repo=jmuelbert/jmopenorders
    :target: https://dependabot.com
    :alt: Dependabot
+
+.. |License| image:: https://img.shields.io/pypi/l/jmopenorders
+   :target: LICENSE.rst
+   :alt: Project License
