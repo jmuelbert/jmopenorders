@@ -1,3 +1,10 @@
 {
-  "python.pythonPath": "/Users/juergen/Library/Caches/pypoetry/virtualenvs/jmopenorders-W7p0kP5e-py3.8/bin/python"
+  "component.configuration": "value",
+  "[language]": {
+    "component.configuration": "value"
+  },
+  "editor.renderWhitespace": "all",
+  "[markdown]": {
+    "editor.wordWrap": "on"
+  }
 }
