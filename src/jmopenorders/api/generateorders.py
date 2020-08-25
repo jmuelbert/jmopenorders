@@ -65,7 +65,8 @@ from typing import List
 
 from openpyxl import Workbook
 from openpyxl.styles import Font  # ignore
-from openpyxl.worksheet.table import Table, TableStyleInfo
+from openpyxl.worksheet.table import Table
+from openpyxl.worksheet.table import TableStyleInfo
 
 from ..core.logger import logger
 
@@ -163,12 +164,17 @@ class GenerateOrders:
                 # und wieder ganz nach links.
                 col_num = 1
 
-        ref_str = "B1:N{0}".format(row_num-1)
+        ref_str = "B1:N{0}".format(row_num - 1)
         tab = Table(displayName="Table1", ref=ref_str)
 
         # Add a default style with striped rows and banded columns
-        style = TableStyleInfo(name="TableStyleMedium2", showFirstColumn=False,
-                       showLastColumn=False, showRowStripes=True, showColumnStripes=False)
+        style = TableStyleInfo(
+            name="TableStyleMedium2",
+            showFirstColumn=False,
+            showLastColumn=False,
+            showRowStripes=True,
+            showColumnStripes=False,
+        )
         tab.tableStyleInfo = style
 
         # Alles fertig Excel-Sheet schließen!
