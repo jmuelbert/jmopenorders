@@ -299,5 +299,5 @@ IgnoreLexer.java~
 
 /verification
 *.sqlite3
-orders.csv
+*.csv
 *.xlsx

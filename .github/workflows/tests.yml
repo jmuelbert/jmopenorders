@@ -6,8 +6,13 @@ on:
 
 jobs:
   tests:
-    name: "${{ matrix.session }} ${{ matrix.python-version }} / ${{ matrix.os }}"
-    runs-on: "${{ matrix.os }}"
+    name:
+      {
+        {
+          "${{ matrix.session }} ${{ matrix.python-version }} / ${{ matrix.os }}",
+        },
+      }
+    runs-on: { { "${{ matrix.os }}" } }
     strategy:
       fail-fast: false
       matrix:
@@ -23,19 +28,19 @@ jobs:
           - { python-version: 3.8, os: windows-latest, session: "tests" }
           - { python-version: 3.8, os: macos-latest, session: "tests" }
           - { python-version: 3.8, os: ubuntu-latest, session: "typeguard" }
-          - { python-version: 3.8, os: ubuntu-latest, session: "docs" }
+          - { python-version: 3.8, os: ubuntu-latest, session: "docs-build" }
 
     env:
-      NOXSESSION: "${{ matrix.session }}"
+      NOXSESSION: { { "${{ matrix.session }}" } }
 
     steps:
       - name: Check out the repository
         uses: actions/checkout@v2.3.2
 
       - name: Set up Python {{ "${{ matrix.python-version }}" }}
-        uses: actions/setup-python@v2
+        uses: actions/setup-python@v2.1.2
         with:
-          python-version: "${{ matrix.python-version }}"
+          python-version: { { "${{ matrix.python-version }}" } }
 
       - name: Upgrade pip
         run: |
@@ -59,21 +64,26 @@ jobs:
           python = "py{}.{}".format(*sys.version_info[:2])
           payload = sys.version.encode() + sys.executable.encode()
           digest = hashlib.sha256(payload).hexdigest()
-          result = "${{ runner.os }}-{}-{}-pre-commit".format(python, digest[:8])
+          result = {{ '"${{ runner.os }}-{}-{}-pre-commit".format(python, digest[:8])' }}
           print("::set-output name=result::{}".format(result))
       - name: Restore pre-commit cache
         uses: actions/cache@v2
         if: matrix.session == 'pre-commit'
         with:
           path: ~/.cache/pre-commit
-          key: "${{ steps.pre-commit-cache.outputs.result }}-${{ hashFiles('.pre-commit-config.yaml') }}"
+          key:
+            {
+              {
+                "${{ steps.pre-commit-cache.outputs.result }}-${{ hashFiles('.pre-commit-config.yaml') }}",
+              },
+            }
           restore-keys: |
-            "${{ steps.pre-commit-cache.outputs.result }}-"
+            {{ "${{ steps.pre-commit-cache.outputs.result }}-" }}
       - name: Run Nox
         run: |
-          nox --force-color --python=${{ matrix.python-version }}
+          nox --force-color --python=${{ "{{" }} matrix.python-version {{ "}}" }}
       - name: Upload documentation
-        if: matrix.session == 'docs'
+        if: matrix.session == 'docs-build'
         uses: actions/upload-artifact@v2
         with:
           name: docs
@@ -85,4 +95,4 @@ jobs:
           nox --force-color --session=coverage -- xml
       - name: Upload coverage report
         if: always() && matrix.session == 'tests'
-        uses: codecov/codecov-action@v1.0.13
+        uses: codecov/codecov-action@v1.0.12

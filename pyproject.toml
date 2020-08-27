@@ -3,7 +3,7 @@
 [tool.poetry]
 name = "jmopenorders"
 version = "0.2.4"
-description = "a generator to generate infos for the affected persons"
+description = "a generator to generate infos for the affected persm ons"
 authors = ["Jürgen Mülbert <juergen.muelbert@gmail.com>"]
 license = "EUPL-1.2"
 readme = "README.rst"
@@ -35,7 +35,7 @@ classifiers=[
 Changelog = "https://github.com/jmuelbert/jmopenorders/releases"
 
 [tool.poetry.dependencies]
-python = "^3.6.1"
+python = ">=3.6.5, <4.0"
 click = "^7.1.2"
 openpyxl = "^3.0.4"
 
