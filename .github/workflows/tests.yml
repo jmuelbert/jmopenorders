@@ -6,6 +6,8 @@ on:
 
 jobs:
   tests:
+    name: "${{ matrix.session }} ${{ matrix.python-version }} / ${{ matrix.os }}"
+    runs-on: "${{ matrix.os }}"
     strategy:
       fail-fast: false
       matrix:
@@ -23,8 +25,6 @@ jobs:
           - { python-version: 3.8, os: ubuntu-latest, session: "typeguard" }
           - { python-version: 3.8, os: ubuntu-latest, session: "docs-build" }
 
-    name: ${{ matrix.session }} ${{ matrix.python-version }} / ${{ matrix.os }}
-    runs-on: {{ "${{ matrix.os }}" }}
     env:
       NOXSESSION: { { "${{ matrix.session }}" } }
 
