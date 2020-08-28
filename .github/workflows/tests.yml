@@ -72,7 +72,7 @@ jobs:
             {{ "${{ steps.pre-commit-cache.outputs.result }}-" }}
       - name: Run Nox
         run: |
-          nox --force-color --python=${{ "{{" }} matrix.python-version {{ "}}" }}
+          nox --force-color --python=$"{{"  matrix.python-version  "}}" 
       - name: Upload documentation
         if: matrix.session == 'docs-build'
         uses: actions/upload-artifact@v2
