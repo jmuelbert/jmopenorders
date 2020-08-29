@@ -1,7 +1,5 @@
 # -*- coding: utf-8 -*-
-"""Get the Data from csv-file to generate to output."""
-#
-# Copyright (c) 2019 Jürgen Mülbert. All rights reserved.
+# Copyright (c) 2019-2020 Jürgen Mülbert. All rights reserved.
 #
 # Licensed under the EUPL, Version 1.2 or – as soon they
 # will be approved by the European Commission - subsequent
@@ -21,7 +19,7 @@
 # permissions and limitations under the Licence.
 #
 # Lizenziert unter der EUPL, Version 1.2 oder - sobald
-#  diese von der Europäischen Kommission genehmigt wurden -
+# diese von der Europäischen Kommission genehmigt wurden -
 # Folgeversionen der EUPL ("Lizenz");
 # Sie dürfen dieses Werk ausschließlich gemäß
 # dieser Lizenz nutzen.
@@ -36,7 +34,7 @@
 # ausdrücklich oder stillschweigend - verbreitet.
 # Die sprachspezifischen Genehmigungen und Beschränkungen
 # unter der Lizenz sind dem Lizenztext zu entnehmen.
-#
+"""Get the Data from csv-file to generate to output."""
 import csv
 from typing import List
 
