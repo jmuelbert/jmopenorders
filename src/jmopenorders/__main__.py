@@ -49,7 +49,10 @@ from jmopenorders.api.report import report
 @click.version_option()
 @click.option("-i", "--inputpath", default="input", help="The Inputpath for the data")
 @click.option(
-    "-o", "--outputpath", default="output", help="The Outputpath for the data",
+    "-o",
+    "--outputpath",
+    default="output",
+    help="The Outputpath for the data",
 )
 @click.option(
     "-p", "--personfile", default="persons.csv", help="The Name of the personfile"

@@ -150,13 +150,19 @@ class CreateFakeOrders:
             if workshop is True:
                 line.append(
                     self.service_person[
-                        self.fake.random_int(0, len(self.service_person) - 1,)
+                        self.fake.random_int(
+                            0,
+                            len(self.service_person) - 1,
+                        )
                     ],
                 )
             else:
                 line.append(
                     self.part_person[
-                        self.fake.random_int(0, len(self.part_person) - 1,)
+                        self.fake.random_int(
+                            0,
+                            len(self.part_person) - 1,
+                        )
                     ],
                 )
             if workshop is True:
@@ -206,7 +212,11 @@ class CreateFakeOrders:
         Args:
             name: The name for the output file.
         """
-        with open(os.path.join(self.data_path, name), "w", newline="",) as csvfile:
+        with open(
+            os.path.join(self.data_path, name),
+            "w",
+            newline="",
+        ) as csvfile:
             orderswriter = csv.writer(csvfile, delimiter=";")
             for row in self.order_list:
                 orderswriter.writerow(row)

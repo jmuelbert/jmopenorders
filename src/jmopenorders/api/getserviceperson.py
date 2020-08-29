@@ -66,7 +66,11 @@ class GetServicePerson:
         service_person = []
         try:
             with open(self.file_name) as berater_file:
-                berater = csv.DictReader(berater_file, delimiter=";", quotechar='"',)
+                berater = csv.DictReader(
+                    berater_file,
+                    delimiter=";",
+                    quotechar='"',
+                )
 
                 for row in berater:
 
