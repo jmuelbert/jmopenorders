@@ -63,8 +63,7 @@ from typing import List
 
 from openpyxl import Workbook
 from openpyxl.styles import Font  # ignore
-from openpyxl.worksheet.table import Table
-from openpyxl.worksheet.table import TableStyleInfo
+from openpyxl.worksheet.table import Table, TableStyleInfo
 
 from ..core.logger import logger
 
