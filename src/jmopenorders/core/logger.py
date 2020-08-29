@@ -41,7 +41,8 @@ until the logger is started.
 """
 from logging import Formatter
 from logging import Logger as _Logger
-from logging import NullHandler, StreamHandler
+from logging import NullHandler
+from logging import StreamHandler
 from typing import Any
 
 __all__ = ["logger", "Logger"]

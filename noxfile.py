@@ -9,7 +9,8 @@ from textwrap import dedent
 import nox
 from nox.sessions import Session
 
-package = "jmopenorders"
+
+package = "test"
 python_versions = ["3.8", "3.7", "3.6"]
 nox.options.sessions = (
     "pre-commit",
@@ -95,6 +96,7 @@ def install_package(session: Session) -> None:
 
     Build a wheel from the package, and install it into the virtual environment
     of the specified Nox session.
+
     The package requirements are installed using the versions specified in
     Poetry's lock file.
 
@@ -113,6 +115,7 @@ def install(session: Session, *args: str) -> None:
     """Install development dependencies into the session's virtual environment.
 
     This function is a wrapper for nox.sessions.Session.install.
+
     The packages must be managed as development dependencies in Poetry.
 
     Args:
@@ -220,7 +223,7 @@ def mypy(session: Session) -> None:
 def tests(session: Session) -> None:
     """Run the test suite."""
     install_package(session)
-    install(session, "coverage[toml]", "pytest", "faker")
+    install(session, "coverage[toml]", "pytest", "faker", "openxyl")
     try:
         session.run("coverage", "run", "--parallel", "-m", "pytest", *session.posargs)
     finally:
@@ -246,7 +249,7 @@ def coverage(session: Session) -> None:
 def typeguard(session: Session) -> None:
     """Runtime type checking using Typeguard."""
     install_package(session)
-    install(session, "pytest", "typeguard", "faker", "openpyxl")
+    install(session, "pytest", "typeguard")
     session.run("pytest", f"--typeguard-packages={package}", *session.posargs)
 
 
