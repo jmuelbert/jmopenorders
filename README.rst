@@ -59,7 +59,7 @@ Requirements
 Installation
 ------------
 
-You can install *jmopenorders* via pip_ from PyPI_:
+You can install *jmopenorders* via pip_ from `PyPI`_:
 
 .. code-block:: bash
 

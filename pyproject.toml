@@ -2,7 +2,7 @@
 
 [tool.poetry]
 name = "jmopenorders"
-version = "0.2.4"
+version = "0.2.5"
 description = "a generator to generate infos for the affected persm ons"
 authors = ["Jürgen Mülbert <juergen.muelbert@gmail.com>"]
 license = "EUPL-1.2"
