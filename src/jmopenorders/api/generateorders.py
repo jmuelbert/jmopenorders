@@ -176,11 +176,6 @@ class GenerateOrders:
         tab.tableStyleInfo = style
         sheet.add_table(tab)
 
-        # Summen
-        cols = ['I', 'J', 'K', 'L', 'M', 'N']
-        for x in cols:
-            print(x)
-
         ref_str = "M{0}".format(row_num)
         sheet[ref_str] = "=SUM(M1:M{0})".format(row_num - 1 )
 
