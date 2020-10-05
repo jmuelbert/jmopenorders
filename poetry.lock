@@ -227,7 +227,7 @@ description = "Faker is a Python package that generates fake data for you."
 name = "faker"
 optional = false
 python-versions = ">=3.5"
-version = "4.1.6"
+version = "4.4.0"
 
 [package.dependencies]
 python-dateutil = ">=2.4"
@@ -1071,7 +1071,7 @@ docs = ["sphinx", "jaraco.packaging (>=3.2)", "rst.linker (>=1.9)"]
 testing = ["jaraco.itertools", "func-timeout"]
 
 [metadata]
-content-hash = "64246552328eef9527b19be4d9fc373b81770903e823b224e31d4baced3abb71"
+content-hash = "7f18fa02c1d3b448fc0bf77513964818b6e494a1f09be9c266598e905b69e936"
 lock-version = "1.0"
 python-versions = ">=3.6.10, <4.0"
 
@@ -1191,8 +1191,8 @@ et-xmlfile = [
     {file = "et_xmlfile-1.0.1.tar.gz", hash = "sha256:614d9722d572f6246302c4491846d2c393c199cfa4edc9af593437691683335b"},
 ]
 faker = [
-    {file = "Faker-4.1.6-py3-none-any.whl", hash = "sha256:078e2473f1283fc6d91d6b2d2d97e6db7ce9e7fb81ed19cef8d37926546010e2"},
-    {file = "Faker-4.1.6.tar.gz", hash = "sha256:df40c0a18144afd23cc537af81cbfac3057575d01b8ad883de898a9db3fb4d29"},
+    {file = "Faker-4.4.0-py3-none-any.whl", hash = "sha256:6d57066eb7a0dd089f85cee99d0e75a7dcd86d74f9d5af7ccc4ace204b994cd6"},
+    {file = "Faker-4.4.0.tar.gz", hash = "sha256:a69c06e1f160e14a6da96ef6bff98e7b931f8e30d4e4e8ba399aff859965bb19"},
 ]
 filelock = [
     {file = "filelock-3.0.12-py3-none-any.whl", hash = "sha256:929b7d63ec5b7d6b71b0fa5ac14e030b3f70b75747cef1b10da9b879fef15836"},
