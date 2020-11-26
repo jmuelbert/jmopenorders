@@ -33,6 +33,10 @@ src/*.egg-info
 *.manifest
 *.spec
 
+# Poetry lock
+# Add poetry.lock to gitignore
+poetry.lock
+
 # Installer logs
 pip-log.txt
 pip-delete-this-directory.txt
