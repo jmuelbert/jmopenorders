@@ -45,7 +45,7 @@ Features
 
 jmopenorders is a generator to generate infos for the affected persons.
 
-Generate from a excel-output for each service person a seperated excel file. You must the excel-file save as csv-file.
+Generate from a excel-output for each service person a separated excel file. You must the excel-file save as csv-file.
 
 jmopenorders is written in `Python`_.
 python does run on almosts known platforms.
@@ -133,8 +133,8 @@ This project was generated from `@cjolowicz`_'s `Hypermodern Python Cookiecutter
    :alt: Codacy Badge
 
 .. |LGTM| image:: https://img.shields.io/lgtm/alerts/g/jmuelbert/jmopenorders.svg?logo=lgtm&logoWidth=18
-    :target: https://lgtm.com/projects/g/jmuelbert/jmopenorders/alerts/
-    :alt: LGTM
+   :target: https://lgtm.com/projects/g/jmuelbert/jmopenorders/alerts/
+   :alt: LGTM
 
 .. |Codecov| image:: https://codecov.io/gh/jmuelbert/jmopenorders/branch/master/graph/badge.svg
    :target: https://codecov.io/gh/jmuelbert/jmopenorders
