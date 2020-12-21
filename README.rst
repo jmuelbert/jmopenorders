@@ -44,7 +44,6 @@ Features
 --------
 
 jmopenorders is a generator to generate infos for the affected persons.
-
 Generate from a excel-output for each service person a separated excel file. You must the excel-file save as csv-file.
 
 jmopenorders is written in `Python`_.
