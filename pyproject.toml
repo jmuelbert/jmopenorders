@@ -44,7 +44,7 @@ openpyxl = "^3.0.4"
 coverage = {extras = ["toml"], version = "^5.3"}
 pytest = "^6.1.2"
 safety = "^1.9.0"
-mypy = "^0.800"
+mypy = "^0.901"
 typeguard = "^2.10.0"
 xdoctest = {extras = ["colors"], version = "^0.15.0"}
 sphinx = "^3.3.1"
