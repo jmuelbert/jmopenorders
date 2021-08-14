@@ -128,8 +128,12 @@ This project was generated from `@cjolowicz`_'s `Hypermodern Python Cookiecutter
    :alt: Tests
 
 .. |Code Quality| image:: https://api.codacy.com/project/badge/Grade/6af827d12e264ff3bafee6b879dab554
-   :target: https://app.codacy.com/manual/jmuelbert/jmopenorders?utm_source=github.com&utm_medium=referral&utm_content=jmuelbert/jmopenorders&utm_campaign=Badge_Grade_Dashboard
+   :target: https://app.codacy.com/manual/jmuelbert/jmopenordersutm_source=github.com&utm_medium=referral&utm_content=jmuelbert/jmopenorders&utm_campaign=Badge_Grade_Dashboard
    :alt: Codacy Badge
+   
+.. |Codacy Security Scan| image:: https://github.com/jmuelbert/jmopenorders/actions/workflows/codacy-analysis.yml/badge.svg
+    :target: https://github.com/jmuelbert/jmopenorders/actions/workflows/codacy-analysis.yml
+    :alt: Codacy Security Scan
 
 .. |CodeQL| image:: https://github.com/jmuelbert/jmopenorders/actions/workflows/codeql-analysis.yml/badge.svg
    :target: https://github.com/jmuelbert/jmopenorders/actions/workflows/codeql-analysis.yml
