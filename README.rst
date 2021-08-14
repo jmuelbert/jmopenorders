@@ -38,7 +38,7 @@ jmopenorders
 ============
 
 
-|Gitpod| |Tests| |Code Quality| |Codecov| |PyPI| |Python Version| |Read the Docs|  |Black| |pre-commit| |Dependabot| |License|
+|Gitpod| |Tests| |Code Quality| CodeQL |Codecov| |PyPI| |Python Version| |Read the Docs|  |Black| |pre-commit| |Dependabot| |License|
 
 Features
 --------
@@ -130,6 +130,9 @@ This project was generated from `@cjolowicz`_'s `Hypermodern Python Cookiecutter
 .. |Code Quality| image:: https://api.codacy.com/project/badge/Grade/6af827d12e264ff3bafee6b879dab554
    :target: https://app.codacy.com/manual/jmuelbert/jmopenorders?utm_source=github.com&utm_medium=referral&utm_content=jmuelbert/jmopenorders&utm_campaign=Badge_Grade_Dashboard
    :alt: Codacy Badge
+
+.. |CodeQL| image: https://github.com/jmuelbert/jmopenorders/actions/workflows/codeql-analysis.yml/badge.svg
+   :target: https://github.com/jmuelbert/jmopenorders/actions/workflows/codeql-analysis.yml
 
 .. |LGTM| image:: https://img.shields.io/lgtm/alerts/g/jmuelbert/jmopenorders.svg?logo=lgtm&logoWidth=18
    :target: https://lgtm.com/projects/g/jmuelbert/jmopenorders/alerts/
