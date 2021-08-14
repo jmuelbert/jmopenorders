@@ -131,8 +131,9 @@ This project was generated from `@cjolowicz`_'s `Hypermodern Python Cookiecutter
    :target: https://app.codacy.com/manual/jmuelbert/jmopenorders?utm_source=github.com&utm_medium=referral&utm_content=jmuelbert/jmopenorders&utm_campaign=Badge_Grade_Dashboard
    :alt: Codacy Badge
 
-.. |CodeQL| image: https://github.com/jmuelbert/jmopenorders/actions/workflows/codeql-analysis.yml/badge.svg
+.. |CodeQL| image:: https://github.com/jmuelbert/jmopenorders/actions/workflows/codeql-analysis.yml/badge.svg
    :target: https://github.com/jmuelbert/jmopenorders/actions/workflows/codeql-analysis.yml
+   :alt: CodeQL
 
 .. |LGTM| image:: https://img.shields.io/lgtm/alerts/g/jmuelbert/jmopenorders.svg?logo=lgtm&logoWidth=18
    :target: https://lgtm.com/projects/g/jmuelbert/jmopenorders/alerts/
