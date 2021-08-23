@@ -38,7 +38,7 @@ jmopenorders
 ============
 
 
- |Release| |PyPI| |Read the Docs||License|
+ |Release| |PyPI| |Read the Docs| |License|
 
 Features
 --------
@@ -120,7 +120,7 @@ This project was generated from `@cjolowicz`_'s `Hypermodern Python Cookiecutter
 .. _Milestones: https://github.com/jmuelbert/jmopenorders/milestones
 
 .. |Release| image:: https://github.com/jmuelbert/jmopenorders/workflows/release/badge.svg
-   :target: https://github.com/jmuelbert/jmopenorders/actions?workflow=release
+   :target: https://github.com/jmuelbert/jmopenorders/actions?workflow=Release
    :alt: Release
    
 .. |PyPI| image:: https://img.shields.io/pypi/v/jmopenorders.svg
