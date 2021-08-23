@@ -38,7 +38,7 @@ jmopenorders
 ============
 
 
-|Gitpod| |Tests|  |Codecov| |PyPI| |Python Version| |Read the Docs|  |Black| |pre-commit| |Dependabot| |License|
+ |Build| |PyPI| |Read the Docs||License|
 
 Features
 --------
@@ -119,53 +119,17 @@ This project was generated from `@cjolowicz`_'s `Hypermodern Python Cookiecutter
 .. _Releases: https://github.com/jmuelbert/jmopenorders/releases
 .. _Milestones: https://github.com/jmuelbert/jmopenorders/milestones
 
-.. |Gitpod| image:: https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod
-    :target: https://gitpod.io/#https://github.com/jmuelbert/jmopenorders
-    :alt: Gitpod-Ready-Code
-
-.. |Tests| image:: https://github.com/jmuelbert/jmopenorders/workflows/Tests/badge.svg
-   :target: https://github.com/jmuelbert/jmopenorders/actions?workflow=Tests
+.. |Build| image:: https://github.com/jmuelbert/jmopenorders/workflows/Build/badge.svg
+   :target: https://github.com/jmuelbert/jmopenorders/actions?workflow=Build
    :alt: Tests
    
-.. |Codacy Security Scan| image:: https://github.com/jmuelbert/jmopenorders/actions/workflows/codacy-analysis.yml/badge.svg
-    :target: https://github.com/jmuelbert/jmopenorders/actions/workflows/codacy-analysis.yml
-    :alt: Codacy Security Scan
-
-.. |CodeQL| image:: https://github.com/jmuelbert/jmopenorders/actions/workflows/codeql-analysis.yml/badge.svg
-   :target: https://github.com/jmuelbert/jmopenorders/actions/workflows/codeql-analysis.yml
-   :alt: CodeQL
-
-.. |LGTM| image:: https://img.shields.io/lgtm/alerts/g/jmuelbert/jmopenorders.svg?logo=lgtm&logoWidth=18
-   :target: https://lgtm.com/projects/g/jmuelbert/jmopenorders/alerts/
-   :alt: LGTM
-
-.. |Codecov| image:: https://codecov.io/gh/jmuelbert/jmopenorders/branch/master/graph/badge.svg
-   :target: https://codecov.io/gh/jmuelbert/jmopenorders
-   :alt: Codecov
-
 .. |PyPI| image:: https://img.shields.io/pypi/v/jmopenorders.svg
    :target: https://pypi.org/project/jmopenorders/
    :alt: PyPI
 
-.. |Python Version| image:: https://img.shields.io/pypi/pyversions/jmopenorders
-   :target: https://pypi.org/project/jmopenorders
-   :alt: Python Version
-
 .. |Read the Docs| image:: https://readthedocs.org/projects/jmopenorders/badge/
    :target: https://jmopenorders.readthedocs.io/
    :alt: Read the Docs
-
-.. |Black| image:: https://img.shields.io/badge/code%20style-black-000000.svg
-   :target: https://github.com/psf/black
-   :alt: Black
-
-.. |pre-commit| image:: https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white
-   :target: https://github.com/pre-commit/pre-commit
-   :alt: pre-commit
-
-.. |Dependabot| image:: https://api.dependabot.com/badges/status?host=github&repo=jmuelbert/jmopenorders
-   :target: https://dependabot.com
-   :alt: Dependabot
 
 .. |License| image:: https://img.shields.io/pypi/l/jmopenorders
    :target: LICENSE.rst
