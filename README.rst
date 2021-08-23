@@ -38,7 +38,7 @@ jmopenorders
 ============
 
 
-|Gitpod| |Tests| |Code Quality| CodeQL |Codecov| |PyPI| |Python Version| |Read the Docs|  |Black| |pre-commit| |Dependabot| |License|
+|Gitpod| |Tests|  |Codecov| |PyPI| |Python Version| |Read the Docs|  |Black| |pre-commit| |Dependabot| |License|
 
 Features
 --------
