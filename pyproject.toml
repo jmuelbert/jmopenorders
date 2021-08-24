@@ -65,7 +65,16 @@ sphinx-rtd-theme = "^0.5.0"
 sphinx-click = "^3.0.1"
 Pygments = "^2.7.2"
 
+[tool.pyright]
+include = ["src"]
+exclude = ["**/node_modules",
+    "**/__pycache__",
+    "src/experimental",
+    "src/typestubs"
+]
 
+reportMissingImports = true
+reportMissingTypeStubs = false
 
 [tool.poetry.scripts]
 # Entry points for the package https://python-poetry.org/docs/pyproject/#scripts
