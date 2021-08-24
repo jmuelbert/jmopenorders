@@ -6,47 +6,56 @@ root = true
 
 # Unix-style newlines with a newline ending every file
 [*]
+end_of_line = lf
 indent_style = space
 indent_size = 4
+charset = utf-8
 trim_trailing_whitespace = true
 insert_final_newline = true
+
+# Indentation override for all JS under lib directory
+[*.{js,json,vue,scss,rb,haml,yml,yaml,toml}]
+indent_size = 2
+
+[*.{js,json,vue,scss,rb,haml,yml,md}]
+indent_style = space
 charset = utf-8
-end_of_line = lf
 
-# 4 space indentation
-[*.py]
-indent_style = space
-indent_size = 4
-max_line_length = 80
-
-# Matches the exact files either package.json or .travis.yml
-[*.{yml,yaml,toml}]
+# Source code files
+[*.{c,cxx,cpp,h,hxx,hpp,java,m,mm,py,swift,xsl}]
 indent_style = space
 indent_size = 2
 
-[*.json]
+[CMakeLists.txt,*.cmake{,.in}]
 indent_size = 2
-
-[*.scss]
 indent_style = space
-indent_size = 2
-
-[*.coffee]
-indent_style = space
-indent_size = 4
 
 # Override for Makefile
 [{Makefile, makefile, GNUmakefile}]
 indent_style = tab
 indent_size = 4
 
+# 4 space indentation
+[*.py]
+indent_size = 4
+max_line_length = 80
+
+[*.rst]
+indent_size = 3
+
+[*.coffee]
+indent_style = space
+indent_size = 4
+
 [*.html]
 indent_style = space
 indent_size = 2
 
-[*.bat]
-indent_style = tab
+[*.{bat,cmd}]
 end_of_line = crlf
+
+[*.{md,markdown,js.snap}]
+trim_trailing_whitespace = false
 
 [LICENSE]
 insert_final_newline = false
