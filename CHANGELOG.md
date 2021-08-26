@@ -1,44 +1,253 @@
-<!--
- Copyright (c) 2019-2020 Jürgen Mülbert. All rights reserved.
+# Changelog
 
- Licensed under the EUPL, Version 1.2 or – as soon they
- will be approved by the European Commission - subsequent
- versions of the EUPL (the "Licence");
- You may not use this work except in compliance with the
- Licence.
- You may obtain a copy of the Licence at:
+## [Unreleased](https://github.com/jmuelbert/jmopenorders/tree/HEAD)
 
- https://joinup.ec.europa.eu/page/eupl-text-11-12
+**Merged pull requests:**
 
- Unless required by applicable law or agreed to in
- writing, software distributed under the Licence is
- distributed on an "AS IS" basis,
- WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either
- express or implied.
- See the Licence for the specific language governing
- permissions and limitations under the Licence.
+- Bump peter-evans/create-pull-request from 3.10.0 to 3.10.1 [\#474](https://github.com/jmuelbert/jmopenorders/pull/474)
+- Fix typos by misspell-fixer for refs/heads/update-workflows [\#473](https://github.com/jmuelbert/jmopenorders/pull/473)
+- Improve Workflows, like jmbde-QT [\#471](https://github.com/jmuelbert/jmopenorders/pull/471)
+- Bump pip from 21.0.1 to 21.2.4 in /.github/workflows [\#468](https://github.com/jmuelbert/jmopenorders/pull/468)
+- Update sphinx-click requirement from ^2.5.0 to ^3.0.1 [\#467](https://github.com/jmuelbert/jmopenorders/pull/467)
+- Update pre-commit-hooks requirement from ^3.2.0 to ^4.0.1 [\#466](https://github.com/jmuelbert/jmopenorders/pull/466)
+- Update click requirement from ^7.1.2 to \>=7.1.2,\<9.0.0 [\#465](https://github.com/jmuelbert/jmopenorders/pull/465)
+- Bump codacy/codacy-analysis-cli-action from 1.1.0 to 4.0.0 [\#464](https://github.com/jmuelbert/jmopenorders/pull/464)
+- Bump actions/cache from 2.1.4 to 2.1.6 [\#463](https://github.com/jmuelbert/jmopenorders/pull/463)
+- Update pep8-naming requirement from ^0.11.1 to ^0.12.1 [\#462](https://github.com/jmuelbert/jmopenorders/pull/462)
+- Update black requirement from ^20.8b1 to ^21.7b0 [\#461](https://github.com/jmuelbert/jmopenorders/pull/461)
+- Bump poetry from 1.1.2 to 1.1.8 in /.github/workflows [\#460](https://github.com/jmuelbert/jmopenorders/pull/460)
+- Bump pip from 21.0.1 to 21.2.4 in /.github/workflows [\#459](https://github.com/jmuelbert/jmopenorders/pull/459)
+- Bump virtualenv from 20.4.2 to 20.7.2 in /.github/workflows [\#458](https://github.com/jmuelbert/jmopenorders/pull/458)
+- Update faker requirement from ^6.1.1 to ^8.11.0 [\#455](https://github.com/jmuelbert/jmopenorders/pull/455)
+- Update sphinx to 4.1.2 [\#450](https://github.com/jmuelbert/jmopenorders/pull/450)
+- Bump codecov/codecov-action from 1.2.1 to 2.0.2 [\#447](https://github.com/jmuelbert/jmopenorders/pull/447)
+- Bump actions/stale from 3.0.16 to 4 [\#442](https://github.com/jmuelbert/jmopenorders/pull/442)
+- Update mypy requirement from ^0.800 to ^0.910 [\#429](https://github.com/jmuelbert/jmopenorders/pull/429)
+- Bump actions/download-artifact from 2.0.8 to 2.0.10 [\#427](https://github.com/jmuelbert/jmopenorders/pull/427)
+- Bump actions/upload-artifact from 2.2.2 to 2.2.4 [\#426](https://github.com/jmuelbert/jmopenorders/pull/426)
+- Bump nox from 2020.12.31 to 2021.6.12 in /.github/workflows [\#423](https://github.com/jmuelbert/jmopenorders/pull/423)
+- Bump nox-poetry from 0.8.1 to 0.8.6 in /.github/workflows [\#422](https://github.com/jmuelbert/jmopenorders/pull/422)
+- Bump release-drafter/release-drafter from 5.13.0 to 5.15.0 [\#403](https://github.com/jmuelbert/jmopenorders/pull/403)
+- Update flake8-rst-docstrings requirement from ^0.0.13 to ^0.2.3 [\#393](https://github.com/jmuelbert/jmopenorders/pull/393)
+- Update flake8-bugbear requirement from ^20.1.4 to ^21.4.3 [\#371](https://github.com/jmuelbert/jmopenorders/pull/371)
+- Update sphinx-autobuild requirement from ^2020.9.1 to ^2021.3.14 [\#362](https://github.com/jmuelbert/jmopenorders/pull/362)
+- Bump pypa/gh-action-pypi-publish from v1.4.1 to v1.4.2 [\#347](https://github.com/jmuelbert/jmopenorders/pull/347)
+- Update faker requirement from ^5.3.0 to ^6.1.1 [\#346](https://github.com/jmuelbert/jmopenorders/pull/346)
+- Bump nox-poetry from 0.6.0 to 0.8.1 in /.github/workflows [\#345](https://github.com/jmuelbert/jmopenorders/pull/345)
+- Bump actions/stale from v3.0.14 to v3.0.16 [\#344](https://github.com/jmuelbert/jmopenorders/pull/344)
+- Bump actions/cache from v2.1.3 to v2.1.4 [\#343](https://github.com/jmuelbert/jmopenorders/pull/343)
+- Bump virtualenv from 20.2.2 to 20.4.2 in /.github/workflows [\#341](https://github.com/jmuelbert/jmopenorders/pull/341)
+- Bump pip from 20.3.3 to 21.0.1 in /.github/workflows [\#339](https://github.com/jmuelbert/jmopenorders/pull/339)
+- Update mypy requirement from ^0.790 to ^0.800 [\#337](https://github.com/jmuelbert/jmopenorders/pull/337)
+- Bump sphinx from 3.4.1 to 3.4.3 in /docs [\#331](https://github.com/jmuelbert/jmopenorders/pull/331)
+- Update sphinx to 3.4.3 [\#330](https://github.com/jmuelbert/jmopenorders/pull/330)
+- Bump codecov/codecov-action from v1.1.1 to v1.2.1 [\#328](https://github.com/jmuelbert/jmopenorders/pull/328)
+- Bump actions/download-artifact from v2.0.7 to v2.0.8 [\#326](https://github.com/jmuelbert/jmopenorders/pull/326)
+- Bump actions/upload-artifact from v2.2.1 to v2.2.2 [\#324](https://github.com/jmuelbert/jmopenorders/pull/324)
+- Bump nox from 2020.8.22 to 2020.12.31 in /.github/workflows [\#322](https://github.com/jmuelbert/jmopenorders/pull/322)
+- Update faker requirement from ^4.17.1 to ^5.3.0 [\#321](https://github.com/jmuelbert/jmopenorders/pull/321)
+- Bump release-drafter/release-drafter from v5.12.1 to v5.13.0 [\#319](https://github.com/jmuelbert/jmopenorders/pull/319)
+- Bump sphinx from 3.4.0 to 3.4.1 in /docs [\#318](https://github.com/jmuelbert/jmopenorders/pull/318)
+- Update sphinx to 3.4.1 [\#317](https://github.com/jmuelbert/jmopenorders/pull/317)
+- Bump codecov/codecov-action from v1.0.15 to v1.1.1 [\#316](https://github.com/jmuelbert/jmopenorders/pull/316)
+- Bump actions/download-artifact from v2.0.6 to v2.0.7 [\#315](https://github.com/jmuelbert/jmopenorders/pull/315)
+- Bump sphinx from 3.3.1 to 3.4.0 in /docs [\#314](https://github.com/jmuelbert/jmopenorders/pull/314)
+- Update sphinx to 3.4.0 [\#313](https://github.com/jmuelbert/jmopenorders/pull/313)
+- Bump codecov/codecov-action from v1.0.14 to v1.1.0 [\#312](https://github.com/jmuelbert/jmopenorders/pull/312)
+- Bump crazy-max/ghaction-github-labeler from v3.1.0 to v3.1.1 [\#311](https://github.com/jmuelbert/jmopenorders/pull/311)
+- Bump pip from 20.2.4 to 20.3.3 in /.github/workflows [\#310](https://github.com/jmuelbert/jmopenorders/pull/310)
+- Bump actions/download-artifact from v2.0.6 to v2.0.7 [\#308](https://github.com/jmuelbert/jmopenorders/pull/308)
+- Bump virtualenv from 20.2.1 to 20.2.2 in /.github/workflows [\#306](https://github.com/jmuelbert/jmopenorders/pull/306)
+- Bump nox-poetry from 0.5.0 to 0.6.0 in /.github/workflows [\#304](https://github.com/jmuelbert/jmopenorders/pull/304)
+- Bump pre-commit from 2.7.1 to 2.9.2 [\#299](https://github.com/jmuelbert/jmopenorders/pull/299)
+- Bump virtualenv from 20.1.0 to 20.2.1 in /.github/workflows [\#298](https://github.com/jmuelbert/jmopenorders/pull/298)
+- Bump faker from 4.1.6 to 4.17.1 [\#292](https://github.com/jmuelbert/jmopenorders/pull/292)
+- Bump actions/stale from v1 to v3.0.14 [\#291](https://github.com/jmuelbert/jmopenorders/pull/291)
+- Bump release-drafter/release-drafter from v5.11.0 to v5.12.1 [\#287](https://github.com/jmuelbert/jmopenorders/pull/287)
+- Bump pypa/gh-action-pypi-publish from v1.3.1 to v1.4.1 [\#285](https://github.com/jmuelbert/jmopenorders/pull/285)
+- Bump actions/download-artifact from v2.0.5 to v2.0.6 [\#284](https://github.com/jmuelbert/jmopenorders/pull/284)
+- Bump sphinx from 3.3.0 to 3.3.1 in /docs [\#283](https://github.com/jmuelbert/jmopenorders/pull/283)
+- Bump sphinx from 3.2.1 to 3.3.1 [\#282](https://github.com/jmuelbert/jmopenorders/pull/282)
+- Update sphinx to 3.3.1 [\#281](https://github.com/jmuelbert/jmopenorders/pull/281)
+- Bump actions/checkout from v2.3.3 to v2.3.4 [\#278](https://github.com/jmuelbert/jmopenorders/pull/278)
+- Bump actions/stale from v3.0.12 to v3.0.13 [\#275](https://github.com/jmuelbert/jmopenorders/pull/275)
+- Update sphinx to 3.3.0 [\#274](https://github.com/jmuelbert/jmopenorders/pull/274)
+- Bump reorder-python-imports from 2.3.5 to 2.3.6 [\#273](https://github.com/jmuelbert/jmopenorders/pull/273)
+- Bump pytest from 6.1.0 to 6.1.2 [\#270](https://github.com/jmuelbert/jmopenorders/pull/270)
+- Bump virtualenv from 20.0.34 to 20.1.0 in /.github/workflows [\#268](https://github.com/jmuelbert/jmopenorders/pull/268)
+- Bump release-drafter/release-drafter from v5.11.0 to v5.12.1 [\#267](https://github.com/jmuelbert/jmopenorders/pull/267)
+- Bump typeguard from 2.9.1 to 2.10.0 [\#264](https://github.com/jmuelbert/jmopenorders/pull/264)
+- Bump pip from 20.2.3 to 20.2.4 in /.github/workflows [\#263](https://github.com/jmuelbert/jmopenorders/pull/263)
+- Bump codecov/codecov-action from v1.0.13 to v1.0.14 [\#262](https://github.com/jmuelbert/jmopenorders/pull/262)
+- Bump poetry from 1.1.2 to 1.1.3 in /.github/workflows [\#260](https://github.com/jmuelbert/jmopenorders/pull/260)
+- Bump virtualenv from 20.0.31 to 20.0.34 in /.github/workflows [\#258](https://github.com/jmuelbert/jmopenorders/pull/258)
+- Bump mypy from 0.782 to 0.790 [\#257](https://github.com/jmuelbert/jmopenorders/pull/257)
+- Bump actions/stale from v3.0.11 to v3.0.12 [\#256](https://github.com/jmuelbert/jmopenorders/pull/256)
+- Bump poetry from 1.1.0 to 1.1.2 in /.github/workflows [\#254](https://github.com/jmuelbert/jmopenorders/pull/254)
+- Bump darglint from 1.5.4 to 1.5.5 [\#249](https://github.com/jmuelbert/jmopenorders/pull/249)
+- Bump flake8 from 3.8.3 to 3.8.4 [\#248](https://github.com/jmuelbert/jmopenorders/pull/248)
 
- Lizenziert unter der EUPL, Version 1.2 oder - sobald
- diese von der Europäischen Kommission genehmigt wurden -
- Folgeversionen der EUPL ("Lizenz");
- Sie dürfen dieses Werk ausschließlich gemäß
- dieser Lizenz nutzen.
- Eine Kopie der Lizenz finden Sie hier:
+## [v0.2.7](https://github.com/jmuelbert/jmopenorders/tree/v0.2.7) (2020-10-04)
 
- https://joinup.ec.europa.eu/page/eupl-text-11-12
+**Merged pull requests:**
 
- Sofern nicht durch anwendbare Rechtsvorschriften
- gefordert oder in schriftlicher Form vereinbart, wird
- die unter der Lizenz verbreitete Software "so wie sie
- ist", OHNE JEGLICHE GEWÄHRLEISTUNG ODER BEDINGUNGEN -
- ausdrücklich oder stillschweigend - verbreitet.
- Die sprachspezifischen Genehmigungen und Beschränkungen
- unter der Lizenz sind dem Lizenztext zu entnehmen.
- -->
+- Bump poetry from 1.0.10 to 1.1.0 in /.github/workflows [\#245](https://github.com/jmuelbert/jmopenorders/pull/245)
+- Bump faker from 4.1.4 to 4.1.6 [\#244](https://github.com/jmuelbert/jmopenorders/pull/244)
+- Bump faker from 4.1.3 to 4.1.4 [\#243](https://github.com/jmuelbert/jmopenorders/pull/243)
+- Bump pypa/gh-action-pypi-publish from v1.3.1 to v1.4.1 [\#242](https://github.com/jmuelbert/jmopenorders/pull/242)
+- Bump pytest from 6.0.1 to 6.1.0 [\#241](https://github.com/jmuelbert/jmopenorders/pull/241)
+- Bump actions/checkout from v2.3.2 to v2.3.3 [\#240](https://github.com/jmuelbert/jmopenorders/pull/240)
+- Bump faker from 4.1.2 to 4.1.3 [\#238](https://github.com/jmuelbert/jmopenorders/pull/238)
+- Bump actions/stale from v3.0.10 to v3.0.11 [\#236](https://github.com/jmuelbert/jmopenorders/pull/236)
+- Bump xdoctest from 0.14.0 to 0.15.0 [\#235](https://github.com/jmuelbert/jmopenorders/pull/235)
+- Bump coverage from 5.2.1 to 5.3 [\#234](https://github.com/jmuelbert/jmopenorders/pull/234)
+- Bump pip from 20.2.2 to 20.2.3 in /.github/workflows [\#233](https://github.com/jmuelbert/jmopenorders/pull/233)
+- Bump darglint from 1.5.3 to 1.5.4 [\#232](https://github.com/jmuelbert/jmopenorders/pull/232)
 
-# Change Log
+## [v0.2.6](https://github.com/jmuelbert/jmopenorders/tree/v0.2.6) (2020-09-06)
 
-All notable changes to this project will be
-documented in this file. See
-[standard-version](https://github.com/conventional-changelog/standard-version)
-for commit guidelines.
+**Merged pull requests:**
+
+- Bump sphinx-autobuild from 0.7.1 to 2020.9.1 [\#231](https://github.com/jmuelbert/jmopenorders/pull/231)
+- Bump codecov/codecov-action from v1.0.12 to v1.0.13 [\#230](https://github.com/jmuelbert/jmopenorders/pull/230)
+- Bump actions/stale from v1 to v3.0.10 [\#229](https://github.com/jmuelbert/jmopenorders/pull/229)
+- Bump virtualenv from 20.0.30 to 20.0.31 in /.github/workflows [\#228](https://github.com/jmuelbert/jmopenorders/pull/228)
+- Bump nox from 2020.5.24 to 2020.8.22 in /.github/workflows [\#227](https://github.com/jmuelbert/jmopenorders/pull/227)
+- Bump codecov/codecov-action from v1.0.12 to v1.0.13 [\#226](https://github.com/jmuelbert/jmopenorders/pull/226)
+- Bump xdoctest from 0.13.0 to 0.14.0 [\#225](https://github.com/jmuelbert/jmopenorders/pull/225)
+- Bump pre-commit from 2.6.0 to 2.7.1 [\#224](https://github.com/jmuelbert/jmopenorders/pull/224)
+
+## [v0.2.5](https://github.com/jmuelbert/jmopenorders/tree/v0.2.5) (2020-08-24)
+
+**Merged pull requests:**
+
+- Bump openpyxl from 3.0.4 to 3.0.5 [\#223](https://github.com/jmuelbert/jmopenorders/pull/223)
+- Create CODE\_OF\_CONDUCT.md [\#221](https://github.com/jmuelbert/jmopenorders/pull/221)
+- Bump faker from 4.1.1 to 4.1.2 [\#220](https://github.com/jmuelbert/jmopenorders/pull/220)
+- Bump codecov/codecov-action from v1.0.12 to v1.0.13 [\#219](https://github.com/jmuelbert/jmopenorders/pull/219)
+- Bump sphinx from 3.2.0 to 3.2.1 [\#218](https://github.com/jmuelbert/jmopenorders/pull/218)
+- Bump codecov/codecov-action from v1.0.7 to v1.0.12 [\#217](https://github.com/jmuelbert/jmopenorders/pull/217)
+- Bump actions/checkout from v2.2.0 to v2.3.2 [\#216](https://github.com/jmuelbert/jmopenorders/pull/216)
+- Bump pypa/gh-action-pypi-publish from v1.2.2 to v1.3.1 [\#215](https://github.com/jmuelbert/jmopenorders/pull/215)
+- Bump salsify/action-detect-and-tag-new-version from v1.0.3 to v2.0.1 [\#214](https://github.com/jmuelbert/jmopenorders/pull/214)
+- Update sphinx to 3.2.1 [\#213](https://github.com/jmuelbert/jmopenorders/pull/213)
+- Update generateorders.py [\#212](https://github.com/jmuelbert/jmopenorders/pull/212)
+
+## [v0.2.4](https://github.com/jmuelbert/jmopenorders/tree/v0.2.4) (2020-08-09)
+
+**Closed issues:**
+
+- Dependabot can't resolve your Python dependency files [\#199](https://github.com/jmuelbert/jmopenorders/issues/199)
+- Dependabot can't resolve your Python dependency files [\#198](https://github.com/jmuelbert/jmopenorders/issues/198)
+
+**Merged pull requests:**
+
+- Update sphinx to 3.2.0 [\#211](https://github.com/jmuelbert/jmopenorders/pull/211)
+- Bump pytest from 5.4.3 to 6.0.1 [\#210](https://github.com/jmuelbert/jmopenorders/pull/210)
+- Bump coverage from 5.2 to 5.2.1 [\#208](https://github.com/jmuelbert/jmopenorders/pull/208)
+- Bump xdoctest from 0.12.0 to 0.13.0 [\#207](https://github.com/jmuelbert/jmopenorders/pull/207)
+- Add a Codacy badge to README.rst [\#206](https://github.com/jmuelbert/jmopenorders/pull/206)
+- Bump coverage from 5.1 to 5.2 [\#205](https://github.com/jmuelbert/jmopenorders/pull/205)
+- Update sphinx to 3.1.2 [\#203](https://github.com/jmuelbert/jmopenorders/pull/203)
+- Bump pre-commit from 2.5.1 to 2.6.0 [\#202](https://github.com/jmuelbert/jmopenorders/pull/202)
+- Bump sphinx from 3.1.0 to 3.1.1 [\#201](https://github.com/jmuelbert/jmopenorders/pull/201)
+- Update sphinx to 3.1.1 [\#200](https://github.com/jmuelbert/jmopenorders/pull/200)
+- PyUp Update sphinx to 3.1.1 [\#197](https://github.com/jmuelbert/jmopenorders/pull/197)
+
+## [v0.2.3](https://github.com/jmuelbert/jmopenorders/tree/v0.2.3) (2020-06-21)
+
+**Closed issues:**
+
+- There is an Syntax Error in Line 121. [\#33](https://github.com/jmuelbert/jmopenorders/issues/33)
+- Don't run. An Error is there. [\#21](https://github.com/jmuelbert/jmopenorders/issues/21)
+
+**Merged pull requests:**
+
+- PyUp Update sphinx to 3.1.1 [\#195](https://github.com/jmuelbert/jmopenorders/pull/195)
+- PyUp Update doc8 to 0.8.1 [\#179](https://github.com/jmuelbert/jmopenorders/pull/179)
+- PyUp Update requests\_mock to 1.8.0 [\#177](https://github.com/jmuelbert/jmopenorders/pull/177)
+- PyUp Update pytest-sugar to 0.9.3 [\#175](https://github.com/jmuelbert/jmopenorders/pull/175)
+- PyUp Update pytest to 5.4.2 [\#173](https://github.com/jmuelbert/jmopenorders/pull/173)
+- PyUp Update pycodestyle to 2.6.0 [\#171](https://github.com/jmuelbert/jmopenorders/pull/171)
+- PyUp Update mypy to 0.770 [\#169](https://github.com/jmuelbert/jmopenorders/pull/169)
+- PyUp Update flake8-docstrings to 1.5.0 [\#167](https://github.com/jmuelbert/jmopenorders/pull/167)
+- PyUp Update faker to 4.1.0 [\#165](https://github.com/jmuelbert/jmopenorders/pull/165)
+- PyUp Update black to 19.10b0 [\#163](https://github.com/jmuelbert/jmopenorders/pull/163)
+- PyUp Update wheel to 0.34.2 [\#162](https://github.com/jmuelbert/jmopenorders/pull/162)
+- PyUp Update tox to 3.15.1 [\#160](https://github.com/jmuelbert/jmopenorders/pull/160)
+- PyUp Update sphinx to 3.0.3 [\#159](https://github.com/jmuelbert/jmopenorders/pull/159)
+- PyUp Update pytest-cov to 2.9.0 [\#158](https://github.com/jmuelbert/jmopenorders/pull/158)
+- PyUp Update flake8 to 3.8.2 [\#157](https://github.com/jmuelbert/jmopenorders/pull/157)
+- PyUp Update codecov to 2.1.3 [\#156](https://github.com/jmuelbert/jmopenorders/pull/156)
+- PyUp Update pycodestyle to 2.6.0 [\#155](https://github.com/jmuelbert/jmopenorders/pull/155)
+- PyUp Update pytest to 5.4.2 [\#148](https://github.com/jmuelbert/jmopenorders/pull/148)
+- PyUp Update pre-commit to 2.4.0 [\#147](https://github.com/jmuelbert/jmopenorders/pull/147)
+- PyUp Update faker to 4.1.0 [\#145](https://github.com/jmuelbert/jmopenorders/pull/145)
+- PyUp Update semantic-version to 2.8.5 [\#143](https://github.com/jmuelbert/jmopenorders/pull/143)
+- PyUp Update pytest-sugar to 0.9.3 [\#142](https://github.com/jmuelbert/jmopenorders/pull/142)
+- PyUp Update requests\_mock to 1.8.0 [\#140](https://github.com/jmuelbert/jmopenorders/pull/140)
+- PyUp Update mock-open to 1.4.0 [\#119](https://github.com/jmuelbert/jmopenorders/pull/119)
+- PyUp Update faker to 4.0.3 [\#118](https://github.com/jmuelbert/jmopenorders/pull/118)
+- PyUp Update readme-renderer to 26.0 [\#117](https://github.com/jmuelbert/jmopenorders/pull/117)
+- PyUp Update pre-commit to 2.3.0 [\#116](https://github.com/jmuelbert/jmopenorders/pull/116)
+- PyUp Update sphinx to 3.0.2 [\#115](https://github.com/jmuelbert/jmopenorders/pull/115)
+- PyUp Update faker to 4.0.2 [\#100](https://github.com/jmuelbert/jmopenorders/pull/100)
+- PyUp Update mypy to 0.770 [\#99](https://github.com/jmuelbert/jmopenorders/pull/99)
+- PyUp Update codecov to 2.0.22 [\#98](https://github.com/jmuelbert/jmopenorders/pull/98)
+- PyUp Update readme-renderer to 25.0 [\#95](https://github.com/jmuelbert/jmopenorders/pull/95)
+- PyUp Update pytest to 5.4.1 [\#94](https://github.com/jmuelbert/jmopenorders/pull/94)
+- PyUp Update faker to 4.0.2 [\#93](https://github.com/jmuelbert/jmopenorders/pull/93)
+- PyUp Update pre-commit to 2.2.0 [\#91](https://github.com/jmuelbert/jmopenorders/pull/91)
+- PyUp Update mypy to 0.770 [\#90](https://github.com/jmuelbert/jmopenorders/pull/90)
+- PyUp Update sphinx to 2.4.4 [\#89](https://github.com/jmuelbert/jmopenorders/pull/89)
+- PyUp Update pexpect to 4.8.0 [\#77](https://github.com/jmuelbert/jmopenorders/pull/77)
+- PyUp Update semantic-version to 2.8.4 [\#73](https://github.com/jmuelbert/jmopenorders/pull/73)
+- PyUp Update pre-commit to 1.21.0 [\#72](https://github.com/jmuelbert/jmopenorders/pull/72)
+- PyUp Update releases to 1.6.3 [\#70](https://github.com/jmuelbert/jmopenorders/pull/70)
+- PyUp Update openpyxl to 3.0.3 [\#69](https://github.com/jmuelbert/jmopenorders/pull/69)
+- PyUp Update pydocstyle to 5.0.2 [\#68](https://github.com/jmuelbert/jmopenorders/pull/68)
+- PyUp Update pytest-timeout to 1.3.4 [\#67](https://github.com/jmuelbert/jmopenorders/pull/67)
+- PyUp Update sphinx to 2.3.1 [\#65](https://github.com/jmuelbert/jmopenorders/pull/65)
+- PyUp Update mypy to 0.761 [\#63](https://github.com/jmuelbert/jmopenorders/pull/63)
+- PyUp Update pytest to 5.3.2 [\#57](https://github.com/jmuelbert/jmopenorders/pull/57)
+- PyUp Update pydocstyle to 5.0.1 [\#56](https://github.com/jmuelbert/jmopenorders/pull/56)
+- PyUp Update faker to 3.0.0 [\#55](https://github.com/jmuelbert/jmopenorders/pull/55)
+- PyUp Update mypy to 0.750 [\#53](https://github.com/jmuelbert/jmopenorders/pull/53)
+- PyUp Update openpyxl to 3.0.2 [\#51](https://github.com/jmuelbert/jmopenorders/pull/51)
+- PyUp Update semantic-version to 2.8.3 [\#50](https://github.com/jmuelbert/jmopenorders/pull/50)
+- PyUp Update pytest-cov to 2.8.1 [\#48](https://github.com/jmuelbert/jmopenorders/pull/48)
+- PyUp Update pytest to 5.2.4 [\#46](https://github.com/jmuelbert/jmopenorders/pull/46)
+- PyUp Update openpyxl to 3.0.1 [\#44](https://github.com/jmuelbert/jmopenorders/pull/44)
+- PyUp Update faker to 2.0.4 [\#43](https://github.com/jmuelbert/jmopenorders/pull/43)
+- PyUp Update sphinx-autodoc-typehints to 1.10.3 [\#42](https://github.com/jmuelbert/jmopenorders/pull/42)
+- Remove the formmat error. Correct the line index and the german excel… [\#37](https://github.com/jmuelbert/jmopenorders/pull/37)
+- PyUp Update pre-commit to 1.20.0 [\#36](https://github.com/jmuelbert/jmopenorders/pull/36)
+- PyUp Update black to 19.10b0 [\#34](https://github.com/jmuelbert/jmopenorders/pull/34)
+- PyUp Pin semantic-version to latest version 2.8.2 [\#28](https://github.com/jmuelbert/jmopenorders/pull/28)
+- PyUp Update readme-renderer to 24.0 [\#26](https://github.com/jmuelbert/jmopenorders/pull/26)
+- PyUp Update mypy to 0.740 [\#24](https://github.com/jmuelbert/jmopenorders/pull/24)
+- PyUp Update pytest-cov to 2.8.1 [\#20](https://github.com/jmuelbert/jmopenorders/pull/20)
+- PyUp Update flake8-docstrings to 1.5.0 [\#18](https://github.com/jmuelbert/jmopenorders/pull/18)
+- PyUp Update openpyxl to 3.0.0 [\#15](https://github.com/jmuelbert/jmopenorders/pull/15)
+
+## [v0.2.0](https://github.com/jmuelbert/jmopenorders/tree/v0.2.0) (2019-10-20)
+
+**Closed issues:**
+
+- Error with logging.conf file [\#11](https://github.com/jmuelbert/jmopenorders/issues/11)
+- Missing files in package [\#10](https://github.com/jmuelbert/jmopenorders/issues/10)
+- Missing VERSION [\#9](https://github.com/jmuelbert/jmopenorders/issues/9)
+
+**Merged pull requests:**
+
+- PyUp Update pytest to 5.1.2 [\#8](https://github.com/jmuelbert/jmopenorders/pull/8)
+- PyUp Update requests\_mock to 1.7.0 [\#7](https://github.com/jmuelbert/jmopenorders/pull/7)
+- PyUp Update pytest to 5.1.2 [\#6](https://github.com/jmuelbert/jmopenorders/pull/6)
+- PyUp Update pre-commit to 1.18.3 [\#5](https://github.com/jmuelbert/jmopenorders/pull/5)
+- PyUp Update flake8-docstrings to 1.4.0 [\#4](https://github.com/jmuelbert/jmopenorders/pull/4)
+- PyUp Update sphinx-autodoc-typehints to 1.7.0 [\#3](https://github.com/jmuelbert/jmopenorders/pull/3)
+- PyUp Update pip to 19.2.3 [\#2](https://github.com/jmuelbert/jmopenorders/pull/2)
+
+
+
+\* *This Changelog was automatically generated by [github_changelog_generator](https://github.com/github-changelog-generator/github-changelog-generator)*

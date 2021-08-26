@@ -37,7 +37,7 @@
 """This Program will read a csv that contents service persons as csv.
 
 Then reads an csv with informations of this people and split
-the csv. for each person writes a seperate excel-file.
+the csv. for each person writes a separate excel-file.
 
 The Format of the person file is:
     | Name | Firstname |
