@@ -92,5 +92,5 @@ show_missing = true
 fail_under = 33
 
 [build-system]
-requires = ["poetry-core>=1.0."]
+requires = ["setuptools", "poetry_core>=1.0"]
 build-backend = "poetry.masonry.api"
