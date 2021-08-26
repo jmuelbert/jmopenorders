@@ -6,7 +6,10 @@
 
 - Bump peter-evans/create-pull-request from 3.10.0 to 3.10.1 [\#474](https://github.com/jmuelbert/jmopenorders/pull/474)
 - Fix typos by misspell-fixer for refs/heads/update-workflows [\#473](https://github.com/jmuelbert/jmopenorders/pull/473)
+- Bump codecov/codecov-action from 2.0.2 to 2.0.3 [\#472](https://github.com/jmuelbert/jmopenorders/pull/472)
 - Improve Workflows, like jmbde-QT [\#471](https://github.com/jmuelbert/jmopenorders/pull/471)
+- Update Project [\#470](https://github.com/jmuelbert/jmopenorders/pull/470)
+- Update sphinx requirement from ^3.3.1 to ^4.1.2 [\#469](https://github.com/jmuelbert/jmopenorders/pull/469)
 - Bump pip from 21.0.1 to 21.2.4 in /.github/workflows [\#468](https://github.com/jmuelbert/jmopenorders/pull/468)
 - Update sphinx-click requirement from ^2.5.0 to ^3.0.1 [\#467](https://github.com/jmuelbert/jmopenorders/pull/467)
 - Update pre-commit-hooks requirement from ^3.2.0 to ^4.0.1 [\#466](https://github.com/jmuelbert/jmopenorders/pull/466)
