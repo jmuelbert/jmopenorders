@@ -1,6 +1,6 @@
 # Changelog
 
-## [Unreleased](https://github.com/jmuelbert/jmopenorders/tree/HEAD)
+## [v0.2.8](https://github.com/jmuelbert/jmopenorders/tree/v0.2.8) (2021-08-27)
 
 **Merged pull requests:**
 
