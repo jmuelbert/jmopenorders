@@ -38,7 +38,7 @@
 import csv
 from typing import List
 
-from jmopenorders.core.logger import logger
+from ..core.logger import logger
 
 
 class GetServicePerson:

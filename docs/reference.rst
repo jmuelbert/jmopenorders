@@ -34,10 +34,6 @@
     Die sprachspezifischen Genehmigungen und Beschränkungen
     unter der Lizenz sind dem Lizenztext zu entnehmen.
 
-{%- macro heading(text) -%}
-{{text}}
-{% for _ in text %}-{% endfor %}
-{%- endmacro -%}
 Reference
 =========
 
@@ -46,7 +42,7 @@ Reference
     :backlinks: none
 
 
-{{ heading(jmopenorders + ".__main__") }}
+jmopenorders.__main__
 
 .. automodule:: jmopenorders.__main__
    :members:

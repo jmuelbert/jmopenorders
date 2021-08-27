@@ -39,6 +39,9 @@ Changelog = "https://github.com/jmuelbert/jmopenorders/releases"
 python = ">=3.6.10, <4.0"
 click = ">=7.1.2,<9.0.0"
 openpyxl = "^3.0.4"
+python-dotenv = "^0.19.0"
+PyYAML = "^5.4.1"
+
 
 
 [tool.poetry.dev-dependencies]
@@ -65,6 +68,10 @@ faker = "^8.11.0"
 sphinx-rtd-theme = "^0.5.0"
 sphinx-click = "^3.0.1"
 Pygments = "^2.7.2"
+openpyxl-stubs = "^0.1.19"
+types-PyYAML = "^5.4.7"
+types-setuptools = "^57.0.2"
+types-toml = "^0.1.5"
 
 [tool.pyright]
 include = ["src"]

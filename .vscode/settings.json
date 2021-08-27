@@ -3,10 +3,5 @@
   "[language]": {
     "component.configuration": "value"
   },
-  "editor.renderWhitespace": "none",
-  "[markdown]": {
-    "editor.wordWrap": "on"
-  },
-  "python.pythonPath": "/Users/juergen/Library/Caches/pypoetry/virtualenvs/jmopenorders-W7p0kP5e-py3.9",
-  "restructuredtext.confPath": "/Users/juergen/.pyenv/shims/python3.8"
+  "cSpell.words": ["jmopenorders"]
 }

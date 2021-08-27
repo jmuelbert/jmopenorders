@@ -41,7 +41,7 @@ from . import cleanoutputdir
 from . import generateorders
 from . import getdata
 from . import getserviceperson
-from jmopenorders.core.logger import logger
+from ..core.logger import logger
 
 
 def report(

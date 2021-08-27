@@ -59,9 +59,6 @@ from jmopenorders.api.report import report
 def main(inputpath: str, outputpath: str, personfile: str, datafile: str) -> int:
     r"""jmopenorders, generate separate files from datafile.
 
-    \f
-    Todo: Change the paths to the click Type Path integrate config.
-
     Args:
         inputpath: The path to the inputdata.
         outputpath: The path for write the generated data.

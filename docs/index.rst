@@ -34,9 +34,13 @@
     Die sprachspezifischen Genehmigungen und Beschränkungen
     unter der Lizenz sind dem Lizenztext zu entnehmen.
 
+Welcome to jmopenorders documentation
+=====================================
+
+Contents:
+
 .. toctree::
-   :hidden:
-   :maxdepth: 1
+   :maxdepth: 2
 
    usage
    reference
@@ -44,3 +48,10 @@
    Code of Conduct <codeofconduct>
    License <license>
    Changelog <https://github.com/jmuelbert/jmopenorders/releases>
+
+Indices and tables
+==================
+
+* :ref:`genindex`
+* :ref:`modindex`
+* :ref:`search`
