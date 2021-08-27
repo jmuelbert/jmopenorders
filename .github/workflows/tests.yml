@@ -57,7 +57,7 @@ jobs:
 
       - name: Install nox-poetry
         run: |
-          pip install .
+          pip install --constraint=.github/workflows/constraints.txt nox-poetry
 
       - name: Compute pre-commit cache key
         if: matrix.session == 'pre-commit'
@@ -128,7 +128,7 @@ jobs:
 
       - name: Install nox-poetry
         run: |
-          pip install .
+          pip install --constraint=.github/workflows/constraints.txt nox-poetry
 
       - name: Download coverage data
         uses: actions/download-artifact@v2.0.10
