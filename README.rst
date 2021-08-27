@@ -38,7 +38,7 @@ jmopenorders
 ============
 
 
- |Release| |PyPI| |Read the Docs| |License|
+ |Release| |PyPI| |Read the Docs| |Code Helpers| |License|
 
 Features
 --------
@@ -130,6 +130,10 @@ This project was generated from `@cjolowicz`_'s `Hypermodern Python Cookiecutter
 .. |Read the Docs| image:: https://readthedocs.org/projects/jmopenorders/badge/
    :target: https://jmopenorders.readthedocs.io/
    :alt: Read the Docs
+
+.. |Code Helpers| image:: https://www.codetriage.com/jmuelbert/jmopenorders/badges/users.svg
+   :target: https://www.codetriage.com/jmuelbert/jmopenorders
+   :alt: codetriage
 
 .. |License| image:: https://img.shields.io/pypi/l/jmopenorders
    :target: LICENSE.rst
