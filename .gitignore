@@ -33,10 +33,6 @@ src/*.egg-info
 *.manifest
 *.spec
 
-# Poetry lock
-# Add poetry.lock to gitignore
-poetry.lock
-
 # Installer logs
 pip-log.txt
 pip-delete-this-directory.txt
@@ -71,8 +67,6 @@ target/
 
 # pyenv
 .python-version
-
-
 
 # Environments
 .venv
@@ -146,7 +140,6 @@ typings/
 # Yarn Integrity file
 .yarn-integrity
 
-
 ### Linux template
 *~
 
@@ -161,7 +154,6 @@ typings/
 
 # .nfs files are created when an open file is removed but is still being accessed
 .nfs*
-
 
 ### VisualStudioCode template
 .vscode/*
@@ -194,7 +186,6 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
-
 ### macOS template
 # General
 *.DS_Store
@@ -222,7 +213,6 @@ Icon
 Network Trash Folder
 Temporary Items
 .apdisk
-
 
 ### SublimeText template
 # Cache files for Sublime Text
@@ -256,7 +246,6 @@ bh_unicode_properties.cache
 # https://packagecontrol.io/packages/sublime-github
 GitHub.sublime-settings
 
-
 ### Vim template
 # Swap
 [._]*.s[a-v][a-z]
@@ -273,13 +262,11 @@ Session.vim
 # Auto-generated tag files
 tags
 
-
 ### Project template
 
 jmbde/media/
 
 .pytest_cache/
-
 
 .ipython/
 .env
