@@ -6,3 +6,5 @@ max-complexity = 10
 docstring-convention = google
 per-file-ignores = tests/*:S101
 exclude = .git,.tox,__pycache__,.eggs,build
+rst-roles = class,const,func,meth,mod,ref
+rst-directives = deprecated

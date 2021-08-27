@@ -1,0 +1,26 @@
+image: "python: 3.8"
+
+stages:
+  - test
+
+before_script:
+  - python3 -V | ts
+  - pip install -r .github/workflow/constraints.txt | ts
+  - poetry install | ts
+
+test_safety:
+  stage: test
+  script:
+    - nox -rs "safety"
+
+test_typeguard:
+  stage: test
+    - nox -rs "typeguard"
+
+test_mypy:
+  stage: test
+    - nox -rs  "mypy"
+
+test_tests:
+  stage: test
+    - nox -rs "tests"

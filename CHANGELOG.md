@@ -6,7 +6,11 @@
 
 - Bump peter-evans/create-pull-request from 3.10.0 to 3.10.1 [\#474](https://github.com/jmuelbert/jmopenorders/pull/474)
 - Fix typos by misspell-fixer for refs/heads/update-workflows [\#473](https://github.com/jmuelbert/jmopenorders/pull/473)
+- Bump codecov/codecov-action from 2.0.2 to 2.0.3 [\#472](https://github.com/jmuelbert/jmopenorders/pull/472)
 - Improve Workflows, like jmbde-QT [\#471](https://github.com/jmuelbert/jmopenorders/pull/471)
+- Update Project [\#470](https://github.com/jmuelbert/jmopenorders/pull/470)
+- Update sphinx requirement from ^3.3.1 to ^4.1.2 [\#469](https://github.com/jmuelbert/jmopenorders/pull/469)
+- Bump pip from 21.0.1 to 21.2.4 in /.github/workflows [\#468](https://github.com/jmuelbert/jmopenorders/pull/468)
 - Update sphinx-click requirement from ^2.5.0 to ^3.0.1 [\#467](https://github.com/jmuelbert/jmopenorders/pull/467)
 - Update pre-commit-hooks requirement from ^3.2.0 to ^4.0.1 [\#466](https://github.com/jmuelbert/jmopenorders/pull/466)
 - Update click requirement from ^7.1.2 to \>=7.1.2,\<9.0.0 [\#465](https://github.com/jmuelbert/jmopenorders/pull/465)
@@ -85,13 +89,13 @@
 - Bump poetry from 1.1.0 to 1.1.2 in /.github/workflows [\#254](https://github.com/jmuelbert/jmopenorders/pull/254)
 - Bump darglint from 1.5.4 to 1.5.5 [\#249](https://github.com/jmuelbert/jmopenorders/pull/249)
 - Bump flake8 from 3.8.3 to 3.8.4 [\#248](https://github.com/jmuelbert/jmopenorders/pull/248)
-- Bump faker from 4.1.4 to 4.1.6 [\#244](https://github.com/jmuelbert/jmopenorders/pull/244)
 
 ## [v0.2.7](https://github.com/jmuelbert/jmopenorders/tree/v0.2.7) (2020-10-04)
 
 **Merged pull requests:**
 
 - Bump poetry from 1.0.10 to 1.1.0 in /.github/workflows [\#245](https://github.com/jmuelbert/jmopenorders/pull/245)
+- Bump faker from 4.1.4 to 4.1.6 [\#244](https://github.com/jmuelbert/jmopenorders/pull/244)
 - Bump faker from 4.1.3 to 4.1.4 [\#243](https://github.com/jmuelbert/jmopenorders/pull/243)
 - Bump pypa/gh-action-pypi-publish from v1.3.1 to v1.4.1 [\#242](https://github.com/jmuelbert/jmopenorders/pull/242)
 - Bump pytest from 6.0.1 to 6.1.0 [\#241](https://github.com/jmuelbert/jmopenorders/pull/241)

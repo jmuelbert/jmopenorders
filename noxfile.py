@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 """Nox sessions."""
 import shutil
 import sys
@@ -75,7 +74,7 @@ def activate_virtualenv_in_precommit_hooks(session: Session) -> None:
         hook.write_text("\n".join(lines))
 
 
-@nox.session(name="pre-commit", python="3.9")
+@session(name="pre-commit", python="3.9")
 def precommit(session: Session) -> None:
     """Lint using pre-commit."""
     args = session.posargs or ["run", "--all-files", "--show-diff-on-failure"]
@@ -97,15 +96,15 @@ def precommit(session: Session) -> None:
         activate_virtualenv_in_precommit_hooks(session)
 
 
-@nox.session(python="3.9")
+@session(python="3.9")
 def safety(session: Session) -> None:
     """Scan dependencies for insecure packages."""
-    requirements = nox_poetry.export_requirements(session)
+    requirements = session.poetry.export_requirements()
     session.install("safety")
-    session.run("safety", "check", f"--file={requirements}", "--bare")
+    session.run("safety", "check", "--full-report", f"--file={requirements}")
 
 
-@nox.session(python=python_versions)
+@session(python=python_versions)
 def mypy(session: Session) -> None:
     """Type-check using mypy."""
     args = session.posargs or ["src", "tests", "docs/conf.py"]
@@ -116,42 +115,40 @@ def mypy(session: Session) -> None:
         session.run("mypy", f"--python-executable={sys.executable}", "noxfile.py")
 
 
-@nox.session(python=python_versions)
+@session(python=python_versions)
 def tests(session: Session) -> None:
     """Run the test suite."""
     session.install(".")
-    session.install("coverage[toml]", "pytest", "pygments")
+    session.install("coverage[toml]", "pytest", "pygments", "faker")
     try:
         session.run("coverage", "run", "--parallel", "-m", "pytest", *session.posargs)
     finally:
         if session.interactive:
-            session.notify("coverage")
+            session.notify("coverage", posargs=[])
 
 
-@nox.session
+@session
 def coverage(session: Session) -> None:
     """Produce the coverage report."""
-    # Do not use session.posargs unless this is the only session.
-    has_args = session.posargs and len(session._runner.manifest) == 1
-    args = session.posargs if has_args else ["report"]
+    args = session.posargs or ["report"]
 
     session.install("coverage[toml]")
 
-    if not has_args and any(Path().glob(".coverage.*")):
+    if not session.posargs and any(Path().glob(".coverage.*")):
         session.run("coverage", "combine")
 
     session.run("coverage", *args)
 
 
-@nox.session(python=python_versions)
+@session(python=python_versions)
 def typeguard(session: Session) -> None:
     """Runtime type checking using Typeguard."""
     session.install(".")
-    session.install("pytest", "typeguard", "pygments")
+    session.install("pytest", "typeguard", "pygments", "faker")
     session.run("pytest", f"--typeguard-packages={package}", *session.posargs)
 
 
-@nox.session(python=python_versions)
+@session(python=python_versions)
 def xdoctest(session: Session) -> None:
     """Run examples with xdoctest."""
     args = session.posargs or ["all"]
