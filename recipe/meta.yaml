@@ -35,12 +35,12 @@
 # unter der Lizenz sind dem Lizenztext zu entnehmen.
 
 package:
-  name: "jmopenorders"
-  version: "0.2.0"
+  name: 'jmopenorders'
+  version: '0.2.0'
 
 source:
-  url: "https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz"
-  sha256: "e0dcc4ed8b63b37d561dfdf8d4f4a436e2b88988df18855b7e84c4ec7716efb8"
+  url: 'https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz'
+  sha256: 'e0dcc4ed8b63b37d561dfdf8d4f4a436e2b88988df18855b7e84c4ec7716efb8'
 
 build:
   noarch: python
@@ -75,8 +75,8 @@ about:
   home: https://jmopenorders.github.io/
   license: EUPL-1.2
   license_family: NONE
-  license_file: "LICENSE"
-  summary: "jmopenorders is a generator to generate infos for the affected persons"
+  license_file: 'LICENSE'
+  summary: 'jmopenorders is a generator to generate infos for the affected persons'
   dev_url: https://github.com/jmuelbert/jmopenorders
   doc_url: https://jmopenorders.readthedocs.io
 

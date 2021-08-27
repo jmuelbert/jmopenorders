@@ -122,7 +122,7 @@ This project was generated from `@cjolowicz`_'s `Hypermodern Python Cookiecutter
 .. |Release| image:: https://github.com/jmuelbert/jmopenorders/workflows/Release/badge.svg
    :target: https://github.com/jmuelbert/jmopenorders/actions?workflow=Release
    :alt: Release
-   
+
 .. |PyPI| image:: https://img.shields.io/pypi/v/jmopenorders.svg
    :target: https://pypi.org/project/jmopenorders/
    :alt: PyPI

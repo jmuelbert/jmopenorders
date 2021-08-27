@@ -177,7 +177,7 @@ class GenerateOrders:
         sheet.add_table(tab)
 
         ref_str = "M{0}".format(row_num)
-        sheet[ref_str] = "=SUM(M1:M{0})".format(row_num - 1 )
+        sheet[ref_str] = "=SUM(M1:M{0})".format(row_num - 1)
 
         # Alles fertig Excel-Sheet schließen!
         workbook.save(self.dest_name)

@@ -4,7 +4,6 @@
 #
 # SPDX-License-Identifier: EUPL-1.2
 #
-
 """Sphinx configuration."""
 from datetime import datetime
 

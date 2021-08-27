@@ -34,7 +34,7 @@
 # Die sprachspezifischen Genehmigungen und Beschränkungen
 # unter der Lizenz sind dem Lizenztext zu entnehmen.
 
-version: "2.1"
+version: '2.1'
 services:
   test:
     build:

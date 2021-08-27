@@ -1,9 +1,14 @@
+# -*- coding: utf-8 -*-
+#
+# SPDX-FileCopyrightText: 2019-2021 Project jmopenorders, Jürgen Mülbert
+#
+# SPDX-License-Identifier: EUPL-1.2
+#
 """Nox sessions."""
 import shutil
 import sys
 from pathlib import Path
 from textwrap import dedent
-from typing import Optional
 
 import nox
 from nox_poetry import Session
@@ -109,7 +114,15 @@ def mypy(session: Session) -> None:
     """Type-check using mypy."""
     args = session.posargs or ["src", "tests", "docs/conf.py"]
     session.install(".")
-    session.install("mypy", "pytest", "faker", "openpyxl-stubs", "types-PyYAML", "types-setuptools", "types-toml")
+    session.install(
+        "mypy",
+        "pytest",
+        "faker",
+        "openpyxl-stubs",
+        "types-PyYAML",
+        "types-setuptools",
+        "types-toml",
+    )
     session.run("mypy", *args)
     if not session.posargs:
         session.run("mypy", f"--python-executable={sys.executable}", "noxfile.py")
@@ -119,7 +132,16 @@ def mypy(session: Session) -> None:
 def tests(session: Session) -> None:
     """Run the test suite."""
     session.install(".")
-    session.install("coverage[toml]", "pytest", "pygments", "faker", "openpyxl-stubs", "types-PyYAML", "types-setuptools", "types-toml")
+    session.install(
+        "coverage[toml]",
+        "pytest",
+        "pygments",
+        "faker",
+        "openpyxl-stubs",
+        "types-PyYAML",
+        "types-setuptools",
+        "types-toml",
+    )
     try:
         session.run("coverage", "run", "--parallel", "-m", "pytest", *session.posargs)
     finally:
