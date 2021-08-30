@@ -1,5 +1,9 @@
 # Changelog
 
+## [v0.2.10](https://github.com/jmuelbert/jmopenorders/tree/v0.2.10) (2021-08-27)
+
+## [v0.2.9](https://github.com/jmuelbert/jmopenorders/tree/v0.2.9) (2021-08-27)
+
 ## [v0.2.8](https://github.com/jmuelbert/jmopenorders/tree/v0.2.8) (2021-08-27)
 
 **Merged pull requests:**
