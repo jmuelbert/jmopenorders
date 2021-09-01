@@ -96,7 +96,6 @@
 - Bump poetry from 1.1.2 to 1.1.3 in /.github/workflows [\#260](https://github.com/jmuelbert/jmopenorders/pull/260)
 - Bump virtualenv from 20.0.31 to 20.0.34 in /.github/workflows [\#258](https://github.com/jmuelbert/jmopenorders/pull/258)
 - Bump mypy from 0.782 to 0.790 [\#257](https://github.com/jmuelbert/jmopenorders/pull/257)
-- Bump actions/stale from v3.0.11 to v3.0.12 [\#256](https://github.com/jmuelbert/jmopenorders/pull/256)
 - Bump poetry from 1.1.0 to 1.1.2 in /.github/workflows [\#254](https://github.com/jmuelbert/jmopenorders/pull/254)
 - Bump darglint from 1.5.4 to 1.5.5 [\#249](https://github.com/jmuelbert/jmopenorders/pull/249)
 - Bump flake8 from 3.8.3 to 3.8.4 [\#248](https://github.com/jmuelbert/jmopenorders/pull/248)
@@ -105,6 +104,7 @@
 
 **Merged pull requests:**
 
+- Bump actions/stale from v3.0.11 to v3.0.12 [\#256](https://github.com/jmuelbert/jmopenorders/pull/256)
 - Bump poetry from 1.0.10 to 1.1.0 in /.github/workflows [\#245](https://github.com/jmuelbert/jmopenorders/pull/245)
 - Bump faker from 4.1.4 to 4.1.6 [\#244](https://github.com/jmuelbert/jmopenorders/pull/244)
 - Bump faker from 4.1.3 to 4.1.4 [\#243](https://github.com/jmuelbert/jmopenorders/pull/243)
@@ -126,21 +126,21 @@
 - Bump codecov/codecov-action from v1.0.12 to v1.0.13 [\#230](https://github.com/jmuelbert/jmopenorders/pull/230)
 - Bump actions/stale from v1 to v3.0.10 [\#229](https://github.com/jmuelbert/jmopenorders/pull/229)
 - Bump virtualenv from 20.0.30 to 20.0.31 in /.github/workflows [\#228](https://github.com/jmuelbert/jmopenorders/pull/228)
-- Bump nox from 2020.5.24 to 2020.8.22 in /.github/workflows [\#227](https://github.com/jmuelbert/jmopenorders/pull/227)
 - Bump codecov/codecov-action from v1.0.12 to v1.0.13 [\#226](https://github.com/jmuelbert/jmopenorders/pull/226)
 - Bump xdoctest from 0.13.0 to 0.14.0 [\#225](https://github.com/jmuelbert/jmopenorders/pull/225)
 - Bump pre-commit from 2.6.0 to 2.7.1 [\#224](https://github.com/jmuelbert/jmopenorders/pull/224)
-- Bump codecov/codecov-action from v1.0.7 to v1.0.12 [\#217](https://github.com/jmuelbert/jmopenorders/pull/217)
 
 ## [v0.2.5](https://github.com/jmuelbert/jmopenorders/tree/v0.2.5) (2020-08-24)
 
 **Merged pull requests:**
 
+- Bump nox from 2020.5.24 to 2020.8.22 in /.github/workflows [\#227](https://github.com/jmuelbert/jmopenorders/pull/227)
 - Bump openpyxl from 3.0.4 to 3.0.5 [\#223](https://github.com/jmuelbert/jmopenorders/pull/223)
 - Create CODE\_OF\_CONDUCT.md [\#221](https://github.com/jmuelbert/jmopenorders/pull/221)
 - Bump faker from 4.1.1 to 4.1.2 [\#220](https://github.com/jmuelbert/jmopenorders/pull/220)
 - Bump codecov/codecov-action from v1.0.12 to v1.0.13 [\#219](https://github.com/jmuelbert/jmopenorders/pull/219)
 - Bump sphinx from 3.2.0 to 3.2.1 [\#218](https://github.com/jmuelbert/jmopenorders/pull/218)
+- Bump codecov/codecov-action from v1.0.7 to v1.0.12 [\#217](https://github.com/jmuelbert/jmopenorders/pull/217)
 - Bump actions/checkout from v2.2.0 to v2.3.2 [\#216](https://github.com/jmuelbert/jmopenorders/pull/216)
 - Bump pypa/gh-action-pypi-publish from v1.2.2 to v1.3.1 [\#215](https://github.com/jmuelbert/jmopenorders/pull/215)
 - Bump salsify/action-detect-and-tag-new-version from v1.0.3 to v2.0.1 [\#214](https://github.com/jmuelbert/jmopenorders/pull/214)
