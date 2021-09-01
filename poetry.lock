@@ -1057,7 +1057,7 @@ test = ["pytest", "typing-extensions", "mypy"]
 
 [[package]]
 name = "types-pyyaml"
-version = "5.4.7"
+version = "5.4.9"
 description = "Typing stubs for PyYAML"
 category = "dev"
 optional = false
@@ -1156,7 +1156,7 @@ testing = ["pytest (>=4.6)", "pytest-checkdocs (>=2.4)", "pytest-flake8", "pytes
 [metadata]
 lock-version = "1.1"
 python-versions = ">=3.6.10, <4.0"
-content-hash = "ee8c6e2be1ae6d5c2e329b633d703ba585fc6d56ebe32638b8555d7b0fa7dc53"
+content-hash = "7f46a76f3207155fc90750f558f7839e0797e1db8b0a2d92550f2ccbb2ed7527"
 
 [metadata.files]
 alabaster = [
@@ -1804,8 +1804,8 @@ typeguard = [
     {file = "typeguard-2.12.1.tar.gz", hash = "sha256:c2af8b9bdd7657f4bd27b45336e7930171aead796711bc4cfc99b4731bb9d051"},
 ]
 types-pyyaml = [
-    {file = "types-PyYAML-5.4.7.tar.gz", hash = "sha256:9024d94239d52016fd485f5721cbc5b7f9d56cb585b7a0cd22a473f06365ea07"},
-    {file = "types_PyYAML-5.4.7-py3-none-any.whl", hash = "sha256:d3b4b555cbb13e98169137dae16079c9b4a32e7bdd9f1759289417bcd14a326c"},
+    {file = "types-PyYAML-5.4.9.tar.gz", hash = "sha256:135ec927adb70a0c0e8d771b2c998d522bb2af72eef602cfae376ef5519153b3"},
+    {file = "types_PyYAML-5.4.9-py3-none-any.whl", hash = "sha256:22ec5e44003f2e9653ef71ee878a3689f2d2954a19cc2226c240aacf17f5ebb2"},
 ]
 types-setuptools = [
     {file = "types-setuptools-57.0.2.tar.gz", hash = "sha256:4ead432cc394b8de5ee94a312494f3c730d21dbfef37f300a6ac5e742271d735"},
