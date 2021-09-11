@@ -4,6 +4,7 @@
 
 **Merged pull requests:**
 
+- build\(deps-dev\): bump pre-commit from 2.14.1 to 2.15.0 [\#484](https://github.com/jmuelbert/jmopenorders/pull/484)
 - fix: failures by nox tests. [\#482](https://github.com/jmuelbert/jmopenorders/pull/482)
 - build\(deps-dev\): bump types-pyyaml from 5.4.7 to 5.4.9 [\#481](https://github.com/jmuelbert/jmopenorders/pull/481)
 - build\(deps-dev\): bump pytest from 6.2.4 to 6.2.5 [\#480](https://github.com/jmuelbert/jmopenorders/pull/480)
