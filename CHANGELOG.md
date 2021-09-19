@@ -110,12 +110,12 @@
 - Bump actions/stale from v3.0.11 to v3.0.12 [\#256](https://github.com/jmuelbert/jmopenorders/pull/256)
 - Bump poetry from 1.1.0 to 1.1.2 in /.github/workflows [\#254](https://github.com/jmuelbert/jmopenorders/pull/254)
 - Bump darglint from 1.5.4 to 1.5.5 [\#249](https://github.com/jmuelbert/jmopenorders/pull/249)
-- Bump flake8 from 3.8.3 to 3.8.4 [\#248](https://github.com/jmuelbert/jmopenorders/pull/248)
 
 ## [v0.2.7](https://github.com/jmuelbert/jmopenorders/tree/v0.2.7) (2020-10-04)
 
 **Merged pull requests:**
 
+- Bump flake8 from 3.8.3 to 3.8.4 [\#248](https://github.com/jmuelbert/jmopenorders/pull/248)
 - Bump poetry from 1.0.10 to 1.1.0 in /.github/workflows [\#245](https://github.com/jmuelbert/jmopenorders/pull/245)
 - Bump faker from 4.1.4 to 4.1.6 [\#244](https://github.com/jmuelbert/jmopenorders/pull/244)
 - Bump faker from 4.1.3 to 4.1.4 [\#243](https://github.com/jmuelbert/jmopenorders/pull/243)
