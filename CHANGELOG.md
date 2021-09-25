@@ -4,6 +4,15 @@
 
 **Merged pull requests:**
 
+- build\(deps-dev\): bump xdoctest from 0.15.8 to 0.15.9 [\#502](https://github.com/jmuelbert/jmopenorders/pull/502)
+- build\(deps-dev\): bump faker from 8.13.2 to 8.14.0 [\#501](https://github.com/jmuelbert/jmopenorders/pull/501)
+- build\(deps-dev\): bump types-toml from 0.1.5 to 0.10.0 [\#500](https://github.com/jmuelbert/jmopenorders/pull/500)
+- build\(deps\): bump openpyxl from 3.0.8 to 3.0.9 [\#499](https://github.com/jmuelbert/jmopenorders/pull/499)
+- build\(deps\): bump virtualenv from 20.7.2 to 20.8.0 in /.github/workflows [\#498](https://github.com/jmuelbert/jmopenorders/pull/498)
+- build\(deps\): bump tomwhross/write-good-action from 1.2 to 1.5 [\#497](https://github.com/jmuelbert/jmopenorders/pull/497)
+- build\(deps\): bump codecov/codecov-action from 2.0.3 to 2.1.0 [\#496](https://github.com/jmuelbert/jmopenorders/pull/496)
+- build\(deps\): bump poetry from 1.1.8 to 1.1.9 in /.github/workflows [\#495](https://github.com/jmuelbert/jmopenorders/pull/495)
+- build\(deps-dev\): bump types-setuptools from 57.0.2 to 57.4.0 [\#494](https://github.com/jmuelbert/jmopenorders/pull/494)
 - build\(deps-dev\): bump faker from 8.12.1 to 8.13.2 [\#493](https://github.com/jmuelbert/jmopenorders/pull/493)
 - build\(deps-dev\): bump sphinx-rtd-theme from 0.5.2 to 1.0.0 [\#492](https://github.com/jmuelbert/jmopenorders/pull/492)
 - Update sphinx-rtd-theme to 1.0.0 [\#491](https://github.com/jmuelbert/jmopenorders/pull/491)
@@ -13,6 +22,7 @@
 - build\(deps\): bump sphinx from 4.1.2 to 4.2.0 in /docs [\#486](https://github.com/jmuelbert/jmopenorders/pull/486)
 - Update sphinx to 4.2.0 [\#485](https://github.com/jmuelbert/jmopenorders/pull/485)
 - build\(deps-dev\): bump pre-commit from 2.14.1 to 2.15.0 [\#484](https://github.com/jmuelbert/jmopenorders/pull/484)
+- build\(deps-dev\): bump xdoctest from 0.15.6 to 0.15.8 [\#483](https://github.com/jmuelbert/jmopenorders/pull/483)
 - fix: failures by nox tests. [\#482](https://github.com/jmuelbert/jmopenorders/pull/482)
 - build\(deps-dev\): bump types-pyyaml from 5.4.7 to 5.4.9 [\#481](https://github.com/jmuelbert/jmopenorders/pull/481)
 - build\(deps-dev\): bump pytest from 6.2.4 to 6.2.5 [\#480](https://github.com/jmuelbert/jmopenorders/pull/480)
@@ -127,16 +137,16 @@
 - Bump faker from 4.1.2 to 4.1.3 [\#238](https://github.com/jmuelbert/jmopenorders/pull/238)
 - Bump actions/stale from v3.0.10 to v3.0.11 [\#236](https://github.com/jmuelbert/jmopenorders/pull/236)
 - Bump xdoctest from 0.14.0 to 0.15.0 [\#235](https://github.com/jmuelbert/jmopenorders/pull/235)
+- Bump coverage from 5.2.1 to 5.3 [\#234](https://github.com/jmuelbert/jmopenorders/pull/234)
 - Bump pip from 20.2.2 to 20.2.3 in /.github/workflows [\#233](https://github.com/jmuelbert/jmopenorders/pull/233)
 - Bump darglint from 1.5.3 to 1.5.4 [\#232](https://github.com/jmuelbert/jmopenorders/pull/232)
-- Bump codecov/codecov-action from v1.0.12 to v1.0.13 [\#230](https://github.com/jmuelbert/jmopenorders/pull/230)
 
 ## [v0.2.6](https://github.com/jmuelbert/jmopenorders/tree/v0.2.6) (2020-09-06)
 
 **Merged pull requests:**
 
-- Bump coverage from 5.2.1 to 5.3 [\#234](https://github.com/jmuelbert/jmopenorders/pull/234)
 - Bump sphinx-autobuild from 0.7.1 to 2020.9.1 [\#231](https://github.com/jmuelbert/jmopenorders/pull/231)
+- Bump codecov/codecov-action from v1.0.12 to v1.0.13 [\#230](https://github.com/jmuelbert/jmopenorders/pull/230)
 - Bump actions/stale from v1 to v3.0.10 [\#229](https://github.com/jmuelbert/jmopenorders/pull/229)
 - Bump virtualenv from 20.0.30 to 20.0.31 in /.github/workflows [\#228](https://github.com/jmuelbert/jmopenorders/pull/228)
 - Bump nox from 2020.5.24 to 2020.8.22 in /.github/workflows [\#227](https://github.com/jmuelbert/jmopenorders/pull/227)
