@@ -4,6 +4,8 @@
 
 **Merged pull requests:**
 
+- build\(deps-dev\): bump faker from 8.12.1 to 8.13.2 [\#493](https://github.com/jmuelbert/jmopenorders/pull/493)
+- build\(deps-dev\): bump sphinx-rtd-theme from 0.5.2 to 1.0.0 [\#492](https://github.com/jmuelbert/jmopenorders/pull/492)
 - Update sphinx-rtd-theme to 1.0.0 [\#491](https://github.com/jmuelbert/jmopenorders/pull/491)
 - build\(deps-dev\): bump flake8-bugbear from 21.4.3 to 21.9.1 [\#489](https://github.com/jmuelbert/jmopenorders/pull/489)
 - build\(deps\): bump openpyxl from 3.0.7 to 3.0.8 [\#488](https://github.com/jmuelbert/jmopenorders/pull/488)
@@ -125,16 +127,16 @@
 - Bump faker from 4.1.2 to 4.1.3 [\#238](https://github.com/jmuelbert/jmopenorders/pull/238)
 - Bump actions/stale from v3.0.10 to v3.0.11 [\#236](https://github.com/jmuelbert/jmopenorders/pull/236)
 - Bump xdoctest from 0.14.0 to 0.15.0 [\#235](https://github.com/jmuelbert/jmopenorders/pull/235)
-- Bump coverage from 5.2.1 to 5.3 [\#234](https://github.com/jmuelbert/jmopenorders/pull/234)
 - Bump pip from 20.2.2 to 20.2.3 in /.github/workflows [\#233](https://github.com/jmuelbert/jmopenorders/pull/233)
 - Bump darglint from 1.5.3 to 1.5.4 [\#232](https://github.com/jmuelbert/jmopenorders/pull/232)
+- Bump codecov/codecov-action from v1.0.12 to v1.0.13 [\#230](https://github.com/jmuelbert/jmopenorders/pull/230)
 
 ## [v0.2.6](https://github.com/jmuelbert/jmopenorders/tree/v0.2.6) (2020-09-06)
 
 **Merged pull requests:**
 
+- Bump coverage from 5.2.1 to 5.3 [\#234](https://github.com/jmuelbert/jmopenorders/pull/234)
 - Bump sphinx-autobuild from 0.7.1 to 2020.9.1 [\#231](https://github.com/jmuelbert/jmopenorders/pull/231)
-- Bump codecov/codecov-action from v1.0.12 to v1.0.13 [\#230](https://github.com/jmuelbert/jmopenorders/pull/230)
 - Bump actions/stale from v1 to v3.0.10 [\#229](https://github.com/jmuelbert/jmopenorders/pull/229)
 - Bump virtualenv from 20.0.30 to 20.0.31 in /.github/workflows [\#228](https://github.com/jmuelbert/jmopenorders/pull/228)
 - Bump nox from 2020.5.24 to 2020.8.22 in /.github/workflows [\#227](https://github.com/jmuelbert/jmopenorders/pull/227)
