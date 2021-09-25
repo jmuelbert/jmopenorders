@@ -16,6 +16,7 @@
 - build\(deps-dev\): bump faker from 8.12.1 to 8.13.2 [\#493](https://github.com/jmuelbert/jmopenorders/pull/493)
 - build\(deps-dev\): bump sphinx-rtd-theme from 0.5.2 to 1.0.0 [\#492](https://github.com/jmuelbert/jmopenorders/pull/492)
 - Update sphinx-rtd-theme to 1.0.0 [\#491](https://github.com/jmuelbert/jmopenorders/pull/491)
+- build\(deps-dev\): bump black from 21.8b0 to 21.9b0 [\#490](https://github.com/jmuelbert/jmopenorders/pull/490)
 - build\(deps-dev\): bump flake8-bugbear from 21.4.3 to 21.9.1 [\#489](https://github.com/jmuelbert/jmopenorders/pull/489)
 - build\(deps\): bump openpyxl from 3.0.7 to 3.0.8 [\#488](https://github.com/jmuelbert/jmopenorders/pull/488)
 - build\(deps-dev\): bump sphinx from 4.1.2 to 4.2.0 [\#487](https://github.com/jmuelbert/jmopenorders/pull/487)
@@ -27,7 +28,6 @@
 - build\(deps-dev\): bump types-pyyaml from 5.4.7 to 5.4.9 [\#481](https://github.com/jmuelbert/jmopenorders/pull/481)
 - build\(deps-dev\): bump pytest from 6.2.4 to 6.2.5 [\#480](https://github.com/jmuelbert/jmopenorders/pull/480)
 - build\(deps-dev\): bump pre-commit from 2.14.0 to 2.14.1 [\#479](https://github.com/jmuelbert/jmopenorders/pull/479)
-- build\(deps-dev\): bump black from 21.7b0 to 21.8b0 [\#477](https://github.com/jmuelbert/jmopenorders/pull/477)
 - build\(deps\): bump david-a-wheeler/flawfinder from 2.0.19.pre.alpha1 to 2.0.19 [\#476](https://github.com/jmuelbert/jmopenorders/pull/476)
 
 ## [v0.2.10](https://github.com/jmuelbert/jmopenorders/tree/v0.2.10) (2021-08-27)
@@ -38,6 +38,7 @@
 
 **Merged pull requests:**
 
+- build\(deps-dev\): bump black from 21.7b0 to 21.8b0 [\#477](https://github.com/jmuelbert/jmopenorders/pull/477)
 - Bump peter-evans/create-pull-request from 3.10.0 to 3.10.1 [\#474](https://github.com/jmuelbert/jmopenorders/pull/474)
 - Fix typos by misspell-fixer for refs/heads/update-workflows [\#473](https://github.com/jmuelbert/jmopenorders/pull/473)
 - Bump codecov/codecov-action from 2.0.2 to 2.0.3 [\#472](https://github.com/jmuelbert/jmopenorders/pull/472)
@@ -168,6 +169,7 @@
 - Bump pypa/gh-action-pypi-publish from v1.2.2 to v1.3.1 [\#215](https://github.com/jmuelbert/jmopenorders/pull/215)
 - Bump salsify/action-detect-and-tag-new-version from v1.0.3 to v2.0.1 [\#214](https://github.com/jmuelbert/jmopenorders/pull/214)
 - Update sphinx to 3.2.1 [\#213](https://github.com/jmuelbert/jmopenorders/pull/213)
+- Update generateorders.py [\#212](https://github.com/jmuelbert/jmopenorders/pull/212)
 
 ## [v0.2.4](https://github.com/jmuelbert/jmopenorders/tree/v0.2.4) (2020-08-09)
 
@@ -178,7 +180,6 @@
 
 **Merged pull requests:**
 
-- Update generateorders.py [\#212](https://github.com/jmuelbert/jmopenorders/pull/212)
 - Update sphinx to 3.2.0 [\#211](https://github.com/jmuelbert/jmopenorders/pull/211)
 - Bump pytest from 5.4.3 to 6.0.1 [\#210](https://github.com/jmuelbert/jmopenorders/pull/210)
 - Bump coverage from 5.2 to 5.2.1 [\#208](https://github.com/jmuelbert/jmopenorders/pull/208)
