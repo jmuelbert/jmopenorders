@@ -28,7 +28,7 @@
 - build\(deps-dev\): bump types-pyyaml from 5.4.7 to 5.4.9 [\#481](https://github.com/jmuelbert/jmopenorders/pull/481)
 - build\(deps-dev\): bump pytest from 6.2.4 to 6.2.5 [\#480](https://github.com/jmuelbert/jmopenorders/pull/480)
 - build\(deps-dev\): bump pre-commit from 2.14.0 to 2.14.1 [\#479](https://github.com/jmuelbert/jmopenorders/pull/479)
-- build\(deps\): bump david-a-wheeler/flawfinder from 2.0.19.pre.alpha1 to 2.0.19 [\#476](https://github.com/jmuelbert/jmopenorders/pull/476)
+- build\(deps-dev\): bump black from 21.7b0 to 21.8b0 [\#477](https://github.com/jmuelbert/jmopenorders/pull/477)
 
 ## [v0.2.10](https://github.com/jmuelbert/jmopenorders/tree/v0.2.10) (2021-08-27)
 
@@ -38,7 +38,7 @@
 
 **Merged pull requests:**
 
-- build\(deps-dev\): bump black from 21.7b0 to 21.8b0 [\#477](https://github.com/jmuelbert/jmopenorders/pull/477)
+- build\(deps\): bump david-a-wheeler/flawfinder from 2.0.19.pre.alpha1 to 2.0.19 [\#476](https://github.com/jmuelbert/jmopenorders/pull/476)
 - Bump peter-evans/create-pull-request from 3.10.0 to 3.10.1 [\#474](https://github.com/jmuelbert/jmopenorders/pull/474)
 - Fix typos by misspell-fixer for refs/heads/update-workflows [\#473](https://github.com/jmuelbert/jmopenorders/pull/473)
 - Bump codecov/codecov-action from 2.0.2 to 2.0.3 [\#472](https://github.com/jmuelbert/jmopenorders/pull/472)
