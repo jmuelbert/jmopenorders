@@ -168,7 +168,6 @@
 - Bump pypa/gh-action-pypi-publish from v1.2.2 to v1.3.1 [\#215](https://github.com/jmuelbert/jmopenorders/pull/215)
 - Bump salsify/action-detect-and-tag-new-version from v1.0.3 to v2.0.1 [\#214](https://github.com/jmuelbert/jmopenorders/pull/214)
 - Update sphinx to 3.2.1 [\#213](https://github.com/jmuelbert/jmopenorders/pull/213)
-- Update generateorders.py [\#212](https://github.com/jmuelbert/jmopenorders/pull/212)
 
 ## [v0.2.4](https://github.com/jmuelbert/jmopenorders/tree/v0.2.4) (2020-08-09)
 
@@ -179,6 +178,7 @@
 
 **Merged pull requests:**
 
+- Update generateorders.py [\#212](https://github.com/jmuelbert/jmopenorders/pull/212)
 - Update sphinx to 3.2.0 [\#211](https://github.com/jmuelbert/jmopenorders/pull/211)
 - Bump pytest from 5.4.3 to 6.0.1 [\#210](https://github.com/jmuelbert/jmopenorders/pull/210)
 - Bump coverage from 5.2 to 5.2.1 [\#208](https://github.com/jmuelbert/jmopenorders/pull/208)
