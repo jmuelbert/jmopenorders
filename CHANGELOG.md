@@ -4,6 +4,12 @@
 
 **Merged pull requests:**
 
+- Update sphinx-rtd-theme to 1.0.0 [\#491](https://github.com/jmuelbert/jmopenorders/pull/491)
+- build\(deps-dev\): bump flake8-bugbear from 21.4.3 to 21.9.1 [\#489](https://github.com/jmuelbert/jmopenorders/pull/489)
+- build\(deps\): bump openpyxl from 3.0.7 to 3.0.8 [\#488](https://github.com/jmuelbert/jmopenorders/pull/488)
+- build\(deps-dev\): bump sphinx from 4.1.2 to 4.2.0 [\#487](https://github.com/jmuelbert/jmopenorders/pull/487)
+- build\(deps\): bump sphinx from 4.1.2 to 4.2.0 in /docs [\#486](https://github.com/jmuelbert/jmopenorders/pull/486)
+- Update sphinx to 4.2.0 [\#485](https://github.com/jmuelbert/jmopenorders/pull/485)
 - build\(deps-dev\): bump pre-commit from 2.14.1 to 2.15.0 [\#484](https://github.com/jmuelbert/jmopenorders/pull/484)
 - fix: failures by nox tests. [\#482](https://github.com/jmuelbert/jmopenorders/pull/482)
 - build\(deps-dev\): bump types-pyyaml from 5.4.7 to 5.4.9 [\#481](https://github.com/jmuelbert/jmopenorders/pull/481)
