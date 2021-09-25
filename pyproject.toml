@@ -70,8 +70,8 @@ sphinx-click = "^3.0.1"
 Pygments = "^2.7.2"
 openpyxl-stubs = "^0.1.19"
 types-PyYAML = "^5.4.9"
-types-setuptools = "^57.0.2"
-types-toml = "^0.1.5"
+types-setuptools = "^57.4.0"
+types-toml = "^0.10.0"
 typing-extensions = "^3.10.0"
 
 [tool.pyright]
