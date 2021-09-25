@@ -501,7 +501,7 @@ python-versions = "*"
 
 [[package]]
 name = "openpyxl"
-version = "3.0.8"
+version = "3.0.9"
 description = "A Python library to read/write Excel 2010 xlsx/xlsm files"
 category = "main"
 optional = false
@@ -1153,7 +1153,7 @@ testing = ["pytest (>=4.6)", "pytest-checkdocs (>=2.4)", "pytest-flake8", "pytes
 [metadata]
 lock-version = "1.1"
 python-versions = ">=3.6.10, <4.0"
-content-hash = "19edd028e801a9082ba267aa8a298b9eb1b7e3642190268dbd36742a5fda1504"
+content-hash = "88b49c9726b447c65795384a0c022662b243ca4802f89f703b6277e44615c63c"
 
 [metadata.files]
 alabaster = [
@@ -1454,8 +1454,8 @@ nodeenv = [
     {file = "nodeenv-1.6.0.tar.gz", hash = "sha256:3ef13ff90291ba2a4a7a4ff9a979b63ffdd00a464dbe04acf0ea6471517a4c2b"},
 ]
 openpyxl = [
-    {file = "openpyxl-3.0.8-py2.py3-none-any.whl", hash = "sha256:52150a09b660fe444af7abe2592b156c14e324526b1968a57705525547317a7f"},
-    {file = "openpyxl-3.0.8.tar.gz", hash = "sha256:4f2770348c029ce9433316ced8f91ed37d2a605e654f8bfdc93a3524561a8ce2"},
+    {file = "openpyxl-3.0.9-py2.py3-none-any.whl", hash = "sha256:8f3b11bd896a95468a4ab162fc4fcd260d46157155d1f8bfaabb99d88cfcf79f"},
+    {file = "openpyxl-3.0.9.tar.gz", hash = "sha256:40f568b9829bf9e446acfffce30250ac1fa39035124d55fc024025c41481c90f"},
 ]
 openpyxl-stubs = [
     {file = "openpyxl-stubs-0.1.19.tar.gz", hash = "sha256:6e803d07660b7e989cb165d9ba37c8e6062a22ce22b849a9325ef5e7e2a23b3c"},
