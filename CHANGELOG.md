@@ -4,6 +4,8 @@
 
 **Merged pull requests:**
 
+- build\(deps-dev\): bump faker from 8.12.1 to 8.13.2 [\#493](https://github.com/jmuelbert/jmopenorders/pull/493)
+- build\(deps-dev\): bump sphinx-rtd-theme from 0.5.2 to 1.0.0 [\#492](https://github.com/jmuelbert/jmopenorders/pull/492)
 - Update sphinx-rtd-theme to 1.0.0 [\#491](https://github.com/jmuelbert/jmopenorders/pull/491)
 - build\(deps-dev\): bump flake8-bugbear from 21.4.3 to 21.9.1 [\#489](https://github.com/jmuelbert/jmopenorders/pull/489)
 - build\(deps\): bump openpyxl from 3.0.7 to 3.0.8 [\#488](https://github.com/jmuelbert/jmopenorders/pull/488)
