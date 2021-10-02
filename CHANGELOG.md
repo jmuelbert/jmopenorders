@@ -4,6 +4,9 @@
 
 **Merged pull requests:**
 
+- build\(deps-dev\): bump faker from 8.13.2 to 8.14.0 [\#515](https://github.com/jmuelbert/jmopenorders/pull/515)
+- build\(deps\): bump poetry from 1.1.8 to 1.1.10 in /.github/workflows [\#514](https://github.com/jmuelbert/jmopenorders/pull/514)
+- build\(deps\): bump virtualenv from 20.8.0 to 20.8.1 in /.github/workflows [\#513](https://github.com/jmuelbert/jmopenorders/pull/513)
 - build\(deps-dev\): bump xdoctest from 0.15.8 to 0.15.9 [\#502](https://github.com/jmuelbert/jmopenorders/pull/502)
 - build\(deps-dev\): bump faker from 8.13.2 to 8.14.0 [\#501](https://github.com/jmuelbert/jmopenorders/pull/501)
 - build\(deps-dev\): bump types-toml from 0.1.5 to 0.10.0 [\#500](https://github.com/jmuelbert/jmopenorders/pull/500)
@@ -169,7 +172,6 @@
 - Bump pypa/gh-action-pypi-publish from v1.2.2 to v1.3.1 [\#215](https://github.com/jmuelbert/jmopenorders/pull/215)
 - Bump salsify/action-detect-and-tag-new-version from v1.0.3 to v2.0.1 [\#214](https://github.com/jmuelbert/jmopenorders/pull/214)
 - Update sphinx to 3.2.1 [\#213](https://github.com/jmuelbert/jmopenorders/pull/213)
-- Update generateorders.py [\#212](https://github.com/jmuelbert/jmopenorders/pull/212)
 
 ## [v0.2.4](https://github.com/jmuelbert/jmopenorders/tree/v0.2.4) (2020-08-09)
 
@@ -180,6 +182,7 @@
 
 **Merged pull requests:**
 
+- Update generateorders.py [\#212](https://github.com/jmuelbert/jmopenorders/pull/212)
 - Update sphinx to 3.2.0 [\#211](https://github.com/jmuelbert/jmopenorders/pull/211)
 - Bump pytest from 5.4.3 to 6.0.1 [\#210](https://github.com/jmuelbert/jmopenorders/pull/210)
 - Bump coverage from 5.2 to 5.2.1 [\#208](https://github.com/jmuelbert/jmopenorders/pull/208)
