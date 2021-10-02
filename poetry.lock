@@ -512,7 +512,7 @@ et-xmlfile = "*"
 
 [[package]]
 name = "openpyxl-stubs"
-version = "0.1.19"
+version = "0.1.20"
 description = "Type stubs for openpyxl"
 category = "dev"
 optional = false
@@ -1153,7 +1153,7 @@ testing = ["pytest (>=4.6)", "pytest-checkdocs (>=2.4)", "pytest-flake8", "pytes
 [metadata]
 lock-version = "1.1"
 python-versions = ">=3.6.10, <4.0"
-content-hash = "469e89d578c5bf2521448c5c28294855ba3cbdee0cea120f06a49b6a41a0bb3d"
+content-hash = "24bef9541b25d49687257791d1d4fb06760fb223c54180b5dfb07637c9a1cb82"
 
 [metadata.files]
 alabaster = [
@@ -1458,8 +1458,8 @@ openpyxl = [
     {file = "openpyxl-3.0.9.tar.gz", hash = "sha256:40f568b9829bf9e446acfffce30250ac1fa39035124d55fc024025c41481c90f"},
 ]
 openpyxl-stubs = [
-    {file = "openpyxl-stubs-0.1.19.tar.gz", hash = "sha256:6e803d07660b7e989cb165d9ba37c8e6062a22ce22b849a9325ef5e7e2a23b3c"},
-    {file = "openpyxl_stubs-0.1.19-py3-none-any.whl", hash = "sha256:fbd0f38ff4a0b4c3e205752f268890d8d3542079ec26e954ecc9a764d3c9c407"},
+    {file = "openpyxl-stubs-0.1.20.tar.gz", hash = "sha256:ed7e9b8df93bc8e77a94b417f42e6852046515f33010f40e773e72c42f32da76"},
+    {file = "openpyxl_stubs-0.1.20-py3-none-any.whl", hash = "sha256:9edfeee358b74e8b206632b439bb8cb806b6fa47d67a5757861c3e4d55042df4"},
 ]
 packaging = [
     {file = "packaging-21.0-py3-none-any.whl", hash = "sha256:c86254f9220d55e31cc94d69bade760f0847da8000def4dfe1c6b872fd14ff14"},
