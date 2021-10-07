@@ -4,6 +4,7 @@
 
 **Merged pull requests:**
 
+- build\(deps-dev\): bump flake8-bugbear from 21.9.1 to 21.9.2 [\#518](https://github.com/jmuelbert/jmopenorders/pull/518)
 - build\(deps-dev\): bump openpyxl-stubs from 0.1.19 to 0.1.20 [\#517](https://github.com/jmuelbert/jmopenorders/pull/517)
 - build\(deps-dev\): bump xdoctest from 0.15.8 to 0.15.9 [\#516](https://github.com/jmuelbert/jmopenorders/pull/516)
 - build\(deps-dev\): bump faker from 8.13.2 to 8.14.0 [\#515](https://github.com/jmuelbert/jmopenorders/pull/515)
@@ -141,6 +142,7 @@
 - Bump pytest from 6.0.1 to 6.1.0 [\#241](https://github.com/jmuelbert/jmopenorders/pull/241)
 - Bump actions/checkout from v2.3.2 to v2.3.3 [\#240](https://github.com/jmuelbert/jmopenorders/pull/240)
 - Bump faker from 4.1.2 to 4.1.3 [\#238](https://github.com/jmuelbert/jmopenorders/pull/238)
+- Bump actions/stale from v3.0.10 to v3.0.11 [\#236](https://github.com/jmuelbert/jmopenorders/pull/236)
 - Bump xdoctest from 0.14.0 to 0.15.0 [\#235](https://github.com/jmuelbert/jmopenorders/pull/235)
 - Bump coverage from 5.2.1 to 5.3 [\#234](https://github.com/jmuelbert/jmopenorders/pull/234)
 - Bump pip from 20.2.2 to 20.2.3 in /.github/workflows [\#233](https://github.com/jmuelbert/jmopenorders/pull/233)
@@ -150,12 +152,10 @@
 
 **Merged pull requests:**
 
-- Bump actions/stale from v3.0.10 to v3.0.11 [\#236](https://github.com/jmuelbert/jmopenorders/pull/236)
 - Bump sphinx-autobuild from 0.7.1 to 2020.9.1 [\#231](https://github.com/jmuelbert/jmopenorders/pull/231)
 - Bump codecov/codecov-action from v1.0.12 to v1.0.13 [\#230](https://github.com/jmuelbert/jmopenorders/pull/230)
 - Bump actions/stale from v1 to v3.0.10 [\#229](https://github.com/jmuelbert/jmopenorders/pull/229)
 - Bump virtualenv from 20.0.30 to 20.0.31 in /.github/workflows [\#228](https://github.com/jmuelbert/jmopenorders/pull/228)
-- Bump nox from 2020.5.24 to 2020.8.22 in /.github/workflows [\#227](https://github.com/jmuelbert/jmopenorders/pull/227)
 - Bump codecov/codecov-action from v1.0.12 to v1.0.13 [\#226](https://github.com/jmuelbert/jmopenorders/pull/226)
 - Bump xdoctest from 0.13.0 to 0.14.0 [\#225](https://github.com/jmuelbert/jmopenorders/pull/225)
 - Bump pre-commit from 2.6.0 to 2.7.1 [\#224](https://github.com/jmuelbert/jmopenorders/pull/224)
@@ -164,6 +164,7 @@
 
 **Merged pull requests:**
 
+- Bump nox from 2020.5.24 to 2020.8.22 in /.github/workflows [\#227](https://github.com/jmuelbert/jmopenorders/pull/227)
 - Bump openpyxl from 3.0.4 to 3.0.5 [\#223](https://github.com/jmuelbert/jmopenorders/pull/223)
 - Create CODE\_OF\_CONDUCT.md [\#221](https://github.com/jmuelbert/jmopenorders/pull/221)
 - Bump faker from 4.1.1 to 4.1.2 [\#220](https://github.com/jmuelbert/jmopenorders/pull/220)
@@ -196,7 +197,6 @@
 - Bump sphinx from 3.1.0 to 3.1.1 [\#201](https://github.com/jmuelbert/jmopenorders/pull/201)
 - Update sphinx to 3.1.1 [\#200](https://github.com/jmuelbert/jmopenorders/pull/200)
 - PyUp Update sphinx to 3.1.1 [\#197](https://github.com/jmuelbert/jmopenorders/pull/197)
-- PyUp Update pytest-sugar to 0.9.3 [\#175](https://github.com/jmuelbert/jmopenorders/pull/175)
 
 ## [v0.2.3](https://github.com/jmuelbert/jmopenorders/tree/v0.2.3) (2020-06-21)
 
@@ -210,6 +210,7 @@
 - PyUp Update sphinx to 3.1.1 [\#195](https://github.com/jmuelbert/jmopenorders/pull/195)
 - PyUp Update doc8 to 0.8.1 [\#179](https://github.com/jmuelbert/jmopenorders/pull/179)
 - PyUp Update requests\_mock to 1.8.0 [\#177](https://github.com/jmuelbert/jmopenorders/pull/177)
+- PyUp Update pytest-sugar to 0.9.3 [\#175](https://github.com/jmuelbert/jmopenorders/pull/175)
 - PyUp Update pytest to 5.4.2 [\#173](https://github.com/jmuelbert/jmopenorders/pull/173)
 - PyUp Update pycodestyle to 2.6.0 [\#171](https://github.com/jmuelbert/jmopenorders/pull/171)
 - PyUp Update mypy to 0.770 [\#169](https://github.com/jmuelbert/jmopenorders/pull/169)
