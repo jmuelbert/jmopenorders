@@ -4,6 +4,9 @@
 
 **Merged pull requests:**
 
+- build\(deps-dev\): bump faker from 8.14.0 to 8.16.0 [\#523](https://github.com/jmuelbert/jmopenorders/pull/523)
+- build\(deps\): bump nox from 2021.6.12 to 2021.10.1 in /.github/workflows [\#520](https://github.com/jmuelbert/jmopenorders/pull/520)
+- build\(deps\): bump virtualenv from 20.8.0 to 20.8.1 in /.github/workflows [\#519](https://github.com/jmuelbert/jmopenorders/pull/519)
 - build\(deps-dev\): bump flake8-bugbear from 21.9.1 to 21.9.2 [\#518](https://github.com/jmuelbert/jmopenorders/pull/518)
 - build\(deps-dev\): bump openpyxl-stubs from 0.1.19 to 0.1.20 [\#517](https://github.com/jmuelbert/jmopenorders/pull/517)
 - build\(deps-dev\): bump xdoctest from 0.15.8 to 0.15.9 [\#516](https://github.com/jmuelbert/jmopenorders/pull/516)
@@ -36,6 +39,7 @@
 - build\(deps-dev\): bump pre-commit from 2.14.0 to 2.14.1 [\#479](https://github.com/jmuelbert/jmopenorders/pull/479)
 - build\(deps-dev\): bump black from 21.7b0 to 21.8b0 [\#477](https://github.com/jmuelbert/jmopenorders/pull/477)
 - build\(deps\): bump david-a-wheeler/flawfinder from 2.0.19.pre.alpha1 to 2.0.19 [\#476](https://github.com/jmuelbert/jmopenorders/pull/476)
+- Bump codecov/codecov-action from 2.0.2 to 2.0.3 [\#472](https://github.com/jmuelbert/jmopenorders/pull/472)
 
 ## [v0.2.10](https://github.com/jmuelbert/jmopenorders/tree/v0.2.10) (2021-08-27)
 
@@ -47,7 +51,6 @@
 
 - Bump peter-evans/create-pull-request from 3.10.0 to 3.10.1 [\#474](https://github.com/jmuelbert/jmopenorders/pull/474)
 - Fix typos by misspell-fixer for refs/heads/update-workflows [\#473](https://github.com/jmuelbert/jmopenorders/pull/473)
-- Bump codecov/codecov-action from 2.0.2 to 2.0.3 [\#472](https://github.com/jmuelbert/jmopenorders/pull/472)
 - Improve Workflows, like jmbde-QT [\#471](https://github.com/jmuelbert/jmopenorders/pull/471)
 - Update Project [\#470](https://github.com/jmuelbert/jmopenorders/pull/470)
 - Update sphinx requirement from ^3.3.1 to ^4.1.2 [\#469](https://github.com/jmuelbert/jmopenorders/pull/469)
