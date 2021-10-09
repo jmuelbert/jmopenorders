@@ -196,7 +196,6 @@
 - Add a Codacy badge to README.rst [\#206](https://github.com/jmuelbert/jmopenorders/pull/206)
 - Bump coverage from 5.1 to 5.2 [\#205](https://github.com/jmuelbert/jmopenorders/pull/205)
 - Update sphinx to 3.1.2 [\#203](https://github.com/jmuelbert/jmopenorders/pull/203)
-- Bump pre-commit from 2.5.1 to 2.6.0 [\#202](https://github.com/jmuelbert/jmopenorders/pull/202)
 - Bump sphinx from 3.1.0 to 3.1.1 [\#201](https://github.com/jmuelbert/jmopenorders/pull/201)
 - Update sphinx to 3.1.1 [\#200](https://github.com/jmuelbert/jmopenorders/pull/200)
 - PyUp Update sphinx to 3.1.1 [\#197](https://github.com/jmuelbert/jmopenorders/pull/197)
@@ -210,6 +209,7 @@
 
 **Merged pull requests:**
 
+- Bump pre-commit from 2.5.1 to 2.6.0 [\#202](https://github.com/jmuelbert/jmopenorders/pull/202)
 - PyUp Update sphinx to 3.1.1 [\#195](https://github.com/jmuelbert/jmopenorders/pull/195)
 - PyUp Update doc8 to 0.8.1 [\#179](https://github.com/jmuelbert/jmopenorders/pull/179)
 - PyUp Update requests\_mock to 1.8.0 [\#177](https://github.com/jmuelbert/jmopenorders/pull/177)
