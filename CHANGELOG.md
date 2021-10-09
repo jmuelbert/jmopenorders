@@ -39,6 +39,7 @@
 - build\(deps-dev\): bump pre-commit from 2.14.0 to 2.14.1 [\#479](https://github.com/jmuelbert/jmopenorders/pull/479)
 - build\(deps-dev\): bump black from 21.7b0 to 21.8b0 [\#477](https://github.com/jmuelbert/jmopenorders/pull/477)
 - build\(deps\): bump david-a-wheeler/flawfinder from 2.0.19.pre.alpha1 to 2.0.19 [\#476](https://github.com/jmuelbert/jmopenorders/pull/476)
+- Bump codecov/codecov-action from 2.0.2 to 2.0.3 [\#472](https://github.com/jmuelbert/jmopenorders/pull/472)
 
 ## [v0.2.10](https://github.com/jmuelbert/jmopenorders/tree/v0.2.10) (2021-08-27)
 
@@ -50,7 +51,6 @@
 
 - Bump peter-evans/create-pull-request from 3.10.0 to 3.10.1 [\#474](https://github.com/jmuelbert/jmopenorders/pull/474)
 - Fix typos by misspell-fixer for refs/heads/update-workflows [\#473](https://github.com/jmuelbert/jmopenorders/pull/473)
-- Bump codecov/codecov-action from 2.0.2 to 2.0.3 [\#472](https://github.com/jmuelbert/jmopenorders/pull/472)
 - Improve Workflows, like jmbde-QT [\#471](https://github.com/jmuelbert/jmopenorders/pull/471)
 - Update Project [\#470](https://github.com/jmuelbert/jmopenorders/pull/470)
 - Update sphinx requirement from ^3.3.1 to ^4.1.2 [\#469](https://github.com/jmuelbert/jmopenorders/pull/469)
@@ -149,12 +149,12 @@
 - Bump xdoctest from 0.14.0 to 0.15.0 [\#235](https://github.com/jmuelbert/jmopenorders/pull/235)
 - Bump coverage from 5.2.1 to 5.3 [\#234](https://github.com/jmuelbert/jmopenorders/pull/234)
 - Bump pip from 20.2.2 to 20.2.3 in /.github/workflows [\#233](https://github.com/jmuelbert/jmopenorders/pull/233)
+- Bump darglint from 1.5.3 to 1.5.4 [\#232](https://github.com/jmuelbert/jmopenorders/pull/232)
 
 ## [v0.2.6](https://github.com/jmuelbert/jmopenorders/tree/v0.2.6) (2020-09-06)
 
 **Merged pull requests:**
 
-- Bump darglint from 1.5.3 to 1.5.4 [\#232](https://github.com/jmuelbert/jmopenorders/pull/232)
 - Bump sphinx-autobuild from 0.7.1 to 2020.9.1 [\#231](https://github.com/jmuelbert/jmopenorders/pull/231)
 - Bump codecov/codecov-action from v1.0.12 to v1.0.13 [\#230](https://github.com/jmuelbert/jmopenorders/pull/230)
 - Bump actions/stale from v1 to v3.0.10 [\#229](https://github.com/jmuelbert/jmopenorders/pull/229)
