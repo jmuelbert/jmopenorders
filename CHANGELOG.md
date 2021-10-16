@@ -4,6 +4,9 @@
 
 **Merged pull requests:**
 
+- build\(deps\): bump python-dotenv from 0.19.0 to 0.19.1 [\#530](https://github.com/jmuelbert/jmopenorders/pull/530)
+- build\(deps-dev\): bump typeguard from 2.12.1 to 2.13.0 [\#529](https://github.com/jmuelbert/jmopenorders/pull/529)
+- build\(deps\): bump poetry from 1.1.10 to 1.1.11 in /.github/workflows [\#528](https://github.com/jmuelbert/jmopenorders/pull/528)
 - build\(deps-dev\): bump faker from 8.16.0 to 9.2.0 [\#527](https://github.com/jmuelbert/jmopenorders/pull/527)
 - build\(deps\): bump click from 8.0.1 to 8.0.2 [\#526](https://github.com/jmuelbert/jmopenorders/pull/526)
 - build\(deps-dev\): bump coverage from 5.5 to 6.0.1 [\#525](https://github.com/jmuelbert/jmopenorders/pull/525)
@@ -151,6 +154,7 @@
 - Bump faker from 4.1.2 to 4.1.3 [\#238](https://github.com/jmuelbert/jmopenorders/pull/238)
 - Bump actions/stale from v3.0.10 to v3.0.11 [\#236](https://github.com/jmuelbert/jmopenorders/pull/236)
 - Bump xdoctest from 0.14.0 to 0.15.0 [\#235](https://github.com/jmuelbert/jmopenorders/pull/235)
+- Bump coverage from 5.2.1 to 5.3 [\#234](https://github.com/jmuelbert/jmopenorders/pull/234)
 - Bump pip from 20.2.2 to 20.2.3 in /.github/workflows [\#233](https://github.com/jmuelbert/jmopenorders/pull/233)
 - Bump darglint from 1.5.3 to 1.5.4 [\#232](https://github.com/jmuelbert/jmopenorders/pull/232)
 
@@ -158,20 +162,19 @@
 
 **Merged pull requests:**
 
-- Bump coverage from 5.2.1 to 5.3 [\#234](https://github.com/jmuelbert/jmopenorders/pull/234)
 - Bump sphinx-autobuild from 0.7.1 to 2020.9.1 [\#231](https://github.com/jmuelbert/jmopenorders/pull/231)
 - Bump codecov/codecov-action from v1.0.12 to v1.0.13 [\#230](https://github.com/jmuelbert/jmopenorders/pull/230)
 - Bump actions/stale from v1 to v3.0.10 [\#229](https://github.com/jmuelbert/jmopenorders/pull/229)
 - Bump virtualenv from 20.0.30 to 20.0.31 in /.github/workflows [\#228](https://github.com/jmuelbert/jmopenorders/pull/228)
 - Bump nox from 2020.5.24 to 2020.8.22 in /.github/workflows [\#227](https://github.com/jmuelbert/jmopenorders/pull/227)
 - Bump codecov/codecov-action from v1.0.12 to v1.0.13 [\#226](https://github.com/jmuelbert/jmopenorders/pull/226)
-- Bump xdoctest from 0.13.0 to 0.14.0 [\#225](https://github.com/jmuelbert/jmopenorders/pull/225)
 - Bump pre-commit from 2.6.0 to 2.7.1 [\#224](https://github.com/jmuelbert/jmopenorders/pull/224)
 
 ## [v0.2.5](https://github.com/jmuelbert/jmopenorders/tree/v0.2.5) (2020-08-24)
 
 **Merged pull requests:**
 
+- Bump xdoctest from 0.13.0 to 0.14.0 [\#225](https://github.com/jmuelbert/jmopenorders/pull/225)
 - Bump openpyxl from 3.0.4 to 3.0.5 [\#223](https://github.com/jmuelbert/jmopenorders/pull/223)
 - Create CODE\_OF\_CONDUCT.md [\#221](https://github.com/jmuelbert/jmopenorders/pull/221)
 - Bump faker from 4.1.1 to 4.1.2 [\#220](https://github.com/jmuelbert/jmopenorders/pull/220)
