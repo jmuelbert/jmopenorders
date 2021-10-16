@@ -100,7 +100,6 @@
 - Update sphinx to 3.4.3 [\#330](https://github.com/jmuelbert/jmopenorders/pull/330)
 - Bump codecov/codecov-action from v1.1.1 to v1.2.1 [\#328](https://github.com/jmuelbert/jmopenorders/pull/328)
 - Bump actions/download-artifact from v2.0.7 to v2.0.8 [\#326](https://github.com/jmuelbert/jmopenorders/pull/326)
-- Bump actions/upload-artifact from v2.2.1 to v2.2.2 [\#324](https://github.com/jmuelbert/jmopenorders/pull/324)
 - Bump nox from 2020.8.22 to 2020.12.31 in /.github/workflows [\#322](https://github.com/jmuelbert/jmopenorders/pull/322)
 - Update faker requirement from ^4.17.1 to ^5.3.0 [\#321](https://github.com/jmuelbert/jmopenorders/pull/321)
 - Bump release-drafter/release-drafter from v5.12.1 to v5.13.0 [\#319](https://github.com/jmuelbert/jmopenorders/pull/319)
