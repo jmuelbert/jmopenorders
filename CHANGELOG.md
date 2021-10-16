@@ -168,13 +168,13 @@
 - Bump virtualenv from 20.0.30 to 20.0.31 in /.github/workflows [\#228](https://github.com/jmuelbert/jmopenorders/pull/228)
 - Bump nox from 2020.5.24 to 2020.8.22 in /.github/workflows [\#227](https://github.com/jmuelbert/jmopenorders/pull/227)
 - Bump codecov/codecov-action from v1.0.12 to v1.0.13 [\#226](https://github.com/jmuelbert/jmopenorders/pull/226)
+- Bump xdoctest from 0.13.0 to 0.14.0 [\#225](https://github.com/jmuelbert/jmopenorders/pull/225)
 - Bump pre-commit from 2.6.0 to 2.7.1 [\#224](https://github.com/jmuelbert/jmopenorders/pull/224)
 
 ## [v0.2.5](https://github.com/jmuelbert/jmopenorders/tree/v0.2.5) (2020-08-24)
 
 **Merged pull requests:**
 
-- Bump xdoctest from 0.13.0 to 0.14.0 [\#225](https://github.com/jmuelbert/jmopenorders/pull/225)
 - Bump openpyxl from 3.0.4 to 3.0.5 [\#223](https://github.com/jmuelbert/jmopenorders/pull/223)
 - Create CODE\_OF\_CONDUCT.md [\#221](https://github.com/jmuelbert/jmopenorders/pull/221)
 - Bump faker from 4.1.1 to 4.1.2 [\#220](https://github.com/jmuelbert/jmopenorders/pull/220)
