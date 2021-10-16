@@ -4,6 +4,8 @@
 
 **Merged pull requests:**
 
+- build\(deps-dev\): bump flake8 from 3.9.2 to 4.0.1 [\#534](https://github.com/jmuelbert/jmopenorders/pull/534)
+- build\(deps-dev\): bump faker from 9.2.0 to 9.3.1 [\#533](https://github.com/jmuelbert/jmopenorders/pull/533)
 - build\(deps\): bump click from 8.0.2 to 8.0.3 [\#531](https://github.com/jmuelbert/jmopenorders/pull/531)
 - build\(deps\): bump python-dotenv from 0.19.0 to 0.19.1 [\#530](https://github.com/jmuelbert/jmopenorders/pull/530)
 - build\(deps-dev\): bump typeguard from 2.12.1 to 2.13.0 [\#529](https://github.com/jmuelbert/jmopenorders/pull/529)
