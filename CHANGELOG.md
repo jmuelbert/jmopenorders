@@ -4,6 +4,10 @@
 
 **Merged pull requests:**
 
+- build\(deps\): bump click from 8.0.2 to 8.0.3 [\#531](https://github.com/jmuelbert/jmopenorders/pull/531)
+- build\(deps\): bump python-dotenv from 0.19.0 to 0.19.1 [\#530](https://github.com/jmuelbert/jmopenorders/pull/530)
+- build\(deps-dev\): bump typeguard from 2.12.1 to 2.13.0 [\#529](https://github.com/jmuelbert/jmopenorders/pull/529)
+- build\(deps\): bump poetry from 1.1.10 to 1.1.11 in /.github/workflows [\#528](https://github.com/jmuelbert/jmopenorders/pull/528)
 - build\(deps-dev\): bump faker from 8.16.0 to 9.2.0 [\#527](https://github.com/jmuelbert/jmopenorders/pull/527)
 - build\(deps\): bump click from 8.0.1 to 8.0.2 [\#526](https://github.com/jmuelbert/jmopenorders/pull/526)
 - build\(deps-dev\): bump coverage from 5.5 to 6.0.1 [\#525](https://github.com/jmuelbert/jmopenorders/pull/525)
