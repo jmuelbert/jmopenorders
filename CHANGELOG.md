@@ -151,7 +151,6 @@
 - Bump faker from 4.1.2 to 4.1.3 [\#238](https://github.com/jmuelbert/jmopenorders/pull/238)
 - Bump actions/stale from v3.0.10 to v3.0.11 [\#236](https://github.com/jmuelbert/jmopenorders/pull/236)
 - Bump xdoctest from 0.14.0 to 0.15.0 [\#235](https://github.com/jmuelbert/jmopenorders/pull/235)
-- Bump coverage from 5.2.1 to 5.3 [\#234](https://github.com/jmuelbert/jmopenorders/pull/234)
 - Bump pip from 20.2.2 to 20.2.3 in /.github/workflows [\#233](https://github.com/jmuelbert/jmopenorders/pull/233)
 - Bump darglint from 1.5.3 to 1.5.4 [\#232](https://github.com/jmuelbert/jmopenorders/pull/232)
 
@@ -159,6 +158,7 @@
 
 **Merged pull requests:**
 
+- Bump coverage from 5.2.1 to 5.3 [\#234](https://github.com/jmuelbert/jmopenorders/pull/234)
 - Bump sphinx-autobuild from 0.7.1 to 2020.9.1 [\#231](https://github.com/jmuelbert/jmopenorders/pull/231)
 - Bump codecov/codecov-action from v1.0.12 to v1.0.13 [\#230](https://github.com/jmuelbert/jmopenorders/pull/230)
 - Bump actions/stale from v1 to v3.0.10 [\#229](https://github.com/jmuelbert/jmopenorders/pull/229)
