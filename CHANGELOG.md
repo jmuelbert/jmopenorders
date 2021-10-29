@@ -287,6 +287,7 @@
 - PyUp Update pytest-cov to 2.8.1 [\#20](https://github.com/jmuelbert/jmopenorders/pull/20)
 - PyUp Update flake8-docstrings to 1.5.0 [\#18](https://github.com/jmuelbert/jmopenorders/pull/18)
 - PyUp Update openpyxl to 3.0.0 [\#15](https://github.com/jmuelbert/jmopenorders/pull/15)
+- PyUp Update pytest to 5.1.2 [\#6](https://github.com/jmuelbert/jmopenorders/pull/6)
 
 ## [v0.2.0](https://github.com/jmuelbert/jmopenorders/tree/v0.2.0) (2019-10-20)
 
@@ -300,7 +301,6 @@
 
 - PyUp Update pytest to 5.1.2 [\#8](https://github.com/jmuelbert/jmopenorders/pull/8)
 - PyUp Update requests\_mock to 1.7.0 [\#7](https://github.com/jmuelbert/jmopenorders/pull/7)
-- PyUp Update pytest to 5.1.2 [\#6](https://github.com/jmuelbert/jmopenorders/pull/6)
 - PyUp Update pre-commit to 1.18.3 [\#5](https://github.com/jmuelbert/jmopenorders/pull/5)
 - PyUp Update flake8-docstrings to 1.4.0 [\#4](https://github.com/jmuelbert/jmopenorders/pull/4)
 - PyUp Update sphinx-autodoc-typehints to 1.7.0 [\#3](https://github.com/jmuelbert/jmopenorders/pull/3)
