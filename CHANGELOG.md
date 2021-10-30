@@ -4,6 +4,9 @@
 
 **Merged pull requests:**
 
+- build\(deps-dev\): bump faker from 9.3.1 to 9.7.1 [\#541](https://github.com/jmuelbert/jmopenorders/pull/541)
+- build\(deps\): bump virtualenv from 20.8.1 to 20.9.0 in /.github/workflows [\#538](https://github.com/jmuelbert/jmopenorders/pull/538)
+- build\(deps\): bump pip from 21.3 to 21.3.1 in /.github/workflows [\#537](https://github.com/jmuelbert/jmopenorders/pull/537)
 - build\(deps\): bump pip from 21.2.4 to 21.3 in /.github/workflows [\#535](https://github.com/jmuelbert/jmopenorders/pull/535)
 - build\(deps-dev\): bump flake8 from 3.9.2 to 4.0.1 [\#534](https://github.com/jmuelbert/jmopenorders/pull/534)
 - build\(deps-dev\): bump faker from 9.2.0 to 9.3.1 [\#533](https://github.com/jmuelbert/jmopenorders/pull/533)
@@ -174,6 +177,7 @@
 - Bump codecov/codecov-action from v1.0.12 to v1.0.13 [\#226](https://github.com/jmuelbert/jmopenorders/pull/226)
 - Bump xdoctest from 0.13.0 to 0.14.0 [\#225](https://github.com/jmuelbert/jmopenorders/pull/225)
 - Bump pre-commit from 2.6.0 to 2.7.1 [\#224](https://github.com/jmuelbert/jmopenorders/pull/224)
+- Bump sphinx from 3.2.0 to 3.2.1 [\#218](https://github.com/jmuelbert/jmopenorders/pull/218)
 
 ## [v0.2.5](https://github.com/jmuelbert/jmopenorders/tree/v0.2.5) (2020-08-24)
 
@@ -183,7 +187,6 @@
 - Create CODE\_OF\_CONDUCT.md [\#221](https://github.com/jmuelbert/jmopenorders/pull/221)
 - Bump faker from 4.1.1 to 4.1.2 [\#220](https://github.com/jmuelbert/jmopenorders/pull/220)
 - Bump codecov/codecov-action from v1.0.12 to v1.0.13 [\#219](https://github.com/jmuelbert/jmopenorders/pull/219)
-- Bump sphinx from 3.2.0 to 3.2.1 [\#218](https://github.com/jmuelbert/jmopenorders/pull/218)
 - Bump codecov/codecov-action from v1.0.7 to v1.0.12 [\#217](https://github.com/jmuelbert/jmopenorders/pull/217)
 - Bump actions/checkout from v2.2.0 to v2.3.2 [\#216](https://github.com/jmuelbert/jmopenorders/pull/216)
 - Bump pypa/gh-action-pypi-publish from v1.2.2 to v1.3.1 [\#215](https://github.com/jmuelbert/jmopenorders/pull/215)

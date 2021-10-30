@@ -180,7 +180,7 @@ toml = ["tomli"]
 
 [[package]]
 name = "darglint"
-version = "1.8.0"
+version = "1.8.1"
 description = "A utility for ensuring Google-style docstrings stay up to date with the source code."
 category = "dev"
 optional = false
@@ -236,7 +236,7 @@ python-versions = ">=3.6"
 
 [[package]]
 name = "faker"
-version = "9.3.1"
+version = "9.7.1"
 description = "Faker is a Python package that generates fake data for you."
 category = "dev"
 optional = false
@@ -245,6 +245,7 @@ python-versions = ">=3.6"
 [package.dependencies]
 python-dateutil = ">=2.4"
 text-unidecode = "1.3"
+typing-extensions = {version = ">=3.10.0.2", markers = "python_version < \"3.8\""}
 
 [[package]]
 name = "filelock"
@@ -1152,7 +1153,7 @@ testing = ["pytest (>=4.6)", "pytest-checkdocs (>=2.4)", "pytest-flake8", "pytes
 [metadata]
 lock-version = "1.1"
 python-versions = ">=3.6.10, <4.0"
-content-hash = "8d99a29887d6621e2b42cbfb88cd45cdc6adb604b0ca0f32f53aa77e4560bdf3"
+content-hash = "26768db66bc029be465151271ee4ad939a560eca4ffc9dbecb50f7c55e53dd6b"
 
 [metadata.files]
 alabaster = [
@@ -1247,8 +1248,8 @@ coverage = [
     {file = "coverage-6.0.1.tar.gz", hash = "sha256:3490ff6dbf3f7accf0750136ed60ae1f487bccc1f097740e3b21262bc9c89854"},
 ]
 darglint = [
-    {file = "darglint-1.8.0-py3-none-any.whl", hash = "sha256:ac6797bcc918cd8d8f14c168a4a364f54e1aeb4ced59db58e7e4c6dfec2fe15c"},
-    {file = "darglint-1.8.0.tar.gz", hash = "sha256:aa605ef47817a6d14797d32b390466edab621768ea4ca5cc0f3c54f6d8dcaec8"},
+    {file = "darglint-1.8.1-py3-none-any.whl", hash = "sha256:5ae11c259c17b0701618a20c3da343a3eb98b3bc4b5a83d31cdd94f5ebdced8d"},
+    {file = "darglint-1.8.1.tar.gz", hash = "sha256:080d5106df149b199822e7ee7deb9c012b49891538f14a11be681044f0bb20da"},
 ]
 dataclasses = [
     {file = "dataclasses-0.8-py3-none-any.whl", hash = "sha256:0201d89fa866f68c8ebd9d08ee6ff50c0b255f8ec63a71c16fda7af82bb887bf"},
@@ -1271,8 +1272,8 @@ et-xmlfile = [
     {file = "et_xmlfile-1.1.0.tar.gz", hash = "sha256:8eb9e2bc2f8c97e37a2dc85a09ecdcdec9d8a396530a6d5a33b30b9a92da0c5c"},
 ]
 faker = [
-    {file = "Faker-9.3.1-py3-none-any.whl", hash = "sha256:429a91d73dbac02609d6b616ef15bd4c3f22ed6532dcfceb46f3b8c28c78257a"},
-    {file = "Faker-9.3.1.tar.gz", hash = "sha256:cdd9e9af2fba5c96ee2ec4ac8419bba458e26b58a2b98c1f6467ee66096bee52"},
+    {file = "Faker-9.7.1-py3-none-any.whl", hash = "sha256:aad59a0cb82ac072f3109667fb2ba35ac45981ec22436c649d8fcdbf1c9e6927"},
+    {file = "Faker-9.7.1.tar.gz", hash = "sha256:d23cd665886d2e9680d90f3ce2af7a439f44de3c7becc78353ca2f49b0015352"},
 ]
 filelock = [
     {file = "filelock-3.0.12-py3-none-any.whl", hash = "sha256:929b7d63ec5b7d6b71b0fa5ac14e030b3f70b75747cef1b10da9b879fef15836"},
