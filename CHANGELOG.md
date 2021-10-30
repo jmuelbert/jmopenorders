@@ -4,6 +4,8 @@
 
 **Merged pull requests:**
 
+- build\(deps-dev\): bump types-toml from 0.10.0 to 0.10.1 [\#546](https://github.com/jmuelbert/jmopenorders/pull/546)
+- build\(deps-dev\): bump types-pyyaml from 5.4.10 to 6.0.0 [\#544](https://github.com/jmuelbert/jmopenorders/pull/544)
 - build\(deps-dev\): bump darglint from 1.8.0 to 1.8.1 [\#543](https://github.com/jmuelbert/jmopenorders/pull/543)
 - build\(deps-dev\): bump faker from 9.3.1 to 9.7.1 [\#541](https://github.com/jmuelbert/jmopenorders/pull/541)
 - build\(deps\): bump pyyaml from 5.4.1 to 6.0 [\#539](https://github.com/jmuelbert/jmopenorders/pull/539)
