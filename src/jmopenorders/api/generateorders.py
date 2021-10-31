@@ -80,8 +80,8 @@ class GenerateOrders:
         """
         self.dest_name = ""
         self._dest_dir = dest_dir
-        self.thousandSep = localeconv()["thousands_sep"]
-        self.decimalPoint = localeconv()["decimal_point"]
+        self.thousand_sep = localeconv()["thousands_sep"]
+        self.decimal_point = localeconv()["decimal_point"]
 
     def create(self, actual_name: str, actual_content: List[List[str]]) -> None:
         """Put all the data for the actual_name to the excel-file.

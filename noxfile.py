@@ -14,7 +14,7 @@ import nox
 from nox_poetry import Session
 from nox_poetry import session
 
-package = "jmopenorders"
+PACKAGE = "jmopenorders"
 python_versions = ["3.9", "3.8", "3.7", "3.6"]
 nox.needs_version = ">= 2021.6.6"
 nox.options.sessions = (
@@ -103,7 +103,7 @@ def precommit(session: Session) -> None:
 
 @session(python="3.9")
 def safety(session: Session) -> None:
-    """Scan dependencies for insecure packages."""
+    """Scan dependencies for insecure PACKAGEs."""
     requirements = session.poetry.export_requirements()
     session.install("safety")
     session.run("safety", "check", "--full-report", f"--file={requirements}")
@@ -112,7 +112,7 @@ def safety(session: Session) -> None:
 @session(python=python_versions)
 def mypy(session: Session) -> None:
     """Type-check using mypy."""
-    args = session.posargs or ["src", "tests", "docs/conf.py"]
+    args = session.posargs or ["src", "docs/conf.py"]
     session.install(".")
     session.install(
         "mypy",
@@ -167,7 +167,7 @@ def typeguard(session: Session) -> None:
     """Runtime type checking using Typeguard."""
     session.install(".")
     session.install("pytest", "typeguard", "pygments", "faker")
-    session.run("pytest", f"--typeguard-packages={package}", *session.posargs)
+    session.run("pytest", f"--typeguard-packages={PACKAGE}", *session.posargs)
 
 
 @session(python=python_versions)
@@ -176,7 +176,7 @@ def xdoctest(session: Session) -> None:
     args = session.posargs or ["all"]
     session.install(".")
     session.install("xdoctest[colors]")
-    session.run("python", "-m", "xdoctest", package, *args)
+    session.run("python", "-m", "xdoctest", PACKAGE, *args)
 
 
 @nox.session(name="docs-build", python="3.9")

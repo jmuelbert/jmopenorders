@@ -40,7 +40,7 @@ import os
 from datetime import date
 from typing import List
 
-from faker import Factory
+from faker.factory import Factory
 from openpyxl import Workbook
 
 
@@ -98,7 +98,7 @@ class CreateFakeOrders:
         self.order_list.append(line)
         line = ["BENUTZER-ID", ""]
         self.order_list.append(line)
-        line = ["Bereich", "Wekstatt & Teile"]
+        line = ["Bereich", "Werkstatt & Teile"]
         self.order_list.append(line)
         self.order_list.append([""])
         line = [

@@ -73,6 +73,7 @@ types-PyYAML = "^6.0.0"
 types-setuptools = "^57.4.0"
 types-toml = "^0.10.1"
 typing-extensions = "^3.10.0"
+pydocstyle = "^6.1.1"
 
 [tool.pyright]
 include = ["src"]
