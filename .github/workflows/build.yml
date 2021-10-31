@@ -64,7 +64,7 @@ jobs:
         uses: 'actions/upload-artifact@v2.2.4'
         with:
           name: PythonModule
-          path: dist/${{ github.event.repository.name}}
+          path: dist/${{ github.event.repository.name}}.*
 
   tests:
     name: ${{ matrix.session }} ${{ matrix.python-version }} / ${{ matrix.os }}
@@ -254,7 +254,7 @@ jobs:
         uses: actions/download-articfact@v2
         with:
           name: PythonModule
-          path: dist/${{ github.event.repository.name}}
+          path: dist/${{ github.event.repository.name}}.*
 
       - name: Publish package on TestPyPI
         if: '! steps.check-version.outputs.tag'
@@ -279,7 +279,7 @@ jobs:
         uses: actions/download-articfact@v2
         with:
           name: PythonModule
-          path: dist/${{ github.event.repository.name}}
+          path: dist/${{ github.event.repository.name}}.*
 
       - name: Publish package on PyPI
         if: steps.check-version.outputs.tag
