@@ -212,7 +212,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Build Releasenotes
-        id: releasenotes
+        id: github_releasenotes
         uses: release-drafter/release-drafter@v5.15.0
         with:
           publish: "${{ steps.check-version.outputs.tag != '' }}"
@@ -225,7 +225,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Build ChangeLog
-        id: github release
+        id: github_changelog
         uses: mikepenz/release-changelog-builder-action@v2.5.1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
