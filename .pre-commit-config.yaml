@@ -1,3 +1,11 @@
+---
+# See https://pre-commit.com for more information
+# See https://pre-commit.com/hooks.html for more hooks
+
+exclude: ^3rd-party|COPYING|.gitmodules|conan
+default_language_version:
+  python: python3
+fail_fast: true
 repos:
   - repo: local
     hooks:
