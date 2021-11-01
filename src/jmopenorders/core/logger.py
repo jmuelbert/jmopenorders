@@ -101,14 +101,12 @@ class Logger(_Logger):
         handler.setFormatter(Formatter(self.LOGFMT))
         self.addHandler(handler)
         self.setLevel(level.upper())
-        return
 
     def stop(self) -> None:
         """Stop logging with this logger."""
         for handler in self.handlers[1:]:
             # Remove everything but the NullHandler.
             self.removeHandler(handler)
-        return
 
 
 logger = Logger()

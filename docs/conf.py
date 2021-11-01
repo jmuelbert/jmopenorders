@@ -1,15 +1,15 @@
 # -*- coding: utf-8 -*-
 #
-# SPDX-FileCopyrightText: 2019-2021 Project jmopenorders, Jürgen Mülbert
+# SPDX-FilecopyrightText: 2019-2021 PROJECT jmopenorders, Jürgen Mülbert
 #
 # SPDX-License-Identifier: EUPL-1.2
 #
 """Sphinx configuration."""
 from datetime import datetime
 
-project = "jmopenorders"
-author = "Jürgen Mülbert"
-copyright = f"{datetime.now().year}, {author}"
+PROJECT = "jmopenorders"
+AUTHOR = "Jürgen Mülbert"
+COPYRIGHT = f"{datetime.now().year}, {AUTHOR}"
 extensions = [
     "sphinx.ext.autodoc",
     "sphinx.ext.napoleon",

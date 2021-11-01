@@ -225,19 +225,19 @@ class CreateFakeOrders:
         Args:
             name: The name for the output file.
         """
-        wb = Workbook()
-        ws = wb.active
+        workbook = Workbook()
+        active_workbook = workbook.active
         column_num = 1
         row_num = 1
 
         for row in self.order_list:
             for cell in row:
-                ws.cell(row_num, column_num).value = cell
+                active_workbook.cell(row_num, column_num).value = cell
                 column_num += 1
             row_num += 1
             column_num = 1
 
-        wb.save(os.path.join(self.data_path, name))
+        workbook.save(os.path.join(self.data_path, name))
 
 
 def main() -> None:

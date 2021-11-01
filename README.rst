@@ -52,8 +52,8 @@ python does run on almosts known platforms.
 Requirements
 ------------
 
-* TODO
-
+* Python 3.6+
+* Works on all Desktop Platform with Python
 
 Installation
 ------------
@@ -76,7 +76,18 @@ The master branch represents the latest pre-release code.
 Usage
 -----
 
-* TODO
+* Open a terminal and start jmopenorders over the cli
+
+.. code-block:: bash
+
+   $ jmopenorders --help
+
+The options:
+
+* --inputpath or -i     The path to the datafiles
+* --outputpath or -o    The path to store the reports
+* --datafile or -d      The filename with the orders
+* --personfile or -p    The filename with the name of the service person
 
 
 Contributing
