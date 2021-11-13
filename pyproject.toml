@@ -10,7 +10,9 @@ readme = "README.rst"
 homepage = "https://github.com/jmuelbert/jmopenorders"
 repository = "https://github.com/jmuelbert/jmopenorders"
 documentation = "https://jmopenorders.readthedocs.io"
-
+packages = [
+  { include = "jmopenorders", from = "src" }
+]
 # Keywords description https://python-poetry.org/docs/pyproject/#keywords
 keywords = ["jmopenorders", "excel", "convert" ]
 
@@ -25,10 +27,10 @@ classifiers=[
     "Operating System :: OS Independent",
     "Programming Language :: Python",
     "Programming Language :: Python :: 3",
-    "Programming Language :: Python :: 3.6",
     "Programming Language :: Python :: 3.7",
     "Programming Language :: Python :: 3.8",
-    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
     "Topic :: Office/Business",
 ]
 
@@ -36,12 +38,11 @@ classifiers=[
 Changelog = "https://github.com/jmuelbert/jmopenorders/releases"
 
 [tool.poetry.dependencies]
-python = ">=3.6.10, <4.0"
-click = ">=7.1.2,<9.0.0"
+python = "^3.7"
+click = "^8.0.1"
 openpyxl = "^3.0.4"
 python-dotenv = "^0.19.0"
 PyYAML = ">=5.4.1,<7.0.0"
-
 
 
 [tool.poetry.dev-dependencies]
@@ -58,14 +59,13 @@ black = "^21.10b0"
 flake8 = "^4.0.1"
 flake8-bandit = "^2.1.2"
 flake8-bugbear = "^21.9.2"
-flake8-docstrings = "^1.5.0"
+flake8-docstrings = "^1.6.0"
 flake8-rst-docstrings = "^0.2.3"
 pep8-naming = "^0.12.1"
 darglint = "^1.8.1"
 reorder-python-imports = "^2.3.6"
 pre-commit-hooks = "^4.0.1"
 faker = "^9.8.0"
-sphinx-rtd-theme = "^1.0.0"
 sphinx-click = "^3.0.2"
 Pygments = "^2.7.2"
 openpyxl-stubs = "^0.1.20"
@@ -74,6 +74,8 @@ types-setuptools = "^57.4.2"
 types-toml = "^0.10.1"
 typing-extensions = "^3.10.0"
 pydocstyle = "^6.1.1"
+pyupgrade = "^2.29.0"
+furo = ">2021.11.12"
 
 [tool.pyright]
 include = ["src"]

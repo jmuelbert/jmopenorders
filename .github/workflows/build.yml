@@ -126,7 +126,8 @@ jobs:
         id: pre-commit-cache
         shell: python
         run: |
-          import hashlib
+          import
+
           import sys
           python = "py{}.{}".format(*sys.version_info[:2])
           payload = sys.version.encode() + sys.executable.encode()

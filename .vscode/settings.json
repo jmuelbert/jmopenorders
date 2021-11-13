@@ -4,5 +4,5 @@
     "component.configuration": "value"
   },
   "cSpell.words": ["jmopenorders"],
-  "python.pythonPath": "/Users/juergen/Projects/GitHub/jmopenorders/.venv/bin/python"
+  "python.pythonPath": "/usr/local/Caskroom/miniconda/base/envs/develop310/bin/python"
 }

@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 #
 # SPDX-FilecopyrightText: 2019-2021 PROJECT jmopenorders, Jürgen Mülbert
 #
@@ -10,11 +9,6 @@ from datetime import datetime
 PROJECT = "jmopenorders"
 AUTHOR = "Jürgen Mülbert"
 COPYRIGHT = f"{datetime.now().year}, {AUTHOR}"
-extensions = [
-    "sphinx.ext.autodoc",
-    "sphinx.ext.napoleon",
-    "sphinx_click",
-    "sphinx_rtd_theme",
-]
+extensions = ["sphinx.ext.autodoc", "sphinx.ext.napoleon", "sphinx_click"]
 autodoc_typehints = "description"
-html_theme = "sphinx_rtd_theme"
+html_theme = "furo"
