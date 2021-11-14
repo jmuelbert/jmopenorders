@@ -61,12 +61,14 @@ jobs:
         run: |
           poetry build --ansi
 
+      - name: Check dist
+        run: ls dist/
+
       - name: Upload package
         uses: 'actions/upload-artifact@v2.2.4'
         with:
           name: PythonModule
           path: dist/
-        run: ls dist
 
   tests:
     name: ${{ matrix.session }} ${{ matrix.python-version }} / ${{ matrix.os }}
