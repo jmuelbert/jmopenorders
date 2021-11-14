@@ -66,6 +66,7 @@ jobs:
         with:
           name: PythonModule
           path: dist/
+        run: ls dist
 
   tests:
     name: ${{ matrix.session }} ${{ matrix.python-version }} / ${{ matrix.os }}
@@ -243,6 +244,9 @@ jobs:
       - build
       - tests
     steps:
+      - name: Check dist
+        run: ls dist/
+
       - name: Restore Build Python Module
         uses: actions/download-artifact@v2.0.10
         with:
