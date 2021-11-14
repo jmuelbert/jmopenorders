@@ -123,6 +123,7 @@ jobs:
         id: pre-commit-cache
         shell: python
         run: |
+          import hashlib
           import sys
           python = "py{}.{}".format(*sys.version_info[:2])
           payload = sys.version.encode() + sys.executable.encode()
@@ -234,7 +235,7 @@ jobs:
           GITHUB_TOKEN: $${{ secrets.GITHUB_TOKEN }}
 
   deployPrereleases:
-    name: Deploy deployPrereleases
+    name: Deploy Pre-Release
     if: github.ref == 'refs/heads/master'
     runs-on: ubuntu-20.04
     environment: PreRelease

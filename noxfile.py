@@ -186,12 +186,12 @@ def xdoctest(session: Session) -> None:
     session.run("python", "-m", "xdoctest", PACKAGE, *args)
 
 
-@nox.session(name="docs-build", python="3.9")
+@nox.session(name="docs-build", python="3.10")
 def docs_build(session: Session) -> None:
     """Build the documentation."""
     args = session.posargs or ["docs", "docs/_build"]
     session.install(".")
-    session.install("sphinx", "sphinx-click", "sphinx-rtd-theme", "furo")
+    session.install("sphinx", "sphinx-click", "furo")
 
     build_dir = Path("docs", "_build")
     if build_dir.exists():
