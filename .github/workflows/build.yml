@@ -243,13 +243,10 @@ jobs:
       - build
       - tests
     steps:
-      - name: Check dist
-        run: ls
-
       - name: Restore Build Python Module
         uses: actions/download-artifact@v2.0.10
         with:
-          path: ${{ github.event.repository.name}}.*
+          name: PythonModule
 
       - name: Publish package on TestPyPI
         if: '! steps.check-version.outputs.tag'
@@ -274,7 +271,6 @@ jobs:
         uses: actions/download-artifact@v2.0.10
         with:
           name: PythonModule
-          path: dist/${{ github.event.repository.name}}.*
 
       - name: Publish package on PyPI
         if: steps.check-version.outputs.tag
