@@ -259,7 +259,7 @@ jobs:
     needs:
       - build
       - tests
-      - docs
+      - deployGHPages
       
     steps:
       - name: Restore Build Python Module
@@ -286,7 +286,7 @@ jobs:
       - tests
       - changeLog
       - releaseNotes
-      - docs
+      - deployGHPages
       
     steps:
       - name: Restore Build Python Module
