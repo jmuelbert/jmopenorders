@@ -244,12 +244,12 @@ jobs:
           path: docs/_build
           
       - name: Deploy to GitHub Pages
-      uses: Cecilapp/GitHub-Pages-deploy@v3
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      with:
-        email: arnaud@ligny.org
-        build_dir: docs/_build
+        uses: Cecilapp/GitHub-Pages-deploy@v3
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          email: juergen.muelbert@gmail.com
+          build_dir: docs/_build
         
   deployPrereleases:
     name: Deploy Pre-Release
