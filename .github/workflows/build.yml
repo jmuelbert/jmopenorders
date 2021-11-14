@@ -249,7 +249,6 @@ jobs:
       - name: Restore Build Python Module
         uses: actions/download-artifact@v2.0.10
         with:
-          name: PythonModule
           path: ${{ github.event.repository.name}}.*
 
       - name: Publish package on TestPyPI
