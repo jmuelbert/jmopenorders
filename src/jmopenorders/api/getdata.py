@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 # Copyright (c) 2019-2020 Jürgen Mülbert. All rights reserved.
 #
 # Licensed under the EUPL, Version 1.2 or – as soon they
@@ -82,7 +81,5 @@ class GetData:
                 return data
 
         except OSError:
-            logger.debug(
-                "The File with the data '{}' does not exists".format(self.file_name)
-            )
+            logger.debug(f"The File with the data '{self.file_name}' does not exists")
             return [[""]]

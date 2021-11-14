@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 # Copyright (c) 2019-2020 Jürgen Mülbert. All rights reserved.
 #
 # Licensed under the EUPL, Version 1.2 or – as soon they
@@ -162,7 +161,7 @@ class GenerateOrders:
                 # und wieder ganz nach links.
                 col_num = 1
 
-        ref_str = "B1:N{0}".format(row_num - 1)
+        ref_str = f"B1:N{row_num - 1}"
         tab = Table(displayName="Table1", ref=ref_str)
 
         # Add a default style with striped rows and banded columns
@@ -176,8 +175,8 @@ class GenerateOrders:
         tab.tableStyleInfo = style
         sheet.add_table(tab)
 
-        ref_str = "M{0}".format(row_num)
-        sheet[ref_str] = "=SUM(M1:M{0})".format(row_num - 1)
+        ref_str = f"M{row_num}"
+        sheet[ref_str] = f"=SUM(M1:M{row_num - 1})"
 
         # Alles fertig Excel-Sheet schließen!
         workbook.save(self.dest_name)
