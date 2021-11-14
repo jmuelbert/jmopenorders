@@ -242,8 +242,6 @@ jobs:
     needs:
       - build
       - tests
-      - changeLog
-      - releaseNotes
     steps:
       - name: Restore Build Python Module
         uses: actions/download-articfact@v2
