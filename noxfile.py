@@ -15,14 +15,14 @@ try:
     from nox_poetry import Session
     from nox_poetry import session
 except ImportError:
-    message = f"""\
+    MESSAGE = f"""\
     Nox failed to import the 'nox-poetry' package.
     Please install it using the following command:
     {sys.executable} -m pip install nox-poetry"""
-    raise SystemExit(dedent(message)) from None
+    raise SystemExit(dedent(MESSAGE)) from None
 
 PACKAGE = "jmopenorders"
-python_versions = ["3.10", "3.9", "3.8", "3.7"]
+PYTHON_VERSIONS = ["3.10", "3.9", "3.8", "3.7"]
 nox.needs_version = ">= 2021.6.6"
 nox.options.sessions = (
     "pre-commit",
@@ -116,7 +116,7 @@ def safety(session: Session) -> None:
     session.run("safety", "check", "--full-report", f"--file={requirements}")
 
 
-@session(python=python_versions)
+@session(python=PYTHON_VERSIONS)
 def mypy(session: Session) -> None:
     """Type-check using mypy."""
     args = session.posargs or ["src", "docs/conf.py"]
@@ -135,7 +135,7 @@ def mypy(session: Session) -> None:
         session.run("mypy", f"--python-executable={sys.executable}", "noxfile.py")
 
 
-@session(python=python_versions)
+@session(python=PYTHON_VERSIONS)
 def tests(session: Session) -> None:
     """Run the test suite."""
     session.install(".")
@@ -169,7 +169,7 @@ def coverage(session: Session) -> None:
     session.run("coverage", *args)
 
 
-@session(python=python_versions)
+@session(python=PYTHON_VERSIONS)
 def typeguard(session: Session) -> None:
     """Runtime type checking using Typeguard."""
     session.install(".")
@@ -177,7 +177,7 @@ def typeguard(session: Session) -> None:
     session.run("pytest", f"--typeguard-packages={PACKAGE}", *session.posargs)
 
 
-@session(python=python_versions)
+@session(python=PYTHON_VERSIONS)
 def xdoctest(session: Session) -> None:
     """Run examples with xdoctest."""
     args = session.posargs or ["all"]

@@ -68,7 +68,6 @@ class Logger(_Logger):
         # NullHandler should always be left in place.
         super().__init__(name or __name__.split(".")[0])
         self.addHandler(NullHandler())  # default to no output
-        return
 
     def start(self, level: str = "WARN", stream: Any = None) -> None:
         """Start logging to a stream.

@@ -10,5 +10,5 @@ PROJECT = "jmopenorders"
 AUTHOR = "Jürgen Mülbert"
 COPYRIGHT = f"{datetime.now().year}, {AUTHOR}"
 extensions = ["sphinx.ext.autodoc", "sphinx.ext.napoleon", "sphinx_click"]
-autodoc_typehints = "description"
-html_theme = "furo"
+AUTODOC_TYPEHINTS = "description"
+HTML_THEME = "furo"
