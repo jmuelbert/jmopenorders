@@ -233,17 +233,17 @@ jobs:
           body: ${{ steps.check-version.outputs }}
         env:
           GITHUB_TOKEN: $${{ secrets.GITHUB_TOKEN }}
-  
+
   deployGHPages:
     runs-on: ubuntu-latest
     needs: tests
     steps:
-      - name: Download Artifact with Pages 
+      - name: Download Artifact with Pages
         uses: actions/download-artifact@v2.0.10
         with:
           name: docs
           path: docs/_build
-          
+
       - name: Deploy to GitHub Pages
         uses: Cecilapp/GitHub-Pages-deploy@v3
         env:
@@ -251,7 +251,7 @@ jobs:
         with:
           email: juergen.muelbert@gmail.com
           build_dir: docs/_build
-        
+
   deployPrereleases:
     name: Deploy Pre-Release
     if: github.ref == 'refs/heads/master'
@@ -261,7 +261,7 @@ jobs:
       - build
       - tests
       - deployGHPages
-      
+
     steps:
       - name: Restore Build Python Module
         uses: actions/download-artifact@v2.0.10
@@ -288,7 +288,7 @@ jobs:
       - changeLog
       - releaseNotes
       - deployGHPages
-      
+
     steps:
       - name: Restore Build Python Module
         uses: actions/download-artifact@v2.0.10
