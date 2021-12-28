@@ -240,7 +240,7 @@ python-versions = ">=3.6"
 
 [[package]]
 name = "faker"
-version = "9.9.0"
+version = "11.0.0"
 description = "Faker is a Python package that generates fake data for you."
 category = "dev"
 optional = false
@@ -1165,7 +1165,7 @@ testing = ["pytest (>=4.6)", "pytest-checkdocs (>=2.4)", "pytest-flake8", "pytes
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.7"
-content-hash = "fe19387e034a2f9afeaf47b24e6e2f1a9ca45d621a1ef694f1871b8dadabe1bf"
+content-hash = "c71239fb1ed1758da4adac011098800271fe650d57f4736d2db3ca71752ae1e2"
 
 [metadata.files]
 alabaster = [
@@ -1298,8 +1298,8 @@ et-xmlfile = [
     {file = "et_xmlfile-1.1.0.tar.gz", hash = "sha256:8eb9e2bc2f8c97e37a2dc85a09ecdcdec9d8a396530a6d5a33b30b9a92da0c5c"},
 ]
 faker = [
-    {file = "Faker-9.9.0-py3-none-any.whl", hash = "sha256:049185d17ff95c4311557da6b72416c18732e5977dcfd116a323b6d620db5dca"},
-    {file = "Faker-9.9.0.tar.gz", hash = "sha256:7227703a3db36ed8241108547544445f45aa45db2f3f63e885cb9b5699383f0e"},
+    {file = "Faker-11.0.0-py3-none-any.whl", hash = "sha256:8a90e8b015d9e2f5556293d817c3711481ca288b28b94f55ad6327cdc2cfdaad"},
+    {file = "Faker-11.0.0.tar.gz", hash = "sha256:5bb6a3decfa08fa7d86691d3b6d48482d5fcfb4ccf24990c7ddced74c77c9b4b"},
 ]
 filelock = [
     {file = "filelock-3.3.2-py3-none-any.whl", hash = "sha256:bb2a1c717df74c48a2d00ed625e5a66f8572a3a30baacb7657add1d7bac4097b"},
