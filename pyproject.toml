@@ -74,7 +74,7 @@ types-setuptools = "^57.4.4"
 types-toml = "^0.10.1"
 typing-extensions = "^4.0.1"
 pydocstyle = "^6.1.1"
-pyupgrade = "^2.29.1"
+pyupgrade = "^2.30.1"
 furo = ">2021.11.12"
 
 [tool.pyright]
