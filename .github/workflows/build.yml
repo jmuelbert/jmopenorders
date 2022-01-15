@@ -208,7 +208,7 @@ jobs:
     steps:
       - name: Build Releasenotes
         id: github_releasenotes
-        uses: release-drafter/release-drafter@v5.15.0
+        uses: release-drafter/release-drafter@v5.16.1
         with:
           publish: "${{ steps.check-version.outputs.tag != '' }}"
           tag: '${{ steps.check-version.outputs.tag }}'
@@ -221,7 +221,7 @@ jobs:
     steps:
       - name: Build ChangeLog
         id: github_changelog
-        uses: mikepenz/release-changelog-builder-action@v2.7.1
+        uses: mikepenz/release-changelog-builder-action@v2.7.2
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
@@ -271,7 +271,7 @@ jobs:
 
       - name: Publish package on TestPyPI
         if: '! steps.check-version.outputs.tag'
-        uses: pypa/gh-action-pypi-publish@v1.4.2
+        uses: pypa/gh-action-pypi-publish@v1.5.0
         with:
           user: __token__
           password: '${{ secrets.TEST_PYPI_TOKEN }}'
@@ -298,7 +298,7 @@ jobs:
 
       - name: Publish package on PyPI
         if: steps.check-version.outputs.tag
-        uses: pypa/gh-action-pypi-publish@v1.4.2
+        uses: pypa/gh-action-pypi-publish@v1.5.0
         with:
           user: __token__
           password: '${{ secrets.PYPI_TOKEN }}'
