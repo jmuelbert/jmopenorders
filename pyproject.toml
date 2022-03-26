@@ -47,7 +47,7 @@ PyYAML = ">=5.4.1,<7.0.0"
 
 [tool.poetry.dev-dependencies]
 coverage = {extras = ["toml"], version = "^6.3"}
-pytest = "^7.0.1"
+pytest = "^7.1.1"
 safety = "^1.10.3"
 mypy = "^0.931"
 typeguard = "^2.13.3"
@@ -63,7 +63,7 @@ flake8-docstrings = "^1.6.0"
 flake8-rst-docstrings = "^0.2.5"
 pep8-naming = "^0.12.1"
 darglint = "^1.8.1"
-reorder-python-imports = "^2.7.1"
+reorder-python-imports = "^3.0.1"
 pre-commit-hooks = "^4.1.0"
 faker = "^13.3.1"
 sphinx-click = "^3.1.0"
