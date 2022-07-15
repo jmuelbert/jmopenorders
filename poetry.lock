@@ -1078,7 +1078,7 @@ python-versions = "*"
 
 [[package]]
 name = "types-setuptools"
-version = "57.4.17"
+version = "63.2.0"
 description = "Typing stubs for setuptools"
 category = "dev"
 optional = false
@@ -1168,7 +1168,7 @@ testing = ["pytest (>=4.6)", "pytest-checkdocs (>=2.4)", "pytest-flake8", "pytes
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.7"
-content-hash = "efae32918ff9bd268fe17ad478763195e37e083afb40f3f7d2e98834a120f0a8"
+content-hash = "2d190d0e20e5ae8a22f09e2c323388a7792938b40bc3ea6f60ed4d67f795cb00"
 
 [metadata.files]
 alabaster = [
@@ -1815,8 +1815,8 @@ types-pyyaml = [
     {file = "types_PyYAML-6.0.8-py3-none-any.whl", hash = "sha256:56a7b0e8109602785f942a11ebfbd16e97d5d0e79f5fbb077ec4e6a0004837ff"},
 ]
 types-setuptools = [
-    {file = "types-setuptools-57.4.17.tar.gz", hash = "sha256:9d556fcaf6808a1cead4aaa41e5c07a61f0152a875811e1239738eba4e0b7b16"},
-    {file = "types_setuptools-57.4.17-py3-none-any.whl", hash = "sha256:9c7cdaf0d55113e24ac17103bde2d434472abf1dbf444238e989fe4e798ffa26"},
+    {file = "types-setuptools-63.2.0.tar.gz", hash = "sha256:fc9a6c4776a398d0f57b259ca893748342174c52a35d593d08b56f52aa99c1a4"},
+    {file = "types_setuptools-63.2.0-py3-none-any.whl", hash = "sha256:f9d0d0443dd344cad78da04320a3fb7837d4dd3f3ef4b25d3e0958edea6da812"},
 ]
 types-toml = [
     {file = "types-toml-0.10.7.tar.gz", hash = "sha256:a567fe2614b177d537ad99a661adc9bfc8c55a46f95e66370a4ed2dd171335f9"},
