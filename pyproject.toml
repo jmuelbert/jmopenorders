@@ -48,7 +48,7 @@ PyYAML = ">=5.4.1,<7.0.0"
 [tool.poetry.dev-dependencies]
 coverage = {extras = ["toml"], version = "^6.5"}
 pytest = "^7.2.0"
-safety = "^2.3.2"
+safety = "^2.3.3"
 mypy = "^0.991"
 
 typeguard = "^2.13.3"
