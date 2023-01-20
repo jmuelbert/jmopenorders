@@ -831,14 +831,14 @@ et-xmlfile = "*"
 
 [[package]]
 name = "openpyxl-stubs"
-version = "0.1.24"
+version = "0.1.25"
 description = "Type stubs for openpyxl"
 category = "dev"
 optional = false
 python-versions = "*"
 files = [
-    {file = "openpyxl-stubs-0.1.24.tar.gz", hash = "sha256:762099c41d5da359c86ddc08095ca1363e42233239b57f4113bd860c4718b4ca"},
-    {file = "openpyxl_stubs-0.1.24-py3-none-any.whl", hash = "sha256:356420facb59ef97cc193086fdefcd8ab627ae957b0feb630aa7d5c8d9ed6d37"},
+    {file = "openpyxl-stubs-0.1.25.tar.gz", hash = "sha256:108b112df072f7645ca356eacdd5730b1bd986c67ae33366a4a13c6879c369e7"},
+    {file = "openpyxl_stubs-0.1.25-py3-none-any.whl", hash = "sha256:db29f7804993b4a46b155fc4be45314c14538cb475b00591d8096e5af486abf1"},
 ]
 
 [package.dependencies]
@@ -1866,4 +1866,4 @@ testing = ["flake8 (<5)", "func-timeout", "jaraco.functools", "jaraco.itertools"
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.7"
-content-hash = "0bcac94843a23d8b7e386d047cb04899c81a3f5fcef8cfc68ca1eb61d28df854"
+content-hash = "746df67657aba04c210a28f817b6d79fe08a9ea8ff666d37f821a3b448aec182"
