@@ -64,7 +64,7 @@ class GetData:
         Args:
             filename: The filename for the datafile
         """
-        self.file_name = filename
+        self.file_name = 'r' + filename
 
     def get(self) -> List[List[str]]:
         """Get the data from the csv-file.
