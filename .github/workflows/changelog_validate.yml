@@ -8,6 +8,6 @@ jobs:
     name: Changelog Validate
     steps:
       - uses: actions/checkout@v4
-      - uses: zattoo/changelog@v1
+      - uses: zattoo/changelog@v2
         with:
           token: ${{github.token}}
