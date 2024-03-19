@@ -1,8 +1,30 @@
 {
-  "component.configuration": "value",
-  "[language]": {
-    "component.configuration": "value"
+  "code-runner.executorMapByFileExtension": {
+    ".qml": "qml",
+    ".qrc": "qtcreator -client",
+    ".ui": "qtcreator -client"
   },
-  "cSpell.words": ["jmopenorders"],
-  "python.pythonPath": "/usr/local/Caskroom/miniconda/base/envs/develop310/bin/python"
+  "files.associations": {
+    "*.ts": "xml"
+  },
+
+  "yaml.schemas": {
+    "https://raw.githubusercontent.com/TingPing/flatpak-manifest-schema/master/flatpak-manifest.schema": [
+      "com.github.Desktop.yaml"
+    ]
+  },
+  "esbonio.server.enabled": true,
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/Thumbs.db": true,
+    "**/.classpath": true,
+    "**/.factorypath": true,
+    "**/.project": true,
+    "**/.settings": true
+  },
+  "explorerExclude.backup": {}
 }
