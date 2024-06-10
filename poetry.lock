@@ -2053,13 +2053,13 @@ testing = ["coverage (>=4)", "coverage-enable-subprocess (>=1)", "flaky (>=3)", 
 
 [[package]]
 name = "xdoctest"
-version = "1.1.3"
+version = "1.1.5"
 description = "A rewrite of the builtin doctest module"
 optional = false
 python-versions = ">=3.6"
 files = [
-    {file = "xdoctest-1.1.3-py3-none-any.whl", hash = "sha256:9360535bd1a971ffc216d9613898cedceb81d0fd024587cc3c03c74d14c00a31"},
-    {file = "xdoctest-1.1.3.tar.gz", hash = "sha256:84e76a42a11a5926ff66d9d84c616bc101821099672550481ad96549cbdd02ae"},
+    {file = "xdoctest-1.1.5-py3-none-any.whl", hash = "sha256:f36fe64d7c0ad0553dbff39ff05c43a0aab69d313466f24a38d00e757182ade0"},
+    {file = "xdoctest-1.1.5.tar.gz", hash = "sha256:89b0c3ad7fe03a068e22a457ab18c38fc70c62329c2963f43954b83c29374e66"},
 ]
 
 [package.dependencies]
@@ -2096,4 +2096,4 @@ testing = ["flake8 (<5)", "func-timeout", "jaraco.functools", "jaraco.itertools"
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.7"
-content-hash = "11533beea5fdd7cd8c15e945910a1b627eed279ec0f51ad8650968abfef00a96"
+content-hash = "00cb73091a943a17d43a5dc1f2580c6f74bd7680f566a57b8de4bbad497a0509"
