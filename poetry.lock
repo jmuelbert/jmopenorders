@@ -998,13 +998,13 @@ files = [
 
 [[package]]
 name = "openpyxl"
-version = "3.1.2"
+version = "3.1.3"
 description = "A Python library to read/write Excel 2010 xlsx/xlsm files"
 optional = false
 python-versions = ">=3.6"
 files = [
-    {file = "openpyxl-3.1.2-py2.py3-none-any.whl", hash = "sha256:f91456ead12ab3c6c2e9491cf33ba6d08357d802192379bb482f1033ade496f5"},
-    {file = "openpyxl-3.1.2.tar.gz", hash = "sha256:a6f5977418eff3b2d5500d54d9db50c8277a368436f4e4f8ddb1be3422870184"},
+    {file = "openpyxl-3.1.3-py2.py3-none-any.whl", hash = "sha256:25071b558db709de9e8782c3d3e058af3b23ffb2fc6f40c8f0c45a154eced2c3"},
+    {file = "openpyxl-3.1.3.tar.gz", hash = "sha256:8dd482e5350125b2388070bb2477927be2e8ebc27df61178709bc8c8751da2f9"},
 ]
 
 [package.dependencies]
@@ -1527,13 +1527,13 @@ files = [
 
 [[package]]
 name = "safety"
-version = "3.2.0"
+version = "3.2.2"
 description = "Checks installed dependencies for known vulnerabilities and licenses."
 optional = false
 python-versions = ">=3.7"
 files = [
-    {file = "safety-3.2.0-py3-none-any.whl", hash = "sha256:a432fc9d17e79a4386c4f093656b617c56f839cde022649cfa796d72c7a544de"},
-    {file = "safety-3.2.0.tar.gz", hash = "sha256:8bd5cab5f3d8a61ce0ea6e98f267c1006d056097c45c644fee7afeff7d5949c1"},
+    {file = "safety-3.2.2-py3-none-any.whl", hash = "sha256:1fca683ba6c0b4acb9f74953910639472a384d7b300292c89998a0100f016081"},
+    {file = "safety-3.2.2.tar.gz", hash = "sha256:2a5867004aa1e3cedc90000ab726fdad2ce0ae179863c1b1697d7e8ded1b8cdb"},
 ]
 
 [package.dependencies]
